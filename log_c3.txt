@@ -1,0 +1,741 @@
+Inside main
+Before gtthread_app_init
+Before ksched INFO INIT
+Inside malloc
+BEFORE KTHREAD_INIT
+Kthread tid: 5153, pid: 5153
+Before kthread_credit
+After kthread_credit
+Before kthread_init runqueue
+after kthread_init runqueue
+after cpu_affinit
+after yield
+AFTER KTHREAD_INIT
+AFTER SIGHANDLER
+AFTER NUMBER OF CPUS
+INITIALISING VIRTUAL processors
+Inside MAllocz_safe
+Before calloc
+After calloc
+AFTER MALLCO
+INSIDE KTHREAD_CREATE
+Inside malloc
+TID of the new kthread: 5155
+kthread(1) created !!
+Kthread tid: 5155, pid: 5155
+Before kthread_credit
+After kthread_credit
+Before kthread_init runqueue
+after kthread_init runqueue
+after cpu_affinit
+after yield
+********Before info init
+After info init
+group_id: 0, current_row: 0, rows_per_thread: 2, size: 4, credits: 25, inx: 0
+group_id: 0, current_row: 2, rows_per_thread: 2, size: 4, credits: 25, inx: 1
+group_id: 1, current_row: 0, rows_per_thread: 2, size: 4, credits: 50, inx: 2
+group_id: 1, current_row: 2, rows_per_thread: 2, size: 4, credits: 50, inx: 3
+group_id: 2, current_row: 0, rows_per_thread: 2, size: 4, credits: 75, inx: 4
+group_id: 2, current_row: 2, rows_per_thread: 2, size: 4, credits: 75, inx: 5
+group_id: 3, current_row: 0, rows_per_thread: 2, size: 4, credits: 100, inx: 6
+group_id: 3, current_row: 2, rows_per_thread: 2, size: 4, credits: 100, inx: 7
+group_id: 4, current_row: 0, rows_per_thread: 4, size: 8, credits: 25, inx: 8
+group_id: 4, current_row: 4, rows_per_thread: 4, size: 8, credits: 25, inx: 9
+group_id: 5, current_row: 0, rows_per_thread: 4, size: 8, credits: 50, inx: 10
+group_id: 5, current_row: 4, rows_per_thread: 4, size: 8, credits: 50, inx: 11
+group_id: 6, current_row: 0, rows_per_thread: 4, size: 8, credits: 75, inx: 12
+group_id: 6, current_row: 4, rows_per_thread: 4, size: 8, credits: 75, inx: 13
+current credits: 20
+UTHREAD_DONE, elapsed time: 5, start_time: 292059, finish_time:292064 credits:20
+Total execution time: 5, current execution time: 5, time_given: 25000, initial_credits: 25, credits left: 20, thread_id: 0
+current credits: 45
+UTHREAD_DONE, elapsed time: 3, start_time: group_, finish_time:298521 credits:45
+Total execution time: 3, current execution time: 3, time_given: 50000, initial_credits: 50, credits left: 4571
+, current_row: 0, rows_per_thread: 4, size: 8, credits: 100, inx: 14
+group_id: 7, current_row: 4, rows_per_thread: 4, size: 8, credits: 100, inx: 15
+current credits: 70
+UTHREAD_DONE, elapsed time: 3, start_time: 298549, finish_time:298552 credits:70
+Total execution time: 3, current execution time: 3, time_given: 75000, initial_credits: 75, credits left: 70, thread_id: 2
+group_id: 8, current_row: 0, rows_per_thread: 6, size: 12, credits: 25, inx: 16
+group_id: 8, current_row: 6, rows_per_thread: 6, size: 12current credits: 259517
+UTHREAD_DONE, elapsed time: 2, start_time: 298581, finish_time:298583 credits:95
+Total execution time: 2, current execution time: 2, time_given: 100000, initial_credits: 100, credits left: 95, thread_id: 3
+group_id: 9, current_row: 0, rows_per_thread: 6, size: 12, credits: 50, inx: 18
+group_id: 9, current_row: 6, rows_per_thread: 6, size: 12, credits: 50, inx: 19
+current credits: 20
+UTHREAD_DONE, elapsed time: 3, start_time: 298611, finish_time:298614 credits:20
+Total execution time: 3group_id: 31025000025620124
+75, inx: 20
+group_id: 10, current_row: 6, rows_per_thread: 6, size: 12, credits: 75, inx: 21
+group_id: 11, current_row: 0, rows_per_thread: 6, size: 12, credits: 100, inx: 22
+current credits: 45
+UTHREAD_DONE, elapsed time: 2, start_time: 298644, finish_time:298646 credits:45
+Total execution time: 2, current execution time: 2, time_given: 50000, initial_credits: 50, credits left: 45, thread_id: 5
+group_id: 11, current_row: 6, rows_per_thread: 6, size: 12, credits: 100, inx: 23
+group_id: 12, current_row: 0, rows_per_thread: 8, size: 16, credits: 25, inx: 24
+current credits: 70
+UTHREAD_DONE, elapsed time: 2, start_time: 298678, finish_time:298680 credits:70
+Total execution time: 2, current execution time: 2, time_given: 75000, initial_credits: 75, credits left: 70, thread_id: 6
+group_id: 12, current_row: 8, rowsInside main
+Before gtthread_app_init
+Before ksched INFO INIT
+Inside malloc
+BEFORE KTHREAD_INIT
+Kthread tid: 5153, pid: 5153
+Before kthread_credit
+After kthread_credit
+Before kthread_init runqueue
+after kthread_init runqueue
+after cpu_affinit
+after yield
+AFTER KTHREAD_INIT
+AFTER SIGHANDLER
+AFTER NUMBER OF CPUS
+INITIALISING VIRTUAL processors
+Inside MAllocz_safe
+Before calloc
+After calloc
+AFTER MALLCO
+INSIDE KTHREAD_CREATE
+Inside malloc
+TID of the new kthread: 5155
+kthread(1) created !!
+Kthread tid: 5155, pid: 5155
+Before kthread_credit
+After kthread_credit
+Before kthread_init runqueue
+after kthread_init runqueue
+after cpu_affinit
+after yield
+********Before info init
+After info init
+group_id: 0, current_row: 0, rows_per_thread: 2, size: 4, credits: 25, inx: 0
+group_id: 0, current_row: 2, rows_per_thread: 2, size: 4, credits: 25, inx: 1
+group_id: 1, current_row: 0, rows_per_thread: 2, size: 4, credits: 50, inx: 2
+group_id: 1, current_row: 2, rows_per_thread: 2, size: 4, credits: 50, inx: 3
+group_id: 2, current_row: 0, rows_per_thread: 2, size: 4, credits: 75, inx: 4
+group_id: 2, current_row: 2, rows_per_thread: 2, size: 4, credits: 75, inx: 5
+group_id: 3, current_row: 0, rows_per_thread: 2, size: 4, credits: 100, inx: 6
+group_id: 3, current_row: 2, rows_per_thread: 2, size: 4, credits: 100, inx: 7
+group_id: 4, current_row: 0, rows_per_thread: 4, size: 8, credits: 25, inx: 8
+group_id: 4, current_row: 4, rows_per_thread: 4, size: 8, credits: 25, inx: 9
+group_id: 5, current_row: 0, rows_per_thread: 4, size: 8, credits: 50, inx: 10
+group_id: 5, current_row: 4, rows_per_thread: 4, size: 8, credits: 50, inx: 11
+group_id: 6, current_row: 0, rows_per_thread: 4, size: 8, credits: 75, inx: 12
+group_id: 6, current_row: 4, rows_per_thread: 4, size: 8, credits: 75, inx: 13
+current credits: 20
+UTHREAD_DONE, elapsed time: 5, start_time: 292059, finish_time:292064 credits:20
+Total execution time: 5, current execution time: 5, time_given: 25000, initial_credits: 25, credits left: 20, thread_id: 0
+current credits: 45
+UTHREAD_DONE, elapsed time: 3, start_time: group_, finish_time:298521 credits:45
+Total execution time: 3, current execution time: 3, time_given: 50000, initial_credits: 50, credits left: 4571
+, current_row: 0, rows_per_thread: 4, size: 8, credits: 100, inx: 14
+group_id: 7, current_row: 4, rows_per_thread: 4, size: 8, credits: 100, inx: 15
+current credits: 70
+UTHREAD_DONE, elapsed time: 3, start_time: 298549, finish_time:298552 credits:70
+Total execution time: 3, current execution time: 3, time_given: 75000, initial_credits: 75, credits left: 70, thread_id: 2
+group_id: 8, current_row: 0, rows_per_thread: 6, size: 12, credits: 25, inx: 16
+group_id: 8, current_row: 6, rows_per_thread: 6, size: 12current credits: 259517
+UTHREAD_DONE, elapsed time: 2, start_time: 298581, finish_time:298583 credits:95
+Total execution time: 2, current execution time: 2, time_given: 100000, initial_credits: 100, credits left: 95, thread_id: 3
+group_id: 9, current_row: 0, rows_per_thread: 6, size: 12, credits: 50, inx: 18
+group_id: 9, current_row: 6, rows_per_thread: 6, size: 12, credits: 50, inx: 19
+current credits: 20
+UTHREAD_DONE, elapsed time: 3, start_time: 298611, finish_time:298614 credits:20
+Total execution time: 3group_id: 31025000025620124
+75, inx: 20
+group_id: 10, current_row: 6, rows_per_thread: 6, size: 12, credits: 75, inx: 21
+group_id: 11, current_row: 0, rows_per_thread: 6, size: 12, credits: 100, inx: 22
+current credits: 45
+UTHREAD_DONE, elapsed time: 2, start_time: 298644, finish_time:298646 credits:45
+Total execution time: 2, current execution time: 2, time_given: 50000, initial_credits: 50, credits left: 45, thread_id: 5
+group_id: 11, current_row: 6, rows_per_thread: 6, size: 12, credits: 100, inx: 23
+group_id: 12, current_row: 0, rows_per_thread: 8, size: 16, credits: 25, inx: 24
+current credits: 70
+UTHREAD_DONE, elapsed time: 2, start_time: 298678, finish_time:298680 credits:70
+Total execution time: 2, current execution time: 2, time_given: 75000, initial_credits: 75, credits left: 70, thread_id: 6
+group_id: 12, current_row: 8, rows_per_thread: 8, size: 16, credits: 25, inx: 25
+group_id: 13, current_row: 0, rows_per_thread: 8, size: 16, credits: 50, inx: 26
+group_id: 13, current_row: 8, rows_per_thread: 8, size: 16, credits: 50, inx: 27
+group_id: 14, current_row: 0, rows_per_thread: 8, size: 16, credits: 75, inx: 28
+group_id: 14, current_row: 8, rows_per_thread: 8, size: 16, credits: 75, inx: 29
+group_id: 15, current_row: 0, rows_per_thread: 8, size: 16, credits: 100, inx: 30
+group_id: 15, current_row: 8, rows_per_thread: 8, size: 16, credits: 100, inx: 31
+current credits: 20
+UTHREAD_DONE, elapsed time: 42, start_time: 318374, finish_time:318416 credits:20
+Total execution time: 42, current execution time: 42, time_given: 25000, initial_credits: 25, credits left: 20, thread_id: 16
+current credits: 45
+UTHREAD_DONE, elapsed time: 37, start_time: 318447, finish_time:318484 credits:45
+Total execution time: 37, current execution time: 37, time_given: 50000, initial_credits: 50, credits left: 45, thread_id: 17
+current credits: 70
+UTHREAD_DONE, elapsed time: 37, start_time: 318510, finish_time:318547 credits:70
+Total execution time: 37, current execution time: 37, time_given: 75000, initial_credits: 75, credits left: 70, thread_id: 18
+current credits: 95
+UTHREAD_DONE, elapsed time: 36, start_time: 318572, finish_time:318608 credits:95
+Total execution time: 36, current execution time: 36, time_given: 100000, initial_credits: 100, credits left: 95, thread_id: 19
+current credits: 20
+UTHREAD_DONE, elapsed time: 38, start_time: 318633, finish_time:318671 credits:20
+Total execution time: 38, current execution time: 38, time_given: 25000, initial_credits: 25, credits left: 20, thread_id: 20
+current credits: 45
+UTHREAD_DONE, elapsed time: 36, start_time: 318696, finish_time:318732 credits:45
+Total execution time: 36, current execution time: 36, time_given: 50000, initial_credits: 50, credits left: 45, thread_id: 21
+current credits: 70
+UTHREAD_DONE, elapsed time: 38, start_time: 318756, finish_time:318794 credits:70
+Total execution time: 38, current execution time: 38, time_given: 75000, initial_credits: 75, credits left: 70, thread_id: 22
+current credits: 95
+UTHREAD_DONE, elapsed time: 38, start_time: 318826, finish_time:318864 credits:95
+Total execution time: 38, current execution time: 38, time_given: 100000, initial_credits: 100, credits left: 95, thread_id: 23
+current credits: 20
+UTHREAD_DONE, elapsed time: 86, start_time: 318894, finish_time:318980 credits:20
+Total execution time: 86, current execution time: 86, time_given: 25000, initial_credits: 25, credits left: 20, thread_id: 24
+current credits: 45
+UTHREAD_DONE, elapsed time: 85, start_time: 319003, finish_time:319088 credits:45
+Total execution time: 85, current execution time: 85, time_given: 50000, initial_credits: 50, credits left: 45, thread_id: 25
+current credits: 70
+UTHREAD_DONE, elapsed time: 86, start_time: 319118, finish_time:319204 credits:70
+Total execution time: 86, current execution time: 86, time_given: 75000, initial_credits: 75, credits left: 70, thread_id: 26
+current credits: 95
+UTHREAD_DONE, elapsed time: 84, start_time: 319234, finish_time:319318 credits:95
+Total execution time: 84, current execution time: 84, time_given: 100000, initial_credits: 100, credits left: 95, thread_id: 27
+current credits: 20
+UTHREAD_DONE, elapsed time: 86, start_time: 319349, finish_time:319435 credits:20
+Total execution time: 86, current execution time: 86, time_given: 25000, initial_credits: 25, credits left: 20, thread_id: 28
+current credits: 45
+UTHREAD_DONE, elapsed time: 85, start_time: 319465, finish_time:319550 credits:45
+Total execution time: 85, current execution time: 85, time_given: 50000, initial_credits: 50, credits left: 45, thread_id: 29
+current credits: 70
+UTHREAD_DONE, elapsed time: 87, start_time: 319579, finish_time:319666 credits:70
+Total execution time: 87, current execution time: 87, time_given: 75000, initial_credits: 75, credits left: 70, thread_id: 30
+current credits: 95
+UTHREAD_DONE, elapsed time: 85, start_time: 319696, finish_time:319781 credits:95
+Total execution time: 85, currentQuitting kthread (1)
+Quitting kthread (0)
+ execution time: 85, time_given: 100000, initial_credits: 100, credits left: 95, thread_id: 31
+Matrix A, i:0, size: 4, credits: 25
+1 1 1 1 
+1 1 1 1 
+1 1 1 1 
+1 1 1 1 
+Matrix B, i:0, size: 4, credits: 25
+1 1 1 1 
+1 1 1 1 
+1 1 1 1 
+1 1 1 1 
+Matrix C, i:0, size: 4, credits: 25
+4 4 4 4 
+4 4 4 4 
+4 4 4 4 
+4 4 4 4 
+Matrix A, i:1, size: 4, credits: 50
+1 1 1 1 
+1 1 1 1 
+1 1 1 1 
+1 1 1 1 
+Matrix B, i:1, size: 4, credits: 50
+1 1 1 1 
+1 1 1 1 
+1 1 1 1 
+1 1 1 1 
+Matrix C, i:1, size: 4, credits: 50
+4 4 4 4 
+4 4 4 4 
+4 4 4 4 
+4 4 4 4 
+Matrix A, i:2, size: 4, credits: 75
+1 1 1 1 
+1 1 1 1 
+1 1 1 1 
+1 1 1 1 
+Matrix B, i:2, size: 4, credits: 75
+1 1 1 1 
+1 1 1 1 
+1 1 1 1 
+1 1 1 1 
+Matrix C, i:2, size: 4, credits: 75
+4 4 4 4 
+4 4 4 4 
+4 4 4 4 
+4 4 4 4 
+Matrix A, i:3, size: 4, credits: 100
+1 1 1 1 
+1 1 1 1 
+1 1 1 1 
+1 1 1 1 
+Matrix B, i:3, size: 4, credits: 100
+1 1 1 1 
+1 1 1 1 
+1 1 1 1 
+1 1 1 1 
+Matrix C, i:3, size: 4, credits: 100
+4 4 4 4 
+4 4 4 4 
+4 4 4 4 
+4 4 4 4 
+Matrix A, i:4, size: 8, credits: 25
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+Matrix B, i:4, size: 8, credits: 25
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+Matrix C, i:4, size: 8, credits: 25
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+Matrix A, i:5, size: 8, credits: 50
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+Matrix B, i:5, size: 8, credits: 50
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+Matrix C, i:5, size: 8, credits: 50
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+Matrix A, i:6, size: 8, credits: 75
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+Matrix B, i:6, size: 8, credits: 75
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+Matrix C, i:6, size: 8, credits: 75
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+Matrix A, i:7, size: 8, credits: 100
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+Matrix B, i:7, size: 8, credits: 100
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+Matrix C, i:7, size: 8, credits: 100
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 
+Matrix A, i:8, size: 12, credits: 25
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+Matrix B, i:8, size: 12, credits: 25
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+Matrix C, i:8, size: 12, credits: 25
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+Matrix A, i:9, size: 12, credits: 50
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+Matrix B, i:9, size: 12, credits: 50
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+Matrix C, i:9, size: 12, credits: 50
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+Matrix A, i:10, size: 12, credits: 75
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+Matrix B, i:10, size: 12, credits: 75
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+Matrix C, i:10, size: 12, credits: 75
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+Matrix A, i:11, size: 12, credits: 100
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+Matrix B, i:11, size: 12, credits: 100
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+Matrix C, i:11, size: 12, credits: 100
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+12 12 12 12 12 12 12 12 12 12 12 12 
+Matrix A, i:12, size: 16, credits: 25
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+Matrix B, i:12, size: 16, credits: 25
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+Matrix C, i:12, size: 16, credits: 25
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+Matrix A, i:13, size: 16, credits: 50
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+Matrix B, i:13, size: 16, credits: 50
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+Matrix C, i:13, size: 16, credits: 50
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+Matrix A, i:14, size: 16, credits: 75
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+Matrix B, i:14, size: 16, credits: 75
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+Matrix C, i:14, size: 16, credits: 75
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+Matrix A, i:15, size: 16, credits: 100
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+Matrix B, i:15, size: 16, credits: 100
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+Matrix C, i:15, size: 16, credits: 100
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 

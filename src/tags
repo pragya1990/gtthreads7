@@ -1,0 +1,232 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	gt_matrix.c	/^matrix_t A, B, C;$/;"	v
+B	gt_matrix.c	/^matrix_t A, B, C;$/;"	v
+C	gt_matrix.c	/^matrix_t A, B, C;$/;"	v
+COLS	gt_matrix.c	18;"	d	file:
+DEFAULT_UTHREAD_PRIORITY	gt_pq.h	6;"	d
+GT_MAX_CORES	gt_kthread.h	6;"	d
+GT_MAX_KTHREADS	gt_kthread.h	7;"	d
+INITIAL_APIC_ID_BITS	gt_kthread.h	81;"	d
+INITIAL_APIC_ID_BITS	gt_kthread.h	93;"	d
+IS_BIT_SET	gt_bitops.h	25;"	d
+KTHREAD_CUR_ID	gt_uthread.c	24;"	d	file:
+KTHREAD_DEFAULT_SSIZE	gt_kthread.c	18;"	d	file:
+KTHREAD_DONE	gt_kthread.h	15;"	d
+KTHREAD_PRINT_SCHED_DEBUGINFO	gt_kthread.c	/^static inline void KTHREAD_PRINT_SCHED_DEBUGINFO(kthread_context_t *k_ctx, char *str)$/;"	f	file:
+KTHREAD_VTALRM_SEC	gt_signal.h	10;"	d
+KTHREAD_VTALRM_USEC	gt_signal.h	11;"	d
+LOWEST_BIT_SET	gt_bitops.h	28;"	d
+MALLOCZ_SAFE	gt_kthread.h	/^static inline void *MALLOCZ_SAFE(unsigned int size)$/;"	f
+MALLOC_SAFE	gt_kthread.h	/^static inline void *MALLOC_SAFE(unsigned int size)$/;"	f
+MAX_UTHREAD_GROUPS	gt_pq.h	5;"	d
+MAX_UTHREAD_PRIORITY	gt_pq.h	4;"	d
+NUM_CPUS	gt_matrix.c	21;"	d	file:
+NUM_GROUPS	gt_matrix.c	22;"	d	file:
+NUM_THREADS	gt_matrix.c	25;"	d	file:
+NUM_THREADS	gt_uthread.c	25;"	d	file:
+PER_GROUP_COLS	gt_matrix.c	23;"	d	file:
+PER_THREAD_ROWS	gt_matrix.c	26;"	d	file:
+RESET_BIT	gt_bitops.h	15;"	d
+ROWS	gt_matrix.c	17;"	d	file:
+SET_BIT	gt_bitops.h	6;"	d
+SIZE	gt_matrix.c	19;"	d	file:
+TAILQ_EMPTY	gt_tailq.h	57;"	d
+TAILQ_ENTRY	gt_tailq.h	48;"	d
+TAILQ_FIRST	gt_tailq.h	59;"	d
+TAILQ_FOREACH	gt_tailq.h	61;"	d
+TAILQ_FOREACH_REVERSE	gt_tailq.h	66;"	d
+TAILQ_HEAD	gt_tailq.h	39;"	d
+TAILQ_HEAD_INITIALIZER	gt_tailq.h	45;"	d
+TAILQ_INIT	gt_tailq.h	71;"	d
+TAILQ_INSERT_AFTER	gt_tailq.h	76;"	d
+TAILQ_INSERT_BEFORE	gt_tailq.h	86;"	d
+TAILQ_INSERT_HEAD	gt_tailq.h	93;"	d
+TAILQ_INSERT_TAIL	gt_tailq.h	103;"	d
+TAILQ_LAST	gt_tailq.h	110;"	d
+TAILQ_NEXT	gt_tailq.h	113;"	d
+TAILQ_PREV	gt_tailq.h	115;"	d
+TAILQ_REMOVE	gt_tailq.h	118;"	d
+UTHREAD_CANCELLED	gt_uthread.h	13;"	d
+UTHREAD_DEFAULT_SSIZE	gt_uthread.c	37;"	d	file:
+UTHREAD_DONE	gt_uthread.h	14;"	d
+UTHREAD_INIT	gt_uthread.h	10;"	d
+UTHREAD_RUNNABLE	gt_uthread.h	11;"	d
+UTHREAD_RUNNING	gt_uthread.h	12;"	d
+_A	gt_matrix.c	/^	matrix_t *_A, *_B, *_C;$/;"	m	struct:__uthread_arg	file:
+_B	gt_matrix.c	/^	matrix_t *_A, *_B, *_C;$/;"	m	struct:__uthread_arg	file:
+_C	gt_matrix.c	/^	matrix_t *_A, *_B, *_C;$/;"	m	struct:__uthread_arg	file:
+_GNU_SOURCE	gt_kthread.c	1;"	d	file:
+__GT_BITOPS_H	gt_bitops.h	2;"	d
+__GT_INCLUDE_H	gt_include.h	2;"	d
+__GT_KTHREAD_H	gt_kthread.h	2;"	d
+__GT_PQ_H	gt_pq.h	2;"	d
+__GT_SIGNAL_H	gt_signal.h	2;"	d
+__GT_SPINLOCK_H	gt_spinlock.h	2;"	d
+__GT_TAILQ_H	gt_tailq.h	34;"	d
+__GT_UTHREAD_H	gt_uthread.h	2;"	d
+__add_to_runqueue	gt_pq.c	/^static inline void __add_to_runqueue(runqueue_t *runq, uthread_struct_t *u_elem)$/;"	f	file:
+__gt_spinlock	gt_spinlock.h	/^typedef struct __gt_spinlock$/;"	s
+__ksched_shared_info	gt_kthread.h	/^typedef struct __ksched_shared_info$/;"	s
+__kthread_context	gt_kthread.h	/^typedef struct __kthread_context$/;"	s
+__kthread_runqueue	gt_pq.h	/^typedef struct __kthread_runqueue$/;"	s
+__malloc_lock	gt_kthread.h	/^	gt_spinlock_t __malloc_lock; \/* making malloc thread-safe (check particular glibc to see if needed) *\/$/;"	m	struct:__ksched_shared_info
+__rem_from_runqueue	gt_pq.c	/^static inline void __rem_from_runqueue(runqueue_t *runq, uthread_struct_t *u_elem)$/;"	f	file:
+__runqueue	gt_pq.h	/^typedef struct __runqueue$/;"	s
+__uthread_arg	gt_matrix.c	/^typedef struct __uthread_arg$/;"	s	file:
+__uthread_shared_info	gt_uthread.h	/^typedef struct __uthread_shared_info$/;"	s
+active_runq	gt_pq.h	/^	runqueue_t *active_runq;$/;"	m	struct:__kthread_runqueue
+add_to_runqueue	gt_pq.c	/^extern void add_to_runqueue(runqueue_t *runq, gt_spinlock_t *runq_lock, uthread_struct_t *u_elem)$/;"	f
+cols	gt_matrix.c	/^	int cols;$/;"	m	struct:matrix	file:
+cpu_apic_id	gt_kthread.h	/^	unsigned int cpu_apic_id;$/;"	m	struct:__kthread_context
+cpu_id	gt_uthread.h	/^	int cpu_id; \/* cpu it is currently executing on *\/$/;"	m	struct:uthread_struct
+cpuid	gt_kthread.h	/^	unsigned int cpuid;$/;"	m	struct:__kthread_context
+cur_uthread	gt_pq.h	/^	uthread_struct_t *cur_uthread;	\/* current running uthread (not in active\/expires) *\/$/;"	m	struct:__kthread_runqueue
+elapsed_time	gt_uthread.h	/^	int elapsed_time;$/;"	m	struct:__uthread_shared_info
+elapsed_time	gt_uthread.h	/^	int elapsed_time;$/;"	m	struct:uthread_struct
+exit_status	gt_uthread.h	/^	void *exit_status; \/* exit status *\/$/;"	m	struct:uthread_struct
+expires_runq	gt_pq.h	/^	runqueue_t *expires_runq;$/;"	m	struct:__kthread_runqueue
+generate_matrix	gt_matrix.c	/^static void generate_matrix(matrix_t *mat, int val)$/;"	f	file:
+gid	gt_matrix.c	/^	unsigned int gid;$/;"	m	struct:__uthread_arg	file:
+group	gt_pq.h	/^	uthread_head_t group[MAX_UTHREAD_GROUPS]; \/* array(i) : uthreads from uthread_group 'i' *\/$/;"	m	struct:prio_struct
+group_id	gt_uthread.h	/^	int group_id;$/;"	m	struct:__uthread_shared_info
+group_id	gt_uthread.h	/^	int group_id;$/;"	m	struct:uthread_struct
+group_mask	gt_pq.h	/^	unsigned int group_mask; \/* mask(i) : groups with atleast one thread *\/$/;"	m	struct:prio_struct
+gt_actual_spinlock	gt_spinlock.c	/^void gt_actual_spinlock(volatile int * spinlock)$/;"	f
+gt_spin_lock	gt_spinlock.c	/^extern int gt_spin_lock(gt_spinlock_t* spinlock)$/;"	f
+gt_spin_unlock	gt_spinlock.c	/^extern int gt_spin_unlock(gt_spinlock_t *spinlock)$/;"	f
+gt_spinlock_init	gt_spinlock.c	/^extern int gt_spinlock_init(gt_spinlock_t* spinlock)$/;"	f
+gt_spinlock_t	gt_spinlock.h	/^} gt_spinlock_t;$/;"	t	typeref:struct:__gt_spinlock
+gtthread_app_exit	gt_kthread.c	/^extern void gtthread_app_exit()$/;"	f
+gtthread_app_init	gt_kthread.c	/^extern void gtthread_app_init()$/;"	f
+gtthread_app_start	gt_kthread.c	/^static void gtthread_app_start(void *arg)$/;"	f	file:
+holder	gt_spinlock.h	/^	unsigned int holder;$/;"	m	struct:__gt_spinlock
+init_matrices	gt_matrix.c	/^static void init_matrices()$/;"	f	file:
+init_runqueue	gt_pq.c	/^extern void init_runqueue(runqueue_t *runq)$/;"	f
+initial_credit	gt_uthread.h	/^	int initial_credit;$/;"	m	struct:__uthread_shared_info
+k_ctx	gt_kthread.c	101;"	d	file:
+k_ctx	gt_kthread.c	89;"	d	file:
+krunqueue	gt_kthread.h	/^	kthread_runqueue_t krunqueue;$/;"	m	struct:__kthread_context
+ksched_credit	gt_kthread.c	/^static void ksched_credit(int signal)$/;"	f	file:
+ksched_find_target	gt_kthread.c	/^extern kthread_runqueue_t *ksched_find_target(uthread_struct_t *u_obj)$/;"	f
+ksched_info_init	gt_kthread.c	/^static inline void ksched_info_init(ksched_shared_info_t *ksched_info)$/;"	f	file:
+ksched_lock	gt_kthread.h	/^	gt_spinlock_t ksched_lock; \/* global lock for updating above counters *\/$/;"	m	struct:__ksched_shared_info
+ksched_shared_info	gt_kthread.c	/^ksched_shared_info_t ksched_shared_info;$/;"	v
+ksched_shared_info_t	gt_kthread.h	/^} ksched_shared_info_t;$/;"	t	typeref:struct:__ksched_shared_info
+kthread_apic_id	gt_kthread.h	/^static inline unsigned char kthread_apic_id(void)$/;"	f
+kthread_app_func	gt_kthread.h	/^	void (*kthread_app_func)(void *); \/* kthread application function *\/$/;"	m	struct:__kthread_context
+kthread_best_sched_uthread	gt_uthread.c	/^extern void uthread_schedule(uthread_struct_t * (*kthread_best_sched_uthread)(kthread_runqueue_t *))$/;"	f
+kthread_block_signal	gt_signal.c	/^extern void kthread_block_signal(int signo)$/;"	f
+kthread_context_t	gt_kthread.h	/^} kthread_context_t;$/;"	t	typeref:struct:__kthread_context
+kthread_cpu_map	gt_kthread.c	/^kthread_context_t *kthread_cpu_map[GT_MAX_KTHREADS];$/;"	v
+kthread_create	gt_kthread.c	/^int kthread_create(kthread_t *tid, int (*kthread_start_func)(void *), void *arg)$/;"	f
+kthread_cur_uthreads	gt_kthread.h	/^	unsigned int kthread_cur_uthreads; \/* (M) : Current uthreads (over all kthreads) *\/$/;"	m	struct:__ksched_shared_info
+kthread_env	gt_kthread.h	/^	sigjmp_buf kthread_env; \/* kthread's env to jump to (when done scheduling) *\/$/;"	m	struct:__kthread_context
+kthread_exit	gt_kthread.c	/^static inline void kthread_exit()$/;"	f	file:
+kthread_flags	gt_kthread.h	/^	unsigned int kthread_flags;$/;"	m	struct:__kthread_context
+kthread_handler	gt_kthread.c	/^static int kthread_handler(void *arg)$/;"	f	file:
+kthread_init	gt_kthread.c	/^static void kthread_init(kthread_context_t *k_ctx)$/;"	f	file:
+kthread_init_runqueue	gt_pq.c	/^extern void kthread_init_runqueue(kthread_runqueue_t *kthread_runq)$/;"	f
+kthread_init_vtalrm_timeslice	gt_signal.c	/^extern void kthread_init_vtalrm_timeslice(int interval_sec, int interval_usec, int value_sec, int value_usec)$/;"	f
+kthread_install_sighandler	gt_signal.c	/^extern void kthread_install_sighandler(int signo, void (*handler)(int))$/;"	f
+kthread_runqlock	gt_pq.h	/^	gt_spinlock_t kthread_runqlock;$/;"	m	struct:__kthread_runqueue
+kthread_runqueue_balance	gt_kthread.h	/^	void (*kthread_runqueue_balance)(); \/* balance across kthread runqueues *\/$/;"	m	struct:__kthread_context
+kthread_runqueue_t	gt_pq.h	/^} kthread_runqueue_t;$/;"	t	typeref:struct:__kthread_runqueue
+kthread_sched_relay	gt_kthread.h	/^	void (*kthread_sched_relay)(int); \/* relay(usr1) signal handler*\/$/;"	m	struct:__kthread_context
+kthread_sched_timer	gt_kthread.h	/^	void (*kthread_sched_timer)(int); \/* vtalrm signal handler *\/$/;"	m	struct:__kthread_context
+kthread_t	gt_kthread.h	/^typedef unsigned int kthread_t;$/;"	t
+kthread_tot_uthreads	gt_kthread.h	/^	unsigned int kthread_tot_uthreads; \/* (M) : Set if atleast one uthread was created *\/$/;"	m	struct:__ksched_shared_info
+kthread_unblock_signal	gt_signal.c	/^extern void kthread_unblock_signal(int signo)$/;"	f
+last_cpu_id	gt_uthread.h	/^	int last_cpu_id; \/* last cpu it was executing on *\/$/;"	m	struct:uthread_struct
+last_ugroup_kthread	gt_kthread.h	/^	unsigned short last_ugroup_kthread[MAX_UTHREAD_GROUPS]; \/* (M) : Target cpu for next uthread from group *\/$/;"	m	struct:__ksched_shared_info
+locked	gt_spinlock.h	/^	volatile int locked;$/;"	m	struct:__gt_spinlock
+m	gt_matrix.c	/^	int m[SIZE][SIZE];$/;"	m	struct:matrix	file:
+main	gt_matrix.c	/^int main()$/;"	f
+matrix	gt_matrix.c	/^typedef struct matrix$/;"	s	file:
+matrix_size	gt_uthread.h	/^	int matrix_size;$/;"	m	struct:__uthread_shared_info
+matrix_t	gt_matrix.c	/^} matrix_t;$/;"	t	typeref:struct:matrix	file:
+min_uthread_group	gt_pq.h	/^	uthread_group_t min_uthread_group; \/* NOT USED : group (in the runqueue) with minimum uthreads (but GT 0) *\/$/;"	m	struct:__runqueue
+pid	gt_kthread.h	/^	unsigned int pid;$/;"	m	struct:__kthread_context
+print_matrix	gt_matrix.c	/^static void print_matrix(matrix_t *mat)$/;"	f	file:
+print_statistics	gt_uthread.c	/^extern void print_statistics() $/;"	f
+prio_array	gt_pq.h	/^	prio_struct_t prio_array[MAX_UTHREAD_PRIORITY];$/;"	m	struct:__runqueue
+prio_struct	gt_pq.h	/^typedef struct prio_struct$/;"	s
+prio_struct_t	gt_pq.h	/^} prio_struct_t;$/;"	t	typeref:struct:prio_struct
+ptr	gt_matrix.c	136;"	d	file:
+ptr	gt_matrix.c	96;"	d	file:
+rem_from_runqueue	gt_pq.c	/^extern void rem_from_runqueue(runqueue_t *runq, gt_spinlock_t *runq_lock, uthread_struct_t *u_elem)$/;"	f
+reserved	gt_kthread.h	/^	unsigned int reserved[2];$/;"	m	struct:__ksched_shared_info
+reserved	gt_matrix.c	/^	unsigned int reserved[2];$/;"	m	struct:matrix	file:
+reserved	gt_pq.h	/^	unsigned int reserved[3];$/;"	m	struct:prio_struct
+reserved0	gt_matrix.c	/^	unsigned int reserved0;$/;"	m	struct:__uthread_arg	file:
+reserved0	gt_pq.h	/^	unsigned int reserved0;$/;"	m	struct:__kthread_runqueue
+reserved1	gt_uthread.h	/^	int reserved1;$/;"	m	struct:uthread_struct
+reserved2	gt_uthread.h	/^	int reserved2;$/;"	m	struct:uthread_struct
+reserved3	gt_uthread.h	/^	int reserved3;$/;"	m	struct:uthread_struct
+rows	gt_matrix.c	/^	int rows;$/;"	m	struct:matrix	file:
+runqueue_t	gt_pq.h	/^} runqueue_t;$/;"	t	typeref:struct:__runqueue
+runqueues	gt_pq.h	/^	runqueue_t runqueues[2];$/;"	m	struct:__kthread_runqueue
+sched_find_best_uthread	gt_pq.c	/^extern uthread_struct_t *sched_find_best_uthread(kthread_runqueue_t *kthread_runq)$/;"	f
+sched_find_best_uthread_group	gt_pq.c	/^extern uthread_struct_t *sched_find_best_uthread_group(kthread_runqueue_t *kthread_runq)$/;"	f
+start_col	gt_matrix.c	/^	int start_col; \/* start_col -> (start_col + PER_GROUP_COLS) *\/$/;"	m	struct:__uthread_arg	file:
+start_row	gt_matrix.c	/^	int start_row; \/* start_row -> (start_row + PER_THREAD_ROWS) *\/$/;"	m	struct:__uthread_arg	file:
+start_time	gt_kthread.h	/^	struct timeval *start_time;$/;"	m	struct:__kthread_context	typeref:struct:__kthread_context::timeval
+switch_runqueue	gt_pq.c	/^extern void switch_runqueue(runqueue_t *from_runq, gt_spinlock_t *from_runqlock, $/;"	f
+thread_id	gt_uthread.h	/^	int thread_id;$/;"	m	struct:__uthread_shared_info
+tid	gt_kthread.h	/^	unsigned int tid;$/;"	m	struct:__kthread_context
+tid	gt_matrix.c	/^	unsigned int tid;$/;"	m	struct:__uthread_arg	file:
+tv1	gt_matrix.c	/^struct timeval tv1;$/;"	v	typeref:struct:timeval
+uargs	gt_matrix.c	/^uthread_arg_t uargs[NUM_THREADS];$/;"	v
+update_uthread_shared_statistics	gt_uthread.c	/^void update_uthread_shared_statistics(uthread_struct_t *u_obj)$/;"	f
+uthread_arg	gt_uthread.h	/^	void *uthread_arg;$/;"	m	struct:uthread_struct
+uthread_arg_t	gt_matrix.c	/^}uthread_arg_t;$/;"	t	typeref:struct:__uthread_arg	file:
+uthread_context_func	gt_uthread.c	/^static void uthread_context_func(int signo)$/;"	f	file:
+uthread_create	gt_uthread.c	/^extern int uthread_create(uthread_t *u_tid, int (*u_func)(void *), void *u_arg, uthread_group_t u_gid)$/;"	f
+uthread_credit	gt_uthread.h	/^	int uthread_credit;$/;"	m	struct:__uthread_shared_info
+uthread_credit	gt_uthread.h	/^	int uthread_credit;$/;"	m	struct:uthread_struct
+uthread_env	gt_uthread.h	/^	sigjmp_buf uthread_env; \/* 156 bytes : save user-level thread context*\/$/;"	m	struct:uthread_struct
+uthread_func	gt_uthread.h	/^	int (*uthread_func)(void*);$/;"	m	struct:uthread_struct
+uthread_gid	gt_uthread.h	/^	uthread_group_t uthread_gid; \/* thread group id  *\/$/;"	m	struct:uthread_struct
+uthread_group_mask	gt_pq.h	/^	unsigned int uthread_group_mask[MAX_UTHREAD_GROUPS]; \/* array(i) : prio levels with atleast one uthread from uthread_group 'i' *\/$/;"	m	struct:__runqueue
+uthread_group_penalty	gt_kthread.h	/^	unsigned int uthread_group_penalty; \/* (M) : penalty for co-scheduling a lower priority uthread *\/$/;"	m	struct:__ksched_shared_info
+uthread_group_t	gt_uthread.h	/^typedef unsigned int uthread_group_t;$/;"	t
+uthread_group_tot	gt_pq.h	/^	unsigned int uthread_group_tot[MAX_UTHREAD_GROUPS]; \/* array(i) : Tot num of uthreads in uthread_group 'i' *\/$/;"	m	struct:__runqueue
+uthread_head_t	gt_pq.h	/^typedef struct uthread_head uthread_head_t;$/;"	t	typeref:struct:uthread_head
+uthread_info_init	gt_uthread.c	/^extern void uthread_info_init()$/;"	f
+uthread_init	gt_uthread.c	/^static int uthread_init(uthread_struct_t *u_new)$/;"	f	file:
+uthread_init_lock	gt_kthread.h	/^	gt_spinlock_t uthread_init_lock; \/* global lock for uthread_init (to serialize signal handling stuff in there) *\/$/;"	m	struct:__ksched_shared_info
+uthread_initial_credit	gt_uthread.h	/^	int uthread_initial_credit;$/;"	m	struct:uthread_struct
+uthread_mask	gt_pq.h	/^	unsigned int uthread_mask; \/* mask : prio levels with atleast one uthread *\/$/;"	m	struct:__runqueue
+uthread_mulmat	gt_matrix.c	/^static void * uthread_mulmat(void *p)$/;"	f	file:
+uthread_prio_tot	gt_pq.h	/^	unsigned int uthread_prio_tot[MAX_UTHREAD_PRIORITY]; \/* array(i) : Tot num of uthreads at priority 'i' *\/$/;"	m	struct:__runqueue
+uthread_priority	gt_uthread.h	/^	int uthread_priority; \/* uthread running priority *\/$/;"	m	struct:uthread_struct
+uthread_runq	gt_uthread.h	/^	TAILQ_ENTRY(uthread_struct) uthread_runq;$/;"	m	struct:uthread_struct
+uthread_select_criterion	gt_kthread.h	/^	unsigned int uthread_select_criterion; \/* (S) : currently just a uthread_group_id *\/$/;"	m	struct:__ksched_shared_info
+uthread_shared_info	gt_uthread.c	/^static uthread_shared_info_t *uthread_shared_info[NUM_THREADS];$/;"	v	file:
+uthread_shared_info_t	gt_uthread.h	/^} uthread_shared_info_t;$/;"	t	typeref:struct:__uthread_shared_info
+uthread_stack	gt_uthread.h	/^	stack_t uthread_stack; \/* 12 bytes : user-level thread stack *\/$/;"	m	struct:uthread_struct
+uthread_state	gt_uthread.h	/^	int uthread_state; \/* UTHREAD_INIT, UTHREAD_RUNNABLE, UTHREAD_RUNNING, UTHREAD_CANCELLED, UTHREAD_DONE *\/$/;"	m	struct:uthread_struct
+uthread_struct	gt_uthread.h	/^typedef struct uthread_struct$/;"	s
+uthread_struct_t	gt_uthread.h	/^} uthread_struct_t;$/;"	t	typeref:struct:uthread_struct
+uthread_t	gt_uthread.h	/^typedef unsigned int uthread_t;$/;"	t
+uthread_tid	gt_uthread.h	/^	uthread_t uthread_tid; \/* thread id *\/$/;"	m	struct:uthread_struct
+uthread_tot	gt_pq.h	/^	unsigned int uthread_tot; \/* cnt : Tot num of uthreads in the runq (all priorities) *\/$/;"	m	struct:__runqueue
+utids	gt_matrix.c	/^uthread_t utids[NUM_THREADS];$/;"	v
+x20Chrome	._gt_bitops.h	/^/;"	v
+x20Chrome	._gt_include.h	/^/;"	v
+x20Chrome	._gt_kthread.h	/^/;"	v
+x20Chrome	._gt_matrix.c	/^/;"	v
+x20Chrome	._gt_pq.c	/^/;"	v
+x20Chrome	._gt_pq.h	/^/;"	v
+x20Chrome	._gt_signal.c	/^/;"	v
+x20Chrome	._gt_signal.h	/^/;"	v
+x20Chrome	._gt_spinlock.c	/^/;"	v
+x20Chrome	._gt_spinlock.h	/^/;"	v
+x20Chrome	._gt_tailq.h	/^/;"	v
+x20Chrome	._gt_uthread.c	/^/;"	v
+x20Chrome	._gt_uthread.h	/^/;"	v
+zombie_uthreads	gt_pq.h	/^	uthread_head_t zombie_uthreads;$/;"	m	struct:__kthread_runqueue

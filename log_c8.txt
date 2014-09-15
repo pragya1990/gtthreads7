@@ -1,0 +1,760 @@
+Before ksched INFO INIT
+BEFORE KTHREAD_INIT
+Kthread tid: 9453, pid: 9453
+Before kthread_credit
+After kthread_credit
+Before kthread_init runqueue
+after kthread_init runqueue
+after cpu_affinit
+after yield
+AFTER KTHREAD_INIT
+AFTER SIGHANDLER
+num_cpus: 2
+INITIALISING VIRTUAL processors
+AFTER MALLCO
+INSIDE KTHREAD_CREATE
+TID of the new kthread: 9455
+kthread(1) created !!
+Kthread tid: 9455, pid: 9455
+Before kthread_credit
+After kthread_credit
+Before kthread_init runqueue
+after kthread_init runqueue
+after cpu_affinit
+after yield
+group_id: 0, current_row: 0, rows_per_thread: 4, size: 32, credits: 25, inx: 0, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 0, current_row: 4, rows_per_thread: 4, size: 32, credits: 25, inx: 1, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 0, current_row: 8, rows_per_thread: 4, size: 32, credits: 25, inx: 2, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 0, current_row: 12, rows_per_thread: 4, size: 32, credits: 25, inx: 3, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 0, current_row: 16, rows_per_thread: 4, size: 32, credits: 25, inx: 4, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 0, current_row: 20, rows_per_thread: 4, size: 32, credits: 25, inx: 5, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 0, current_row: 24, rows_per_thread: 4, size: 32, credits: 25, inx: 6, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 0, current_row: 28, rows_per_thread: 4, size: 32, credits: 25, inx: 7, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 0, rows_per_thread: 4, size: 32, credits: 50, inx: 8, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 4, rows_per_thread: 4, size: 32, credits: 50, inx: 9, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 8, rows_per_thread: 4, size: 32, credits: 50, inx: 10, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 12, rows_per_thread: 4, size: 32, credits: 50, inx: 11, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 16, rows_per_thread: 4, size: 32, credits: 50, inx: 12, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 20, rows_per_thread: 4, size: 32, credits: 50, inx: 13, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 24, rows_per_thread: 4, size: 32, credits: 50, inx: 14, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 28, rows_per_thread: 4, size: 32, credits: 50, inx: 15, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 2, current_row: 0, rows_per_thread: 4, size: 32, credits: 75, inx: 16, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+UTHREAD_DONE, elapsed time: group_id: 2, current_row: 4, rows_per_thread: 4, size: 32, credits: 75, inx: 17174128, start_time: 938232, finish_time:938406 credits:25
+Total execution time: 174, current execution time: 174, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 0
+Before alloting start time
+After alloting start time
+group_id: 2, current_row: 8, rows_per_thread: 4, size: 32, credits: 75, inx: 18, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 2, current_row: 12, rows_per_thread: 4, size: 32, credits: 75, inx: 19, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 2, current_row: 16, rows_per_thread: 4, size: 32, credits: 75, inx: 20, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 2, current_row: 20, rows_per_thread: 4, size: 32, credits: 75, inx: 21, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 2, current_row: 24, rows_per_thread: 4, Before ksched INFO INIT
+BEFORE KTHREAD_INIT
+Kthread tid: 9453, pid: 9453
+Before kthread_credit
+After kthread_credit
+Before kthread_init runqueue
+after kthread_init runqueue
+after cpu_affinit
+after yield
+AFTER KTHREAD_INIT
+AFTER SIGHANDLER
+num_cpus: 2
+INITIALISING VIRTUAL processors
+AFTER MALLCO
+INSIDE KTHREAD_CREATE
+TID of the new kthread: 9455
+kthread(1) created !!
+Kthread tid: 9455, pid: 9455
+Before kthread_credit
+After kthread_credit
+Before kthread_init runqueue
+after kthread_init runqueue
+after cpu_affinit
+after yield
+group_id: 0, current_row: 0, rows_per_thread: 4, size: 32, credits: 25, inx: 0, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 0, current_row: 4, rows_per_thread: 4, size: 32, credits: 25, inx: 1, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 0, current_row: 8, rows_per_thread: 4, size: 32, credits: 25, inx: 2, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 0, current_row: 12, rows_per_thread: 4, size: 32, credits: 25, inx: 3, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 0, current_row: 16, rows_per_thread: 4, size: 32, credits: 25, inx: 4, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 0, current_row: 20, rows_per_thread: 4, size: 32, credits: 25, inx: 5, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 0, current_row: 24, rows_per_thread: 4, size: 32, credits: 25, inx: 6, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 0, current_row: 28, rows_per_thread: 4, size: 32, credits: 25, inx: 7, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 0, rows_per_thread: 4, size: 32, credits: 50, inx: 8, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 4, rows_per_thread: 4, size: 32, credits: 50, inx: 9, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 8, rows_per_thread: 4, size: 32, credits: 50, inx: 10, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 12, rows_per_thread: 4, size: 32, credits: 50, inx: 11, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 16, rows_per_thread: 4, size: 32, credits: 50, inx: 12, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 20, rows_per_thread: 4, size: 32, credits: 50, inx: 13, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 24, rows_per_thread: 4, size: 32, credits: 50, inx: 14, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 28, rows_per_thread: 4, size: 32, credits: 50, inx: 15, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 2, current_row: 0, rows_per_thread: 4, size: 32, credits: 75, inx: 16, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+UTHREAD_DONE, elapsed time: group_id: 2, current_row: 4, rows_per_thread: 4, size: 32, credits: 75, inx: 17174128, start_time: 938232, finish_time:938406 credits:25
+Total execution time: 174, current execution time: 174, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 0
+Before alloting start time
+After alloting start time
+group_id: 2, current_row: 8, rows_per_thread: 4, size: 32, credits: 75, inx: 18, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 2, current_row: 12, rows_per_thread: 4, size: 32, credits: 75, inx: 19, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 2, current_row: 16, rows_per_thread: 4, size: 32, credits: 75, inx: 20, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 2, current_row: 20, rows_per_thread: 4, size: 32, credits: 75, inx: 21, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 2, current_row: 24, rows_per_thread: 4, size: 32, credits: 75, inx: 22, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 2, current_row: 28, rows_per_thread: 4, size: 32, credits: 75, inx: 23, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 3, current_row: 0, rows_per_thread: 4, size: 32, credits: 100, inx: 24, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 3, current_row: 4, rows_per_thread: 4, size: 32, credits: 100, inx: 25, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 3, current_row: 8, rows_per_thread: 4, size: 32, credits: 100, inx: 26, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 3, current_row: 12, rows_per_thread: 4, size: 32, credits: 100, inx: 27, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 3, current_row: 16, rows_per_thread: 4, size: 32, credits: 100, inx: 28, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 3, current_row: 20, rows_per_thread: 4, size: 32, credits: 100, inx: 29, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 3, current_row: 24, rows_per_thread: 4, size: 32, credits: 100, inx: 30, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 3, current_row: 28, rows_per_thread: 4, size: 32, credits: 100, inx: 31, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 4, current_row: 0, rows_per_thread: 8, size: 64, credits: 25, inx: 32, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 4, current_row: 8, rows_per_thread: 8, size: 64, credits: 25, inx: 33, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 4, current_row: 16, rows_per_thread: 8, size: 64, credits: 25, inx: 34, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 4, current_row: 24, rows_per_thread: 8, size: 64, credits: 25, inx: 35, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 4, current_row: 32, rows_per_thread: 8, size: 64, credits: 25, inx: 36, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 4, current_row: 40, rows_per_thread: 8, size: 64, credits: 25, inx: 37, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 4, current_row: 48, rows_per_thread: 8, size: 64, credits: 25, inx: 38, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 4, current_row: 56, rows_per_thread: 8, size: 64, credits: 25, inx: 39, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 5, current_row: 0, rows_per_thread: 8, size: 64, credits: 50, inx: 40, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 5, current_row: 8, rows_per_thread: 8, size: 64, credits: 50, inx: 41, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 5, current_row: 16, rows_per_thread: 8, size: 64, credits: 50, inx: 42, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 5, current_row: 24, rows_per_thread: 8, size: 64, credits: 50, inx: 43, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 5, current_row: 32, rows_per_thread: 8, size: 64, credits: 50, inx: 44, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 5, current_row: 40, rows_per_thread: 8, size: 64, credits: 50, inx: 45, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 5, current_row: 48, rows_per_thread: 8, size: 64, credits: 50, inx: 46, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 5, current_row: 56, rows_per_thread: 8, size: 64, credits: 50, inx: 47, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 6, current_row: 0, rows_per_thread: 8, size: 64, credits: 75, inx: 48, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 6, current_row: 8, rows_per_thread: 8, size: 64, credits: 75, inx: 49, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 6, current_row: 16, rows_per_thread: 8, size: 64, credits: 75, inx: 50, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 6, current_row: 24, rows_per_thread: 8, size: 64, credits: 75, inx: 51, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 6, current_row: 32, rows_per_thread: 8, size: 64, credits: 75, inx: 52, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 6, current_row: 40, rows_per_thread: 8, size: 64, credits: 75, inx: 53, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 6, current_row: 48, rows_per_thread: 8, size: 64, credits: 75, inx: 54, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 6, current_row: 56, rows_per_thread: 8, size: 64, credits: 75, inx: 55, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 7, current_row: 0, rows_per_thread: 8, size: 64, credits: 100, inx: 56, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 7, current_row: 8, rows_per_thread: 8, size: 64, credits: 100, inx: 57, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 7, current_row: 16, rows_per_thread: 8, size: 64, credits: 100, inx: 58, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 7, current_row: 24, rows_per_thread: 8, size: 64, credits: 100, inx: 59, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 7, current_row: 32, rows_per_thread: 8, size: 64, credits: 100, inx: 60, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 7, current_row: 40, rows_per_thread: 8, size: 64, credits: 100, inx: 61, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 7, current_row: 48, rows_per_thread: 8, size: 64, credits: 100, inx: 62, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 7, current_row: 56, rows_per_thread: 8, size: 64, credits: 100, inx: 63, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 8, current_row: 0, rows_per_thread: 16, size: 128, credits: 25, inx: 64, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 8, current_row: 16, rows_per_thread: 16, size: 128, credits: 25, inx: 65, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 8, current_row: 32, rows_per_thread: 16, size: 128, credits: 25, inx: 66, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 8, current_row: 48, rows_per_thread: 16, size: 128, credits: 25, inx: 67, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 8, current_row: 64, rows_per_thread: 16, size: 128, credits: 25, inx: 68, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 8, current_row: 80, rows_per_thread: 16, size: 128, credits: 25, inx: 69, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 8, current_row: 96, rows_per_thread: 16, size: 128, credits: 25, inx: 70, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 8, current_row: 112, rows_per_thread: 16, size: 128, credits: 25, inx: 71, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 9, current_row: 0, rows_per_thread: 16, size: 128, credits: 50, inx: 72, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 9, current_row: 16, rows_per_thread: 16, size: 128, credits: 50, inx: 73, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 9, current_row: 32, rows_per_thread: 16, size: 128, credits: 50, inx: 74, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 9, current_row: 48, rows_per_thread: 16, size: 128, credits: 50, inx: 75, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 9, current_row: 64, rows_per_thread: 16, size: 128, credits: 50, inx: 76, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 9, current_row: 80, rows_per_thread: 16, size: 128, credits: 50, inx: 77, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 9, current_row: 96, rows_per_thread: 16, size: 128, credits: 50, inx: 78, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 9, current_row: 112, rows_per_thread: 16, size: 128, credits: 50, inx: 79, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 10, current_row: 0, rows_per_thread: 16, size: 128, credits: 75, inx: 80, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 10, current_row: 16, rows_per_thread: 16, size: 128, credits: 75, inx: 81, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 10, current_row: 32, rows_per_thread: 16, size: 128, credits: 75, inx: 82, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 10, current_row: 48, rows_per_thread: 16, size: 128, credits: 75, inx: 83, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 10, current_row: 64, rows_per_thread: 16, size: 128, credits: 75, inx: 84, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 10, current_row: 80, rows_per_thread: 16, size: 128, credits: 75, inx: 85, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 10, current_row: 96, rows_per_thread: 16, size: 128, credits: 75, inx: 86, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 10, current_row: 112, rows_per_thread: 16, size: 128, credits: 75, inx: 87, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 11, current_row: 0, rows_per_thread: 16, size: 128, credits: 100, inx: 88, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 11, current_row: 16, rows_per_thread: 16, size: 128, credits: 100, inx: 89, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 11, current_row: 32, rows_per_thread: 16, size: 128, credits: 100, inx: 90, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 11, current_row: 48, rows_per_thread: 16, size: 128, credits: 100, inx: 91, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 11, current_row: 64, rows_per_thread: 16, size: 128, credits: 100, inx: 92, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 11, current_row: 80, rows_per_thread: 16, size: 128, credits: 100, inx: 93, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 11, current_row: 96, rows_per_thread: 16, size: 128, credits: 100, inx: 94, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 11, current_row: 112, rows_per_thread: 16, size: 128, credits: 100, inx: 95, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 12, current_row: 0, rows_per_thread: 32, size: 256, credits: 25, inx: 96, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 12, current_row: 32, rows_per_thread: 32, size: 256, credits: 25, inx: 97, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 12, current_row: 64, rows_per_thread: 32, size: 256, credits: 25, inx: 98, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 12, current_row: 96, rows_per_thread: 32, size: 256, credits: 25, inx: 99, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 12, current_row: 128, rows_per_thread: 32, size: 256, credits: 25, inx: 100, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 12, current_row: 160, rows_per_thread: 32, size: 256, credits: 25, inx: 101, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 12, current_row: 192, rows_per_thread: 32, size: 256, credits: 25, inx: 102, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 12, current_row: 224, rows_per_thread: 32, size: 256, credits: 25, inx: 103, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 13, current_row: 0, rows_per_thread: 32, size: 256, credits: 50, inx: 104, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 13, current_row: 32, rows_per_thread: 32, size: 256, credits: 50, inx: 105, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 13, current_row: 64, rows_per_thread: 32, size: 256, credits: 50, inx: 106, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 13, current_row: 96, rows_per_thread: 32, size: 256, credits: 50, inx: 107, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 13, current_row: 128, rows_per_thread: 32, size: 256, credits: 50, inx: 108, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 13, current_row: 160, rows_per_thread: 32, size: 256, credits: 50, inx: 109, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 13, current_row: 192, rows_per_thread: 32, size: 256, credits: 50, inx: 110, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 13, current_row: 224, rows_per_thread: 32, size: 256, credits: 50, inx: 111, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 14, current_row: 0, rows_per_thread: 32, size: 256, credits: 75, inx: 112, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 14, current_row: 32, rows_per_thread: 32, size: 256, credits: 75, inx: 113, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 14, current_row: 64, rows_per_thread: 32, size: 256, credits: 75, inx: 114, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 14, current_row: 96, rows_per_thread: 32, size: 256, credits: 75, inx: 115, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 14, current_row: 128, rows_per_thread: 32, size: 256, credits: 75, inx: 116, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 14, current_row: 160, rows_per_thread: 32, size: 256, credits: 75, inx: 117, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 14, current_row: 192, rows_per_thread: 32, size: 256, credits: 75, inx: 118, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 14, current_row: 224, rows_per_thread: 32, size: 256, credits: 75, inx: 119, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 15, current_row: 0, rows_per_thread: 32, size: 256, credits: 100, inx: 120, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 15, current_row: 32, rows_per_thread: 32, size: 256, credits: 100, inx: 121, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 15, current_row: 64, rows_per_thread: 32, size: 256, credits: 100, inx: 122, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 15, current_row: 96, rows_per_thread: 32, size: 256, credits: 100, inx: 123, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 15, current_row: 128, rows_per_thread: 32, size: 256, credits: 100, inx: 124, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 15, current_row: 160, rows_per_thread: 32, size: 256, credits: 100, inx: 125, NUM_THREADS: 128
+UTHREAD_DONE, elapsed time: 1322, start_time: 962098, finish_time:963420 credits:25
+Total execution time: 1322, current execution time: 1322, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 32
+Before alloting start time
+After alloting start time
+group_id: 15, current_row: 192, rows_per_thread: 32, size: 256, credits: 100, inx: 126, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 15, current_row: 224, rows_per_thread: 32, size: 256, credits: 100, inx: 127, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+UTHREAD_DONE, elapsed time: 171, start_time: 970781, finish_time:970952 credits:75
+Total execution time: 171, current execution time: 171, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 16
+UTHREAD_DONE, elapsed time: 7457, start_time: 970989, finish_time:978446 credits:75
+Total execution time: 7457, current execution time: 7457, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 48
+UTHREAD_DONE, elapsed time: 35828, start_time: 978515, finish_time:14343 credits:75
+Total execution time: 35828, current execution time: 35828, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 80
+UTHREAD_DONE, elapsed time: 49040, start_time: 974087, finish_time:23127 credits:25
+Total execution time: 49040, current execution time: 49040, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 64
+UTHREAD_DONE, elapsed time: 154496, start_time: 14440, finish_time:168936 credits:75
+Total execution time: 154496, current execution time: 154496, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 112
+UTHREAD_DONE, elapsed time: 171, start_time: 169011, finish_time:169182 credits:75
+Total execution time: 171, current execution time: 171, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 17
+UTHREAD_DONE, elapsed time: 1384, start_time: 169228, finish_time:170612 credits:75
+Total execution time: 1384, current execution time: 1384, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 49
+UTHREAD_DONE, elapsed time: 13206, start_time: 170642, finish_time:183848 credits:75
+Total execution time: 13206, current execution time: 13206, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 81
+UTHREAD_DONE, elapsed time: 110414, start_time: 183880, finish_time:294294 credits:75
+Total execution time: 110414, current execution time: 110414, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 113
+UTHREAD_DONE, elapsed time: 170, start_time: 294364, finish_time:294534 credits:75
+Total execution time: 170, current execution time: 170, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 18
+UTHREAD_DONE, elapsed time: 1283, start_time: 294580, finish_time:295863 credits:75
+Total execution time: 1283, current execution time: 1283, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 50
+UTHREAD_DONE, elapsed time: 13972, start_time: 295894, finish_time:309866 credits:75
+Total execution time: 13972, current execution time: 13972, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 82
+UTHREAD_DONE, elapsed time: 84040, start_time: 262096, finish_time:346136 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410676249, start_time_usec: 262096, finish_time: 1410676249, finish_time_usec: 346136
+Total execution time: 84040, current execution time: 84040, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 96
+UTHREAD_DONE, elapsed time: 1289, start_time: 346188, finish_time:347477 credits:25
+Total execution time: 1289, current execution time: 1289, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 33
+UTHREAD_DONE, elapsed time: 36972, start_time: 347518, finish_time:384490 credits:25
+Total execution time: 36972, current execution time: 36972, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 65
+UTHREAD_DONE, elapsed time: 118029, start_time: 309913, finish_time:427942 credits:75
+Total execution time: 118029, current execution time: 118029, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 114
+UTHREAD_DONE, elapsed time: 170, start_time: 428037, finish_time:428207 credits:75
+Total execution time: 170, current execution time: 170, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 19
+UTHREAD_DONE, elapsed time: 1294, start_time: 428279, finish_time:429573 credits:75
+Total execution time: 1294, current execution time: 1294, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 51
+UTHREAD_DONE, elapsed time: 43454, start_time: 438897, finish_time:482351 credits:75
+Total execution time: 43454, current execution time: 43454, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 83
+UTHREAD_DONE, elapsed time: 118563, start_time: 482459, finish_time:601022 credits:75
+Total execution time: 118563, current execution time: 118563, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 115
+UTHREAD_DONE, elapsed time: 213, start_time: 601119, finish_time:601332 credits:75
+Total execution time: 213, current execution time: 213, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 20
+UTHREAD_DONE, elapsed time: 1393, start_time: 601362, finish_time:602755 credits:75
+Total execution time: 1393, current execution time: 1393, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 52
+UTHREAD_DONE, elapsed time: 13289, start_time: 602793, finish_time:616082 credits:75
+Total execution time: 13289, current execution time: 13289, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 84
+UTHREAD_DONE, elapsed time: 85169, start_time: 634095, finish_time:719264 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410676249, start_time_usec: 634095, finish_time: 1410676249, finish_time_usec: 719264
+Total execution time: 85169, current execution time: 85169, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 97
+UTHREAD_DONE, elapsed time: 1275, start_time: 719314, finish_time:720589 credits:25
+Total execution time: 1275, current execution time: 1275, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 34
+UTHREAD_DONE, elapsed time: 110886, start_time: 616113, finish_time:726999 credits:75
+Total execution time: 110886, current execution time: 110886, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 116
+UTHREAD_DONE, elapsed time: 170, start_time: 727095, finish_time:727265 credits:75
+Total execution time: 170, current execution time: 170, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 21
+UTHREAD_DONE, elapsed time: 1287, start_time: 727288, finish_time:728575 credits:75
+Total execution time: 1287, current execution time: 1287, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 53
+UTHREAD_DONE, elapsed time: 13949, start_time: 728598, finish_time:742547 credits:75
+Total execution time: 13949, current execution time: 13949, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 85
+UTHREAD_DONE, elapsed time: 36955, start_time: 720630, finish_time:757585 credits:25
+Total execution time: 36955, current execution time: 36955, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 66
+UTHREAD_DONE, elapsed time: 120378, start_time: 742620, finish_time:862998 credits:75
+Total execution time: 120378, current execution time: 120378, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 117
+UTHREAD_DONE, elapsed time: 171, start_time: 863092, finish_time:863263 credits:75
+Total execution time: 171, current execution time: 171, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 22
+UTHREAD_DONE, elapsed time: 1295, start_time: 863301, finish_time:864596 credits:75
+Total execution time: 1295, current execution time: 1295, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 54
+UTHREAD_DONE, elapsed time: 13269, start_time: 864620, finish_time:877889 credits:75
+Total execution time: 13269, current execution time: 13269, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 86
+UTHREAD_DONE, elapsed time: 118130, start_time: 877932, finish_time:996062 credits:75
+Total execution time: 118130, current execution time: 118130, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 118
+UTHREAD_DONE, elapsed time: 170, start_time: 996138, finish_time:996308 credits:75
+Total execution time: 170, current execution time: 170, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 23
+UTHREAD_DONE, elapsed time: 1454, start_time: 5103, finish_time:6557 credits:75
+Total execution time: 1454, current execution time: 1454, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 55
+UTHREAD_DONE, elapsed time: 45120, start_time: 6589, finish_time:51709 credits:75
+Total execution time: 45120, current execution time: 45120, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 87
+UTHREAD_DONE, elapsed time: 98451, start_time: 994099, finish_time:92550 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410676249, start_time_usec: 994099, finish_time: 1410676250, finish_time_usec: 92550
+Total execution time: 98451, current execution time: 98451, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 98
+UTHREAD_DONE, elapsed time: 1293, start_time: 92601, finish_time:93894 credits:25
+Total execution time: 1293, current execution time: 1293, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 35
+UTHREAD_DONE, elapsed time: 45072, start_time: 93921, finish_time:138993 credits:25
+Total execution time: 45072, current execution time: 45072, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 67
+UTHREAD_DONE, elapsed time: 118157, start_time: 51802, finish_time:169959 credits:75
+Total execution time: 118157, current execution time: 118157, time_given: 225000, initial_credits: 75, credits left: 0, thread_id: 119
+UTHREAD_DONE, elapsed time: 189, start_time: 170034, finish_time:170223 credits:100
+Total execution time: 189, current execution time: 189, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 24
+UTHREAD_DONE, elapsed time: 1335, start_time: 170270, finish_time:171605 credits:100
+Total execution time: 1335, current execution time: 1335, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 56
+UTHREAD_DONE, elapsed time: 13209, start_time: 171633, finish_time:184842 credits:100
+Total execution time: 13209, current execution time: 13209, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 88
+UTHREAD_DONE, elapsed time: 110824, start_time: 184885, finish_time:295709 credits:100
+Total execution time: 110824, current execution time: 110824, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 120
+UTHREAD_DONE, elapsed time: 172, start_time: 295802, finish_time:295974 credits:100
+Total execution time: 172, current execution time: 172, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 25
+UTHREAD_DONE, elapsed time: 1289, start_time: 295998, finish_time:297287 credits:100
+Total execution time: 1289, current execution time: 1289, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 57
+UTHREAD_DONE, elapsed time: 13450, start_time: 297318, finish_time:310768 credits:100
+Total execution time: 13450, current execution time: 13450, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 89
+UTHREAD_DONE, elapsed time: 128209, start_time: 310811, finish_time:439020 credits:100
+Total execution time: 128209, current execution time: 128209, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 121
+UTHREAD_DONE, elapsed time: 171, start_time: 439115, finish_time:439286 credits:100
+Total execution time: 171, current execution time: 171, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 26
+UTHREAD_DONE, elapsed time: 1855, start_time: 439309, finish_time:441164 credits:100
+Total execution time: 1855, current execution time: 1855, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 58
+UTHREAD_DONE, elapsed time: 13274, start_time: 441211, finish_time:454485 credits:100
+Total execution time: 13274, current execution time: 13274, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 90
+UTHREAD_DONE, elapsed time: 75290, start_time: 390094, finish_time:465384 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410676250, start_time_usec: 390094, finish_time: 1410676250, finish_time_usec: 465384
+Total execution time: 75290, current execution time: 75290, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 99
+UTHREAD_DONE, elapsed time: 1322, start_time: 465479, finish_time:466801 credits:25
+Total execution time: 1322, current execution time: 1322, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 36
+UTHREAD_DONE, elapsed time: 45014, start_time: 466841, finish_time:511855 credits:25
+Total execution time: 45014, current execution time: 45014, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 68
+UTHREAD_DONE, elapsed time: 158570, start_time: 454520, finish_time:613090 credits:100
+Total execution time: 158570, current execution time: 158570, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 122
+UTHREAD_DONE, elapsed time: 170, start_time: 613185, finish_time:613355 credits:100
+Total execution time: 170, current execution time: 170, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 27
+UTHREAD_DONE, elapsed time: 1311, start_time: 613379, finish_time:614690 credits:100
+Total execution time: 1311, current execution time: 1311, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 59
+UTHREAD_DONE, elapsed time: 13514, start_time: 614724, finish_time:628238 credits:100
+Total execution time: 13514, current execution time: 13514, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 91
+UTHREAD_DONE, elapsed time: 117885, start_time: 628272, finish_time:746157 credits:100
+Total execution time: 117885, current execution time: 117885, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 123
+UTHREAD_DONE, elapsed time: 170, start_time: 746231, finish_time:746401 credits:100
+Total execution time: 170, current execution time: 170, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 28
+UTHREAD_DONE, elapsed time: 1487, start_time: 746445, finish_time:747932 credits:100
+Total execution time: 1487, current execution time: 1487, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 60
+UTHREAD_DONE, elapsed time: 13492, start_time: 747972, finish_time:761464 credits:100
+Total execution time: 13492, current execution time: 13492, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 92
+UTHREAD_DONE, elapsed time: 92137, start_time: 754092, finish_time:846229 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410676250, start_time_usec: 754092, finish_time: 1410676250, finish_time_usec: 846229
+Total execution time: 92137, current execution time: 92137, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 100
+UTHREAD_DONE, elapsed time: 1287, start_time: 846278, finish_time:847565 credits:25
+Total execution time: 1287, current execution time: 1287, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 37
+UTHREAD_DONE, elapsed time: 28911, start_time: 847603, finish_time:876514 credits:25
+Total execution time: 28911, current execution time: 28911, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 69
+UTHREAD_DONE, elapsed time: 119037, start_time: 761503, finish_time:880540 credits:100
+Total execution time: 119037, current execution time: 119037, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 124
+UTHREAD_DONE, elapsed time: 171, start_time: 880612, finish_time:880783 credits:100
+Total execution time: 171, current execution time: 171, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 29
+UTHREAD_DONE, elapsed time: 1339, start_time: 880838, finish_time:882177 credits:100
+Total execution time: 1339, current execution time: 1339, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 61
+UTHREAD_DONE, elapsed time: 13474, start_time: 882204, finish_time:895678 credits:100
+Total execution time: 13474, current execution time: 13474, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 93
+UTHREAD_DONE, elapsed time: 110160, start_time: 895725, finish_time:5885 credits:100
+Total execution time: 110160, current execution time: 110160, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 125
+UTHREAD_DONE, elapsed time: 170, start_time: 14453, finish_time:14623 credits:100
+Total execution time: 170, current execution time: 170, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 30
+UTHREAD_DONE, elapsed time: 1285, start_time: 14664, finish_time:15949 credits:100
+Total execution time: 1285, current execution time: 1285, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 62
+UTHREAD_DONE, elapsed time: 42724, start_time: 15974, finish_time:58698 credits:100
+Total execution time: 42724, current execution time: 42724, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 94
+UTHREAD_DONE, elapsed time: 122485, start_time: 58786, finish_time:181271 credits:100
+Total execution time: 122485, current execution time: 122485, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 126
+UTHREAD_DONE, elapsed time: 171, start_time: 181345, finish_time:181516 credits:100
+Total execution time: 171, current execution time: 171, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 31
+UTHREAD_DONE, elapsed time: 1337, start_time: 181562, finish_time:182899 credits:100
+Total execution time: 1337, current execution time: 1337, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 63
+UTHREAD_DONE, elapsed time: 13589, start_time: 182927, finish_time:196516 credits:100
+Total execution time: 13589, current execution time: 13589, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 95
+UTHREAD_DONE, elapsed time: 77559, start_time: 134103, finish_time:211662 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410676251, start_time_usec: 134103, finish_time: 1410676251, finish_time_usec: 211662
+Total execution time: 77559, current execution time: 77559, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 101
+UTHREAD_DONE, elapsed time: 1280, start_time: 211721, finish_time:213001 credits:25
+Total execution time: 1280, current execution time: 1280, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 38
+UTHREAD_DONE, elapsed time: 44917, start_time: 213040, finish_time:257957 credits:25
+Total execution time: 44917, current execution time: 44917, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 70
+UTHREAD_DONE, elapsed time: 118577, start_time: 196563, finish_time:315140 credits:100
+Total execution time: 118577, current execution time: 118577, time_given: 300000, initial_credits: 100, credits left: 0, thread_id: 127
+UTHREAD_DONE, elapsed time: 78202, start_time: 494109, finish_time:572311 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410676251, start_time_usec: 494109, finish_time: 1410676251, finish_time_usec: 572311
+Total execution time: 78202, current execution time: 78202, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 102
+UTHREAD_DONE, elapsed time: 1289, start_time: 572375, finish_time:573664 credits:25
+Total execution time: 1289, current execution time: 1289, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 39
+UTHREAD_DONE, elapsed time: 44968, start_time: 573697, finish_time:618665 credits:25
+Total execution time: 44968, current execution time: 44968, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 71
+UTHREAD_DONE, elapsed time: 75208, start_time: 858109, finish_time:933317 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410676251, start_time_usec: 858109, finish_time: 1410676251, finish_time_usec: 933317
+Total execution time: 75208, current execution time: 75208, time_given: 75000, initial_credits: 25, credits left: 0, thread_id: 103
+UTHREAD_DONE, elapsed time: 17323, start_time: 933379, finish_time:950702 credits:50
+Total execution time: 17323, current execution time: 17323, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 40
+UTHREAD_DONE, elapsed time: 28926, start_time: 950742, finish_time:979668 credits:50
+Total execution time: 28926, current execution time: 28926, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 72
+UTHREAD_DONE, elapsed time: 342583, start_time: 979740, finish_time:322323 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410676251, start_time_usec: 979740, finish_time: 1410676252, finish_time_usec: 322323
+Total execution time: 342583, current execution time: 342583, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 104
+UTHREAD_DONE, elapsed time: 1294, start_time: 322411, finish_time:323705 credits:50
+Total execution time: 1294, current execution time: 1294, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 41
+UTHREAD_DONE, elapsed time: 36094, start_time: 323733, finish_time:359827 credits:50
+Total execution time: 36094, current execution time: 36094, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 73
+UTHREAD_DONE, elapsed time: 314127, start_time: 359870, finish_time:673997 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410676252, start_time_usec: 359870, finish_time: 1410676252, finish_time_usec: 673997
+Total execution time: 314127, current execution time: 314127, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 105
+UTHREAD_DONE, elapsed time: 1285, start_time: 682108, finish_time:683393 credits:50
+Total execution time: 1285, current execution time: 1285, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 42
+UTHREAD_DONE, elapsed time: 36931, start_time: 683422, finish_time:720353 credits:50
+Total execution time: 36931, current execution time: 36931, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 74
+UTHREAD_DONE, elapsed time: 322011, start_time: 720393, finish_time:42404 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410676252, start_time_usec: 720393, finish_time: 1410676253, finish_time_usec: 42404
+Total execution time: 322011, current execution time: 322011, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 106
+UTHREAD_DONE, elapsed time: 1279, start_time: 42473, finish_time:43752 credits:50
+Total execution time: 1279, current execution time: 1279, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 43
+UTHREAD_DONE, elapsed time: 36959, start_time: 43778, finish_time:80737 credits:50
+Total execution time: 36959, current execution time: 36959, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 75
+UTHREAD_DONE, elapsed time: 322133, start_time: 80777, finish_time:402910 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410676253, start_time_usec: 80777, finish_time: 1410676253, finish_time_usec: 402910
+Total execution time: 322133, current execution time: 322133, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 107
+UTHREAD_DONE, elapsed time: 1284, start_time: 402977, finish_time:404261 credits:50
+Total execution time: 1284, current execution time: 1284, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 44
+UTHREAD_DONE, elapsed time: 36903, start_time: 404287, finish_time:441190 credits:50
+Total execution time: 36903, current execution time: 36903, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 76
+UTHREAD_DONE, elapsed time: 322192, start_time: 441231, finish_time:763423 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410676253, start_time_usec: 441231, finish_time: 1410676253, finish_time_usec: 763423
+Total execution time: 322192, current execution time: 322192, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 108
+UTHREAD_DONE, elapsed time: 1278, start_time: 763475, finish_time:764753 credits:50
+Total execution time: 1278, current execution time: 1278, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 45
+UTHREAD_DONE, elapsed time: 36890, start_time: 764796, finish_time:801686 credits:50
+Total execution Quitting kthread (1)
+Quitting kthread (0)
+time: 36890, current execution time: 36890, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 77
+UTHREAD_DONE, elapsed time: 338391, start_time: 801767, finish_time:140158 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410676253, start_time_usec: 801767, finish_time: 1410676254, finish_time_usec: 140158
+Total execution time: 338391, current execution time: 338391, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 109
+UTHREAD_DONE, elapsed time: 1332, start_time: 140215, finish_time:141547 credits:50
+Total execution time: 1332, current execution time: 1332, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 46
+UTHREAD_DONE, elapsed time: 44927, start_time: 141591, finish_time:186518 credits:50
+Total execution time: 44927, current execution time: 44927, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 78
+UTHREAD_DONE, elapsed time: 314155, start_time: 186560, finish_time:500715 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410676254, start_time_usec: 186560, finish_time: 1410676254, finish_time_usec: 500715
+Total execution time: 314155, current execution time: 314155, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 110
+UTHREAD_DONE, elapsed time: 1282, start_time: 500769, finish_time:502051 credits:50
+Total execution time: 1282, current execution time: 1282, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 47
+UTHREAD_DONE, elapsed time: 28866, start_time: 518117, finish_time:546983 credits:50
+Total execution time: 28866, current execution time: 28866, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 79
+UTHREAD_DONE, elapsed time: 322042, start_time: 547032, finish_time:869074 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410676254, start_time_usec: 547032, finish_time: 1410676254, finish_time_usec: 869074
+Total execution time: 322042, current execution time: 322042, time_given: 150000, initial_credits: 50, credits left: 0, thread_id: 111
+**************** Printing statistics ************
+Matrix multiplication is correct.

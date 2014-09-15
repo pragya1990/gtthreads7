@@ -1,0 +1,134 @@
+Before ksched INFO INIT
+BEFORE KTHREAD_INIT
+Kthread tid: 6770, pid: 6770
+Before kthread_credit
+After kthread_credit
+Before kthread_init runqueue
+after kthread_init runqueue
+after cpu_affinit
+after yield
+AFTER KTHREAD_INIT
+AFTER SIGHANDLER
+num_cpus: 2
+INITIALISING VIRTUAL processors
+AFTER MALLCO
+INSIDE KTHREAD_CREATE
+TID of the new kthread: 6772
+kthread(1) created !!
+Kthread tid: 6772, pid: 6772
+Before kthread_credit
+After kthread_credit
+Before kthread_init runqueue
+after kthread_init runqueue
+after cpu_affinit
+after yield
+group_id: 0, current_row: 0, rows_per_thread: 2, size: 4, credits: 0, inx: 0
+group_id: 0, current_row: 2, rows_per_thread: 2, size: 4, credits: 0, inx: 1
+group_id: 1, current_row: 0, rows_per_thread: 2, size: 4, credits: 0, inx: 2
+group_id: 1, current_row: 2, rows_per_thread: 2, size: 4, credits: 0, inx: 3
+group_id: 2, current_row: 0, rows_per_thread: 2, size: 4, credits: 0, inx: 4
+group_id: 2, current_row: 2, rows_per_thread: 2, size: 4, credits: 0, inx: 5
+group_id: 3, current_row: 0, rows_per_thread: 2, size: 4, credits: 0, inx: 6
+group_id: 3, current_row: 2, rows_per_thread: 2, size: 4, credits: 0, inx: 7
+UTHREAD_DONE, elapsed time: 4, start_time: 659718, finish_time:659722 credits:25
+group_id: 440 current execution time: , rows_per_thread: ,, size: 2, credits: ,, inx: 2
+, credits left: 0, thread_id: 0
+group_id: 4, current_row: 4, rows_per_thread: 4, size: 8, credits: 0, inx: 9
+group_id: 5, current_row: 0, rows_per_thread: 4, size: 8, credits: 0, inx: 10
+group_id: 5, current_row: 4, rows_per_thread: 4, size: 8, credits: 0, inx: 11
+UTHREAD_DONE, elapsed time: 3, start_time: 659769, finish_time:659772 credits:50
+Total execution time: 3, current execution time: 3, time_given: 50000, initial_credits: group_id: 60014, size: 8, credits: 0, inx: 12
+group_id: 6, current_row: 4, rows_per_thread: 4, size: 8, credits: 0, inx: 13
+group_id: 7, current_row: 0, rows_per_thread: 4, size: 8, credits: 0, inx: 14
+UTHREAD_DONE, elapsed time: 3, start_time: 659805, finish_time:659808 credits:75
+Total execution time: 3, current execution time: 3, time_given: 75000, initial_credits: 75, credits left: 0, thread_id: 2
+group_id: 7, current_row: 4, rows_per_thread: 4, size: 8, credits: 0, inx: 15
+group_id: 8, current_row: 0, rows_per_thread: 6, size: 12, credits: 0, inx: 16
+group_id: 8, current_row: 6, rows_per_thread: 6, size: 12, credits: 0, inx: 17
+UTHREAD_DONE, elapsed time: 3, start_time: 659841, finish_time:659844 credits:100
+Total execution time: 3, current execution time: 3, time_given: 100000, initial_credits: 100, credits left: 0, thread_id: 3
+group_id: 9, current_row: 0, rows_per_thread: 6, size: 12, credits: 0, inx: 18
+group_id: 9, current_row: 6, rows_per_thread: 6, size: 12, credits: 0, inx: 19
+group_id: 10, current_row: 0, rows_per_thread: 6, size: 12, credits: 0, inx: 20
+UTHREAD_DONE, elapsed time: 3, start_time: 659874, finish_time:659877 credits:25
+Total execution time: 3, current execution time: 3, time_given: 25000, initial_credits: 25, credits left: 0, thread_id: g
+10, current_row: 6, rows_per_thread: 6, size: 12, credits: 0, inx: 21
+group_id: 11, current_row: 0, rows_per_thread: 6, size: 12, credits: 0, inx: 22
+group_id: 11, current_row: 6, rows_per_thread: 6, size: 12, credits: 0, inx: 23
+UTHREAD_DONE, elapsed time: 3, start_time: 659908, finish_time:659911 credits:50
+Total execution time: 3, current execution time: 3, time_given: 50000, initial_credits: 50, credits left: 0, thread_id: 5
+group_id: 12, current_row: 0, rows_per_thread: 8, size: 16, credits: 0, inx: 24
+group_id: 12, current_row: 8, rows_per_thread: 8, size: 16, credits: 0, inx: 25
+UTHREAD_DONE, elapsed time: 3, start_time: 659937, finish_time:659940 credits:75
+Total execution time: 3, current execution time: 3, time_given: group, initial_credits: 13, credits left: 00 thread_id: ,
+8, size: 16, credits: 0, inx: 26
+group_id: 13, current_row: 8, rows_per_thread: 8, size: 16, credits: 0, inx: 27
+group_id: 14, current_row: 0, rows_per_thread: 8, size: 16, credits: 0, inx: 28
+group_id: 14, current_row: 8, rows_per_thread: 8, size: 16, credits: 0, Before ksched INFO INIT
+BEFORE KTHREAD_INIT
+Kthread tid: 6770, pid: 6770
+Before kthread_credit
+After kthread_credit
+Before kthread_init runqueue
+after kthread_init runqueue
+after cpu_affinit
+after yield
+AFTER KTHREAD_INIT
+AFTER SIGHANDLER
+num_cpus: 2
+INITIALISING VIRTUAL processors
+AFTER MALLCO
+INSIDE KTHREAD_CREATE
+TID of the new kthread: 6772
+kthread(1) created !!
+Kthread tid: 6772, pid: 6772
+Before kthread_credit
+After kthread_credit
+Before kthread_init runqueue
+after kthread_init runqueue
+after cpu_affinit
+after yield
+group_id: 0, current_row: 0, rows_per_thread: 2, size: 4, credits: 0, inx: 0
+group_id: 0, current_row: 2, rows_per_thread: 2, size: 4, credits: 0, inx: 1
+group_id: 1, current_row: 0, rows_per_thread: 2, size: 4, credits: 0, inx: 2
+group_id: 1, current_row: 2, rows_per_thread: 2, size: 4, credits: 0, inx: 3
+group_id: 2, current_row: 0, rows_per_thread: 2, size: 4, credits: 0, inx: 4
+group_id: 2, current_row: 2, rows_per_thread: 2, size: 4, credits: 0, inx: 5
+group_id: 3, current_row: 0, rows_per_thread: 2, size: 4, credits: 0, inx: 6
+group_id: 3, current_row: 2, rows_per_thread: 2, size: 4, credits: 0, inx: 7
+UTHREAD_DONE, elapsed time: 4, start_time: 659718, finish_time:659722 credits:25
+group_id: 440 current execution time: , rows_per_thread: ,, size: 2, credits: ,, inx: 2
+, credits left: 0, thread_id: 0
+group_id: 4, current_row: 4, rows_per_thread: 4, size: 8, credits: 0, inx: 9
+group_id: 5, current_row: 0, rows_per_thread: 4, size: 8, credits: 0, inx: 10
+group_id: 5, current_row: 4, rows_per_thread: 4, size: 8, credits: 0, inx: 11
+UTHREAD_DONE, elapsed time: 3, start_time: 659769, finish_time:659772 credits:50
+Total execution time: 3, current execution time: 3, time_given: 50000, initial_credits: group_id: 60014, size: 8, credits: 0, inx: 12
+group_id: 6, current_row: 4, rows_per_thread: 4, size: 8, credits: 0, inx: 13
+group_id: 7, current_row: 0, rows_per_thread: 4, size: 8, credits: 0, inx: 14
+UTHREAD_DONE, elapsed time: 3, start_time: 659805, finish_time:659808 credits:75
+Total execution time: 3, current execution time: 3, time_given: 75000, initial_credits: 75, credits left: 0, thread_id: 2
+group_id: 7, current_row: 4, rows_per_thread: 4, size: 8, credits: 0, inx: 15
+group_id: 8, current_row: 0, rows_per_thread: 6, size: 12, credits: 0, inx: 16
+group_id: 8, current_row: 6, rows_per_thread: 6, size: 12, credits: 0, inx: 17
+UTHREAD_DONE, elapsed time: 3, start_time: 659841, finish_time:659844 credits:100
+Total execution time: 3, current execution time: 3, time_given: 100000, initial_credits: 100, credits left: 0, thread_id: 3
+group_id: 9, current_row: 0, rows_per_thread: 6, size: 12, credits: 0, inx: 18
+group_id: 9, current_row: 6, rows_per_thread: 6, size: 12, credits: 0, inx: 19
+group_id: 10, current_row: 0, rows_per_thread: 6, size: 12, credits: 0, inx: 20
+UTHREAD_DONE, elapsed time: 3, start_time: 659874, finish_time:659877 credits:25
+Total execution time: 3, current execution time: 3, time_given: 25000, initial_credits: 25, credits left: 0, thread_id: g
+10, current_row: 6, rows_per_thread: 6, size: 12, credits: 0, inx: 21
+group_id: 11, current_row: 0, rows_per_thread: 6, size: 12, credits: 0, inx: 22
+group_id: 11, current_row: 6, rows_per_thread: 6, size: 12, credits: 0, inx: 23
+UTHREAD_DONE, elapsed time: 3, start_time: 659908, finish_time:659911 credits:50
+Total execution time: 3, current execution time: 3, time_given: 50000, initial_credits: 50, credits left: 0, thread_id: 5
+group_id: 12, current_row: 0, rows_per_thread: 8, size: 16, credits: 0, inx: 24
+group_id: 12, current_row: 8, rows_per_thread: 8, size: 16, credits: 0, inx: 25
+UTHREAD_DONE, elapsed time: 3, start_time: 659937, finish_time:659940 credits:75
+Total execution time: 3, current execution time: 3, time_given: group, initial_credits: 13, credits left: 00 thread_id: ,
+8, size: 16, credits: 0, inx: 26
+group_id: 13, current_row: 8, rows_per_thread: 8, size: 16, credits: 0, inx: 27
+group_id: 14, current_row: 0, rows_per_thread: 8, size: 16, credits: 0, inx: 28
+group_id: 14, current_row: 8, rows_per_thread: 8, size: 16, credits: 0, Quitting kthread (1)
+Quitting kthread (0)

@@ -1,0 +1,11 @@
+Number of cores : 2
+uthread sigaltstack install failed.
+uthread_init failed on kthread(1)
+Inside main
+Before gtthread_app_init
+Kthread tid: 2805, pid: 2805
+TID of the new kthread: 2807
+kthread(1) created !!
+Kthread tid: 2807, pid: 2807
+Before info init
+After info init

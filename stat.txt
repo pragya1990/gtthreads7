@@ -1,0 +1,144 @@
+thread id: 0, group_id: 0, matrix_size: 0, initial_credits: 25, Run_time: 43636, Execution_time: 36
+thread id: 1, group_id: 0, matrix_size: 0, initial_credits: 25, Run_time: 20762, Execution_time: 42
+thread id: 2, group_id: 0, matrix_size: 0, initial_credits: 25, Run_time: 908, Execution_time: 41
+thread id: 3, group_id: 0, matrix_size: 0, initial_credits: 25, Run_time: 28817, Execution_time: 0
+thread id: 4, group_id: 0, matrix_size: 0, initial_credits: 25, Run_time: 43666, Execution_time: 33
+thread id: 5, group_id: 0, matrix_size: 0, initial_credits: 25, Run_time: 20796, Execution_time: 34
+thread id: 6, group_id: 0, matrix_size: 0, initial_credits: 25, Run_time: 952, Execution_time: 34
+thread id: 7, group_id: 0, matrix_size: 0, initial_credits: 25, Run_time: 28804, Execution_time: 0
+thread id: 8, group_id: 1, matrix_size: 0, initial_credits: 50, Run_time: 43695, Execution_time: 27
+thread id: 9, group_id: 1, matrix_size: 0, initial_credits: 50, Run_time: 20841, Execution_time: 48
+thread id: 10, group_id: 1, matrix_size: 0, initial_credits: 50, Run_time: 987, Execution_time: 37
+thread id: 11, group_id: 1, matrix_size: 0, initial_credits: 50, Run_time: 28786, Execution_time: 0
+thread id: 12, group_id: 1, matrix_size: 0, initial_credits: 50, Run_time: 43751, Execution_time: 37
+thread id: 13, group_id: 1, matrix_size: 0, initial_credits: 50, Run_time: 20878, Execution_time: 33
+thread id: 14, group_id: 1, matrix_size: 0, initial_credits: 50, Run_time: 1021, Execution_time: 34
+thread id: 15, group_id: 1, matrix_size: 0, initial_credits: 50, Run_time: 28774, Execution_time: 0
+thread id: 16, group_id: 2, matrix_size: 0, initial_credits: 75, Run_time: 43794, Execution_time: 22
+thread id: 17, group_id: 2, matrix_size: 0, initial_credits: 75, Run_time: 20943, Execution_time: 55
+thread id: 18, group_id: 2, matrix_size: 0, initial_credits: 75, Run_time: 1059, Execution_time: 37
+thread id: 19, group_id: 2, matrix_size: 0, initial_credits: 75, Run_time: 28758, Execution_time: 0
+thread id: 20, group_id: 2, matrix_size: 0, initial_credits: 75, Run_time: 43733, Execution_time: 36
+thread id: 21, group_id: 2, matrix_size: 0, initial_credits: 75, Run_time: 20885, Execution_time: 36
+thread id: 22, group_id: 2, matrix_size: 0, initial_credits: 75, Run_time: 1000, Execution_time: 41
+thread id: 23, group_id: 2, matrix_size: 0, initial_credits: 75, Run_time: 28649, Execution_time: 0
+thread id: 24, group_id: 3, matrix_size: 0, initial_credits: 100, Run_time: 43763, Execution_time: 34
+thread id: 25, group_id: 3, matrix_size: 0, initial_credits: 100, Run_time: 20917, Execution_time: 35
+thread id: 26, group_id: 3, matrix_size: 0, initial_credits: 100, Run_time: 1035, Execution_time: 35
+thread id: 27, group_id: 3, matrix_size: 0, initial_credits: 100, Run_time: 28682, Execution_time: 35
+thread id: 28, group_id: 3, matrix_size: 0, initial_credits: 100, Run_time: 43797, Execution_time: 32
+thread id: 29, group_id: 3, matrix_size: 0, initial_credits: 100, Run_time: 20961, Execution_time: 34
+thread id: 30, group_id: 3, matrix_size: 0, initial_credits: 100, Run_time: 1061, Execution_time: 33
+thread id: 31, group_id: 3, matrix_size: 0, initial_credits: 100, Run_time: 28706, Execution_time: 34
+thread id: 32, group_id: 4, matrix_size: 0, initial_credits: 25, Run_time: 44071, Execution_time: 289
+thread id: 33, group_id: 4, matrix_size: 0, initial_credits: 25, Run_time: 21223, Execution_time: 267
+thread id: 34, group_id: 4, matrix_size: 0, initial_credits: 25, Run_time: 1327, Execution_time: 262
+thread id: 35, group_id: 4, matrix_size: 0, initial_credits: 25, Run_time: 28972, Execution_time: 270
+thread id: 36, group_id: 4, matrix_size: 0, initial_credits: 25, Run_time: 44361, Execution_time: 289
+thread id: 37, group_id: 4, matrix_size: 0, initial_credits: 25, Run_time: 21489, Execution_time: 267
+thread id: 38, group_id: 4, matrix_size: 0, initial_credits: 25, Run_time: 1599, Execution_time: 272
+thread id: 39, group_id: 4, matrix_size: 0, initial_credits: 25, Run_time: 29454, Execution_time: 479
+thread id: 40, group_id: 5, matrix_size: 0, initial_credits: 50, Run_time: 44626, Execution_time: 262
+thread id: 41, group_id: 5, matrix_size: 0, initial_credits: 50, Run_time: 21433, Execution_time: 262
+thread id: 42, group_id: 5, matrix_size: 0, initial_credits: 50, Run_time: 1540, Execution_time: 259
+thread id: 43, group_id: 5, matrix_size: 0, initial_credits: 50, Run_time: 29252, Execution_time: 0
+thread id: 44, group_id: 5, matrix_size: 0, initial_credits: 50, Run_time: 44573, Execution_time: 254
+thread id: 45, group_id: 5, matrix_size: 0, initial_credits: 50, Run_time: 21708, Execution_time: 264
+thread id: 46, group_id: 5, matrix_size: 0, initial_credits: 50, Run_time: 1816, Execution_time: 261
+thread id: 47, group_id: 5, matrix_size: 0, initial_credits: 50, Run_time: 29490, Execution_time: 238
+thread id: 48, group_id: 6, matrix_size: 0, initial_credits: 75, Run_time: 44855, Execution_time: 268
+thread id: 49, group_id: 6, matrix_size: 0, initial_credits: 75, Run_time: 21987, Execution_time: 262
+thread id: 50, group_id: 6, matrix_size: 0, initial_credits: 75, Run_time: 2098, Execution_time: 265
+thread id: 51, group_id: 6, matrix_size: 0, initial_credits: 75, Run_time: 30001, Execution_time: 497
+thread id: 52, group_id: 6, matrix_size: 0, initial_credits: 75, Run_time: 45138, Execution_time: 270
+thread id: 53, group_id: 6, matrix_size: 0, initial_credits: 75, Run_time: 22265, Execution_time: 267
+thread id: 54, group_id: 6, matrix_size: 0, initial_credits: 75, Run_time: 2374, Execution_time: 265
+thread id: 55, group_id: 6, matrix_size: 0, initial_credits: 75, Run_time: 30251, Execution_time: 126
+thread id: 56, group_id: 7, matrix_size: 0, initial_credits: 100, Run_time: 45407, Execution_time: 257
+thread id: 57, group_id: 7, matrix_size: 0, initial_credits: 100, Run_time: 22559, Execution_time: 270
+thread id: 58, group_id: 7, matrix_size: 0, initial_credits: 100, Run_time: 2653, Execution_time: 263
+thread id: 59, group_id: 7, matrix_size: 0, initial_credits: 100, Run_time: 30383, Execution_time: 257
+thread id: 60, group_id: 7, matrix_size: 0, initial_credits: 100, Run_time: 45561, Execution_time: 264
+thread id: 61, group_id: 7, matrix_size: 0, initial_credits: 100, Run_time: 22704, Execution_time: 255
+thread id: 62, group_id: 7, matrix_size: 0, initial_credits: 100, Run_time: 2822, Execution_time: 260
+thread id: 63, group_id: 7, matrix_size: 0, initial_credits: 100, Run_time: 30875, Execution_time: 483
+thread id: 64, group_id: 8, matrix_size: 0, initial_credits: 25, Run_time: 93822, Execution_time: 939
+thread id: 65, group_id: 8, matrix_size: 0, initial_credits: 25, Run_time: 66941, Execution_time: 931
+thread id: 66, group_id: 8, matrix_size: 0, initial_credits: 25, Run_time: 62034, Execution_time: 900
+thread id: 67, group_id: 8, matrix_size: 0, initial_credits: 25, Run_time: 73123, Execution_time: 1123
+thread id: 68, group_id: 8, matrix_size: 0, initial_credits: 25, Run_time: 94056, Execution_time: 228
+thread id: 69, group_id: 8, matrix_size: 0, initial_credits: 25, Run_time: 67186, Execution_time: 239
+thread id: 70, group_id: 8, matrix_size: 0, initial_credits: 25, Run_time: 62240, Execution_time: 200
+thread id: 71, group_id: 8, matrix_size: 0, initial_credits: 25, Run_time: 73168, Execution_time: 45
+thread id: 72, group_id: 9, matrix_size: 0, initial_credits: 50, Run_time: 142296, Execution_time: 410
+thread id: 73, group_id: 9, matrix_size: 0, initial_credits: 50, Run_time: 111450, Execution_time: 439
+thread id: 74, group_id: 9, matrix_size: 0, initial_credits: 50, Run_time: 118438, Execution_time: 301
+thread id: 75, group_id: 9, matrix_size: 0, initial_credits: 50, Run_time: 92412, Execution_time: 409
+thread id: 76, group_id: 9, matrix_size: 0, initial_credits: 50, Run_time: 142513, Execution_time: 202
+thread id: 77, group_id: 9, matrix_size: 0, initial_credits: 50, Run_time: 111649, Execution_time: 192
+thread id: 78, group_id: 9, matrix_size: 0, initial_credits: 50, Run_time: 118633, Execution_time: 184
+thread id: 79, group_id: 9, matrix_size: 0, initial_credits: 50, Run_time: 93873, Execution_time: 1454
+thread id: 80, group_id: 10, matrix_size: 0, initial_credits: 75, Run_time: 190759, Execution_time: 873
+thread id: 81, group_id: 10, matrix_size: 0, initial_credits: 75, Run_time: 155907, Execution_time: 894
+thread id: 82, group_id: 10, matrix_size: 0, initial_credits: 75, Run_time: 174846, Execution_time: 709
+thread id: 83, group_id: 10, matrix_size: 0, initial_credits: 75, Run_time: 125123, Execution_time: 1123
+thread id: 84, group_id: 10, matrix_size: 0, initial_credits: 75, Run_time: 234997, Execution_time: 44233
+thread id: 85, group_id: 10, matrix_size: 0, initial_credits: 75, Run_time: 196146, Execution_time: 40233
+thread id: 86, group_id: 10, matrix_size: 0, initial_credits: 75, Run_time: 175043, Execution_time: 181
+thread id: 87, group_id: 10, matrix_size: 0, initial_credits: 75, Run_time: 125123, Execution_time: 0
+thread id: 88, group_id: 11, matrix_size: 0, initial_credits: 100, Run_time: 283252, Execution_time: 369
+thread id: 89, group_id: 11, matrix_size: 0, initial_credits: 100, Run_time: 240384, Execution_time: 372
+thread id: 90, group_id: 11, matrix_size: 0, initial_credits: 100, Run_time: 283252, Execution_time: 53115
+thread id: 91, group_id: 11, matrix_size: 0, initial_credits: 100, Run_time: 153184, Execution_time: 286
+thread id: 92, group_id: 11, matrix_size: 0, initial_credits: 100, Run_time: 283371, Execution_time: 237
+thread id: 93, group_id: 11, matrix_size: 0, initial_credits: 100, Run_time: 240455, Execution_time: 193
+thread id: 94, group_id: 11, matrix_size: 0, initial_credits: 100, Run_time: 283326, Execution_time: 192
+thread id: 95, group_id: 11, matrix_size: 0, initial_credits: 100, Run_time: 153408, Execution_time: 225
+thread id: 96, group_id: 12, matrix_size: 0, initial_credits: 25, Run_time: 813916, Execution_time: 1159
+thread id: 97, group_id: 12, matrix_size: 0, initial_credits: 25, Run_time: 728560, Execution_time: 40845
+thread id: 98, group_id: 12, matrix_size: 0, initial_credits: 25, Run_time: 899322, Execution_time: 52415
+thread id: 99, group_id: 12, matrix_size: 0, initial_credits: 25, Run_time: 455003, Execution_time: 1133
+thread id: 100, group_id: 12, matrix_size: 0, initial_credits: 25, Run_time: 814357, Execution_time: 434
+thread id: 101, group_id: 12, matrix_size: 0, initial_credits: 25, Run_time: 687707, Execution_time: 1825
+thread id: 102, group_id: 12, matrix_size: 0, initial_credits: 25, Run_time: 846889, Execution_time: 1880
+thread id: 103, group_id: 12, matrix_size: 0, initial_credits: 25, Run_time: 455322, Execution_time: 362
+thread id: 104, group_id: 13, matrix_size: 0, initial_credits: 50, Run_time: 1341956, Execution_time: 513
+thread id: 105, group_id: 13, matrix_size: 0, initial_credits: 50, Run_time: 1171496, Execution_time: 337
+thread id: 106, group_id: 13, matrix_size: 0, initial_credits: 50, Run_time: 1459590, Execution_time: 1622
+thread id: 107, group_id: 13, matrix_size: 0, initial_credits: 50, Run_time: 769954, Execution_time: 252
+thread id: 108, group_id: 13, matrix_size: 0, initial_credits: 50, Run_time: 1341434, Execution_time: 47717
+thread id: 109, group_id: 13, matrix_size: 0, initial_credits: 50, Run_time: 1171150, Execution_time: 1309
+thread id: 110, group_id: 13, matrix_size: 0, initial_credits: 50, Run_time: 1460849, Execution_time: 1252
+thread id: 111, group_id: 13, matrix_size: 0, initial_credits: 50, Run_time: 769702, Execution_time: 1872
+thread id: 112, group_id: 14, matrix_size: 0, initial_credits: 75, Run_time: 1871325, Execution_time: 1609
+thread id: 113, group_id: 14, matrix_size: 0, initial_credits: 75, Run_time: 1696286, Execution_time: 41446
+thread id: 114, group_id: 14, matrix_size: 0, initial_credits: 75, Run_time: 2083456, Execution_time: 1531
+thread id: 115, group_id: 14, matrix_size: 0, initial_credits: 75, Run_time: 1075194, Execution_time: 5407
+thread id: 116, group_id: 14, matrix_size: 0, initial_credits: 75, Run_time: 1872353, Execution_time: 1061
+thread id: 117, group_id: 14, matrix_size: 0, initial_credits: 75, Run_time: 1696712, Execution_time: 458
+thread id: 118, group_id: 14, matrix_size: 0, initial_credits: 75, Run_time: 2136095, Execution_time: 52632
+thread id: 119, group_id: 14, matrix_size: 0, initial_credits: 75, Run_time: 1076910, Execution_time: 124
+thread id: 120, group_id: 15, matrix_size: 0, initial_credits: 100, Run_time: 2445339, Execution_time: 45689
+thread id: 121, group_id: 15, matrix_size: 0, initial_credits: 100, Run_time: 2184955, Execution_time: 177
+thread id: 122, group_id: 15, matrix_size: 0, initial_credits: 100, Run_time: 2756384, Execution_time: 483
+thread id: 123, group_id: 15, matrix_size: 0, initial_credits: 100, Run_time: 1416083, Execution_time: 317
+thread id: 124, group_id: 15, matrix_size: 0, initial_credits: 100, Run_time: 2445911, Execution_time: 563
+thread id: 125, group_id: 15, matrix_size: 0, initial_credits: 100, Run_time: 2143622, Execution_time: 1847
+thread id: 126, group_id: 15, matrix_size: 0, initial_credits: 100, Run_time: 2756588, Execution_time: 198
+thread id: 127, group_id: 15, matrix_size: 0, initial_credits: 100, Run_time: 1416889, Execution_time: 800
+group_id: 0, matrix_size: 32, initial_credits: 25, mean_run_time: 23542, mean_exec_time: 27, st_dev_run_time: 15419, st_dev_exec_time: 16
+group_id: 1, matrix_size: 32, initial_credits: 50, mean_run_time: 23591, mean_exec_time: 27, st_dev_run_time: 15409, st_dev_exec_time: 16
+group_id: 2, matrix_size: 32, initial_credits: 75, mean_run_time: 23602, mean_exec_time: 28, st_dev_run_time: 15405, st_dev_exec_time: 18
+group_id: 3, matrix_size: 32, initial_credits: 100, mean_run_time: 23615, mean_exec_time: 34, st_dev_run_time: 15401, st_dev_exec_time: 1
+group_id: 4, matrix_size: 64, initial_credits: 25, mean_run_time: 24062, mean_exec_time: 299, st_dev_run_time: 15418, st_dev_exec_time: 68
+group_id: 5, matrix_size: 64, initial_credits: 50, mean_run_time: 24304, mean_exec_time: 225, st_dev_run_time: 15468, st_dev_exec_time: 85
+group_id: 6, matrix_size: 64, initial_credits: 75, mean_run_time: 24871, mean_exec_time: 277, st_dev_run_time: 15432, st_dev_exec_time: 94
+group_id: 7, matrix_size: 64, initial_credits: 100, mean_run_time: 25370, mean_exec_time: 288, st_dev_run_time: 15427, st_dev_exec_time: 73
+group_id: 8, matrix_size: 128, initial_credits: 25, mean_run_time: 74071, mean_exec_time: 575, st_dev_run_time: 12115, st_dev_exec_time: 406
+group_id: 9, matrix_size: 128, initial_credits: 50, mean_run_time: 116408, mean_exec_time: 448, st_dev_run_time: 17647, st_dev_exec_time: 392
+group_id: 10, matrix_size: 128, initial_credits: 75, mean_run_time: 172243, mean_exec_time: 11030, st_dev_run_time: 34594, st_dev_exec_time: 18045
+group_id: 11, matrix_size: 128, initial_credits: 100, mean_run_time: 240079, mean_exec_time: 6873, st_dev_run_time: 53074, st_dev_exec_time: 17477
+group_id: 12, matrix_size: 256, initial_credits: 25, mean_run_time: 712634, mean_exec_time: 12506, st_dev_run_time: 160834, st_dev_exec_time: 19918
+group_id: 13, matrix_size: 256, initial_credits: 50, mean_run_time: 1185766, mean_exec_time: 6859, st_dev_run_time: 261176, st_dev_exec_time: 15453
+group_id: 14, matrix_size: 256, initial_credits: 75, mean_run_time: 1688541, mean_exec_time: 13033, st_dev_run_time: 383058, st_dev_exec_time: 19888
+group_id: 15, matrix_size: 256, initial_credits: 100, mean_run_time: 2195721, mean_exec_time: 6259, st_dev_run_time: 496369, st_dev_exec_time: 14911
