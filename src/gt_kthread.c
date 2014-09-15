@@ -75,7 +75,7 @@ int kthread_create(kthread_t *tid, int (*kthread_start_func)(void *), void *arg)
 
 	if(retval > 0)
 	{
-		printf("TID of the new kthread: %d\n", retval);
+//		printf("TID of the new kthread: %d\n", retval);
 		*tid = retval;
 		return retval;
 	}
@@ -114,35 +114,30 @@ static void kthread_init(kthread_context_t *k_ctx)
 	k_ctx->pid = syscall(SYS_getpid);
 	k_ctx->tid = syscall(SYS_gettid);
 
-	printf("Kthread tid: %d, pid: %d\n", k_ctx->tid, k_ctx->pid);
-
 	/* XXX: Put if-else loops for different scheduling */
 	/* For priority co-scheduling */
 	//k_ctx->kthread_sched_timer = ksched_priority;
 	//k_ctx->kthread_sched_relay = ksched_cosched;
 	
 	/* For credit-based scheduling */
-	printf("Before kthread_credit\n");
 	k_ctx->kthread_sched_timer = ksched_credit;
 
-	printf("After kthread_credit\n");
 	/* XXX: kthread runqueue balancing (TBD) */
 	k_ctx->kthread_runqueue_balance = NULL;
 
 	k_ctx->start_time = NULL;
 
-	printf("Before kthread_init runqueue\n");
 	/* Initialize kthread runqueue */
 	kthread_init_runqueue(&(k_ctx->krunqueue));
-	printf("after kthread_init runqueue\n");
+	//printf("after kthread_init runqueue\n");
 
 	cpu_affinity_mask = (1 << k_ctx->cpuid);
 	sched_setaffinity(k_ctx->tid,sizeof(unsigned long),&cpu_affinity_mask);
 
-	printf("after cpu_affinit\n");
+//	printf("after cpu_affinit\n");
 	sched_yield();
 
-	printf("after yield\n");
+//	printf("after yield\n");
 	/* Scheduled on target cpu */
 	k_ctx->cpu_apic_id = kthread_apic_id();
 
@@ -359,7 +354,7 @@ extern void gtthread_app_init()
 	kthread_t k_tid;
 	unsigned int num_cpus, inx;
 		
-	printf("Before ksched INFO INIT\n");
+//	printf("Before ksched INFO INIT\n");
 	/* Initialize shared schedule information */
 	ksched_info_init(&ksched_shared_info);
 
@@ -370,12 +365,12 @@ extern void gtthread_app_init()
 	k_ctx_main = (kthread_context_t *)MALLOC_SAFE(sizeof(kthread_context_t));
 	k_ctx_main->cpuid = 0;
 	k_ctx_main->kthread_app_func = &gtthread_app_start;
-	printf("BEFORE KTHREAD_INIT\n");
+//	printf("BEFORE KTHREAD_INIT\n");
 	kthread_init(k_ctx_main);
-	printf("AFTER KTHREAD_INIT\n");
+//	printf("AFTER KTHREAD_INIT\n");
 //	kthread_init_vtalrm_timeslice();
 	kthread_install_sighandler(SIGVTALRM, k_ctx_main->kthread_sched_timer);
-	printf("AFTER SIGHANDLER\n");
+//	printf("AFTER SIGHANDLER\n");
 //	kthread_install_sighandler(SIGUSR1, k_ctx_main->kthread_sched_relay);
 
 	/* Num of logical processors (cpus/cores) */
@@ -388,13 +383,13 @@ extern void gtthread_app_init()
 	/* kthreads (virtual processors) on all other logical processors */
 	for(inx=1; inx<num_cpus; inx++)
 	{
-		printf("INITIALISING VIRTUAL processors\n");
+//		printf("INITIALISING VIRTUAL processors\n");
 		k_ctx = (kthread_context_t *)MALLOCZ_SAFE(sizeof(kthread_context_t));
-		printf("AFTER MALLCO\n");
+//		printf("AFTER MALLCO\n");
 		k_ctx->cpuid = inx;
 		k_ctx->kthread_app_func = &gtthread_app_start;
 		// kthread_init called inside kthread_handler *
-		printf("INSIDE KTHREAD_CREATE\n");
+//		printf("INSIDE KTHREAD_CREATE\n");
 		if(kthread_create(&k_tid, kthread_handler, (void *)k_ctx) < 0)
 		{
 			fprintf(stderr, "kthread creation failed (errno:%d)\n", errno );
@@ -402,7 +397,7 @@ extern void gtthread_app_init()
 		}
 		kthread_install_sighandler(SIGVTALRM, k_ctx->kthread_sched_timer);
 
-		printf( "kthread(%d) created !!\n", inx);
+//		printf( "kthread(%d) created !!\n", inx);
 	}
 
 	{

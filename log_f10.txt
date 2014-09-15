@@ -1,0 +1,1715 @@
+Before ksched INFO INIT
+BEFORE KTHREAD_INIT
+Kthread tid: 2087, pid: 2087
+Before kthread_credit
+After kthread_credit
+Before kthread_init runqueue
+after kthread_init runqueue
+after cpu_affinit
+after yield
+AFTER KTHREAD_INIT
+AFTER SIGHANDLER
+num_cpus: 4
+INITIALISING VIRTUAL processors
+AFTER MALLCO
+INSIDE KTHREAD_CREATE
+TID of the new kthread: 2089
+kthread(1) created !!
+INITIALISING VIRTUAL processors
+AFTER MALLCO
+INSIDE KTHREAD_CREATE
+TID of the new kthread: 2090
+kthread(2) created !!
+INITIALISING VIRTUAL processors
+AFTER MALLCO
+INSIDE KTHREAD_CREATE
+TID of the new kthread: 2091
+kthread(3) created !!
+Kthread tid: 2089, pid: 2089
+Before kthread_credit
+After kthread_credit
+Before kthread_init runqueue
+after kthread_init runqueue
+Kthread tid: 2090, pid: 2090
+Before kthread_credit
+After kthread_credit
+Before kthread_init runqueue
+after kthread_init runqueue
+Kthread tid: 2091, pid: 2091
+Before kthread_credit
+After kthread_credit
+Before kthread_init runqueue
+after kthread_init runqueue
+after cpu_affinit
+after cpu_affinit
+after cpu_affinit
+after yield
+after yield
+after yield
+group_id: 0, current_row: 0, rows_per_thread: 4, size: 32, credits: 25, inx: 0, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 0, current_row: 4, rows_per_thread: 4, size: 32, credits: 25, inx: 1, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 0, current_row: 8, rows_per_thread: 4, size: 32, credits: 25, inx: 2, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 0, current_row: 12, rows_per_thread: 4, size: 32, credits: 25, inx: 3, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 0, current_row: 16, rows_per_thread: 4, size: 32, credits: 25, inx: 4, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 0, current_row: 20, rows_per_thread: 4, size: 32, credits: 25, inx: 5, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 0, current_row: 24, rows_per_thread: 4, size: 32, credits: 25, inx: 6, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 0, current_row: 28, rows_per_thread: 4, size: 32, credits: 25, inx: 7, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 0, rows_per_thread: 4, size: 32, credits: 50, inx: 8, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 4, rows_per_thread: 4, size: 32, credits: 50, inx: 9, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 8, rows_per_thread: 4, size: 32, credits: 50, inx: 10, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 12, rows_per_thread: 4, size: 32, credits: 50, inx: 11, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 16, rows_per_thread: 4, size: 32, credits: 50, inx: 12, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 20, rows_per_thread: 4, size: 32, credits: 50, inx: 13, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 24, rows_per_thread: 4, size: 32, credits: 50, inx: 14, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 1, current_row: 28, rows_per_thread: 4, size: 32, credits: 50, inx: 15, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 2, current_row: 0, rows_per_thread: 4, size: 32, credits: 75, inx: 16, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 2, current_row: 4, rows_per_thread: 4, size: 32, credits: 75, inx: 17, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 2, current_row: 8, rows_per_thread: 4, size: 32, credits: 75, inx: 18, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 2, current_row: 12, rows_per_thread: 4, size: 32, credits: 75, inx: 19, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 2, current_row: 16, rows_per_thread: 4, size: 32, credits: 75, inx: 20, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 2, current_row: 20, rows_per_thread: 4, size: 32, credits: 75, inx: 21, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 2, current_row: 24, rows_per_thread: 4, size: 32, credits: 75, inx: 22, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 2, current_row: 28, rows_per_thread: 4, size: 32, credits: 75, inx: 23, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 3, current_row: 0, rows_per_thread: 4, size: 32, credits: 100, inx: 24, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 3, current_row: 4, rows_per_thread: 4, size: 32, credits: 100, inx: 25, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 3, current_row: 8, rows_per_thread: 4, size: 32, credits: 100, inx: 26, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 3, current_row: 12, rows_per_thread: 4, size: 32, credits: 100, inx: 27, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 3, current_row: 16, rows_per_thread: 4, size: 32, credits: 100, inx: 28, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 3, current_row: 20, rows_per_thread: 4, size: 32, credits: 100, inx: 29, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 3, current_row: 24, rows_per_thread: 4, size: 32, credits: 100, inx: 30, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 3, current_row: 28, rows_per_thread: 4, size: 32, credits: 100, inx: 31, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 4, current_row: 0, rows_per_thread: 8, size: 64, credits: 25, inx: 32, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 4, current_row: 8, rows_per_thread: 8, size: 64, credits: 25, inx: 33, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 4, current_row: 16, rows_per_thread: 8, size: 64, credits: 25, inx: 34, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 4, current_row: 24, rows_per_thread: 8, size: 64, credits: 25, inx: 35, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 4, current_row: 32, rows_per_thread: 8, size: 64, credits: 25, inx: 36, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 4, current_row: 40, rows_per_thread: 8, size: 64, credits: 25, inx: 37, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 4, current_row: 48, rows_per_thread: 8, size: 64, credits: 25, inx: 38, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 4, current_row: 56, rows_per_thread: 8, size: 64, credits: 25, inx: 39, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 5, current_row: 0, rows_per_thread: 8, size: 64, credits: 50, inx: 40, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 5, current_row: 8, rows_per_thread: 8, size: 64, credits: 50, inx: 41, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 5, current_row: 16, rows_per_thread: 8, size: 64, credits: 50, inx: 42, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 5, current_row: 24, rows_per_thread: 8, size: 64, credits: 50, inx: 43, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 5, current_row: 32, rows_per_thread: 8, size: 64, credits: 50, inx: 44, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 5, current_row: 40, rows_per_thread: 8, size: 64, credits: 50, inx: 45, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 5, current_row: 48, rows_per_thread: 8, size: 64, credits: 50, inx: 46, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 5, current_row: 56, rows_per_thread: 8, size: 64, credits: 50, inx: 47, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 6, current_row: 0, rows_per_thread: 8, size: 64, credits: 75, inx: 48, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 6, current_row: 8, rows_per_thread: 8, size: 64, credits: 75, inx: 49, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 6, current_row: 16, rows_per_thread: 8, size: 64, credits: 75, inx: 50, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 6, current_row: 24, rows_per_thread: 8, size: 64, credits: 75, inx: 51, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 6, current_row: 32, rows_per_thread: 8, size: 64, credits: 75, inx: 52, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 6, current_row: 40, rows_per_thread: 8, size: 64, credits: 75, inx: 53, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 6, current_row: 48, rows_per_thread: 8, size: 64, credits: 75, inx: 54, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 6, current_row: 56, rows_per_thread: 8, size: 64, credits: 75, inx: 55, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 7, current_row: 0, rows_per_thread: 8, size: 64, credits: 100, inx: 56, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 7, current_row: 8, rows_per_thread: 8, size: 64, credits: 100, inx: 57, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 7, current_row: 16, rows_per_thread: 8, size: 64, credits: 100, inx: 58, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 7, current_row: 24, rows_per_thread: 8, size: 64, credits: 100, inx: 59, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 7, current_row: 32, rows_per_thread: 8, size: 64, credits: 100, inx: 60, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 7, current_row: 40, rows_per_thread: 8, size: 64, credits: 100, inx: 61, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 7, current_row: 48, rows_per_thread: 8, size: 64, credits: 100, inx: 62, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 7, current_row: 56, rows_per_thread: 8, size: 64, credits: 100, inx: 63, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 8, current_row: 0, rows_per_thread: 16, size: 128, credits: 25, inx: 64, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 8, current_row: 16, rows_per_thread: 16, size: 128, credits: 25, inx: 65, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 8, current_row: 32, rows_per_thread: 16, size: 128, credits: 25, inx: 66, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 8, current_row: 48, rows_per_thread: 16, size: 128, credits: 25, inx: 67, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 8, current_row: 64, rows_per_thread: 16, size: 128, credits: 25, inx: 68, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 8, current_row: 80, rows_per_thread: 16, size: 128, credits: 25, inx: 69, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 8, current_row: 96, rows_per_thread: 16, size: 128, credits: 25, inx: 70, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 8, current_row: 112, rows_per_thread: 16, size: 128, credits: 25, inx: 71, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 9, current_row: 0, rows_per_thread: 16, size: 128, credits: 50, inx: 72, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 9, current_row: 16, rows_per_thread: 16, size: 128, credits: 50, inx: 73, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 9, current_row: 32, rows_per_thread: 16, size: 128, credits: 50, inx: 74, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 9, current_row: 48, rows_per_thread: 16, size: 128, credits: 50, inx: 75, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 9, current_row: 64, rows_per_thread: 16, size: 128, credits: 50, inx: 76, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 9, current_row: 80, rows_per_thread: 16, size: 128, credits: 50, inx: 77, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 9, current_row: 96, rows_per_thread: 16, size: 128, credits: 50, inx: 78, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 9, current_row: 112, rows_per_thread: 16, size: 128, credits: 50, inx: 79, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 10, current_row: 0, rows_per_thread: 16, size: 128, credits: 75, inx: 80, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 10, current_row: 16, rows_per_thread: 16, size: 128, credits: 75, inx: 81, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 10, current_row: 32, rows_per_thread: 16, size: 128, credits: 75, inx: 82, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 10, current_row: 48, rows_per_thread: 16, size: 128, credits: 75, inx: 83, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 10, current_row: 64, rows_per_thread: 16, size: 128, credits: 75, inx: 84, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 10, current_row: 80, rows_per_thread: 16, size: 128, credits: 75, inx: 85, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 10, current_row: 96, rows_per_thread: 16, size: 128, credits: 75, inx: 86, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 10, current_row: 112, rows_per_thread: 16, size: 128, credits: 75, inx: 87, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 11, current_row: 0, rows_per_thread: 16, size: 128, credits: 100, inx: 88, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 11, current_row: 16, rows_per_thread: 16, size: 128, credits: 100, inx: 89, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 11, current_row: 32, rows_per_thread: 16, size: 128, credits: 100, inx: 90, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 11, current_row: 48, rows_per_thread: 16, size: 128, credits: 100, inx: 91, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 11, current_row: 64, rows_per_thread: 16, size: 128, credits: 100, inx: 92, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 11, current_row: 80, rows_per_thread: 16, size: 128, credits: 100, inx: 93, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 11, current_row: 96, rows_per_thread: 16, size: 128, credits: 100, inx: 94, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 11, current_row: 112, rows_per_thread: 16, size: 128, credits: 100, inx: 95, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 12, current_row: 0, rows_per_thread: 32, size: 256, credits: 25, inx: 96, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 12, current_row: 32, rows_per_thread: 32, size: 256, credits: 25, inx: 97, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 12, current_row: 64, rows_per_thread: 32, size: 256, credits: 25, inx: 98, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 12, current_row: 96, rows_per_thread: 32, size: 256, credits: 25, inx: 99, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 12, current_row: 128, rows_per_thread: 32, size: 256, credits: 25, inx: 100, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 12, current_row: 160, rows_per_thread: 32, size: 256, credits: 25, inx: 101, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 12, current_row: 192, rows_per_thread: 32, size: 256, credits: 25, inx: 102, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 12, current_row: 224, rows_per_thread: 32, size: 256, credits: 25, inx: 103, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 13, current_row: 0, rows_per_thread: 32, size: 256, credits: 50, inx: 104, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 13, current_row: 32, rows_per_thread: 32, size: 256, credits: 50, inx: 105, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 13, current_row: 64, rows_per_thread: 32, size: 256, credits: 50, inx: 106, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 13, current_row: 96, rows_per_thread: 32, size: 256, credits: 50, inx: 107, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 13, current_row: 128, rows_per_thread: 32, size: 256, credits: 50, inx: 108, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 13, current_row: 160, rows_per_thread: 32, size: 256, credits: 50, inx: 109, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 13, current_row: 192, rows_per_thread: 32, size: 256, credits: 50, inx: 110, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 13, current_row: 224, rows_per_thread: 32, size: 256, credits: 50, inx: 111, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 14, current_row: 0, rows_per_thread: 32, size: 256, credits: 75, inx: 112, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 14, current_row: 32, rows_per_thread: 32, size: 256, credits: 75, inx: 113, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 14, current_row: 64, rows_per_thread: 32, size: 256, credits: 75, inx: 114, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 14, current_row: 96, rows_per_thread: 32, size: 256, credits: 75, inx: 115, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 14, current_row: 128, rows_per_thread: 32, size: 256, credits: 75, inx: 116, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 14, current_row: 160, rows_per_thread: 32, size: 256, credits: 75, inx: 117, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 14, current_row: 192, rows_per_thread: 32, size: 256, credits: 75, inx: 118, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 14, current_row: 224, rows_per_thread: 32, size: 256, credits: 75, inx: 119, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 15, current_row: 0, rows_per_thread: 32, size: 256, credits: 100, inx: 120, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 15, current_row: 32, rows_per_thread: 32, size: 256, credits: 100, inx: 121, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 15, current_row: 64, rows_per_thread: 32, size: 256, credits: 100, inx: 122, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 15, current_row: 96, rows_per_thread: 32, size: 256, credits: 100, inx: 123, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 15, current_row: 128, rows_per_thread: 32, size: 256, credits: 100, inx: 124, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 15, current_row: 160, rows_per_thread: 32, size: 256, credits: 100, inx: 125, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 15, current_row: 192, rows_per_thread: 32, size: 256, credits: 100, inx: 126, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+group_id: 15, current_row: 224, rows_per_thread: 32, size: 256, credits: 100, inx: 127, NUM_THREADS: 128
+Before alloting start time
+After alloting start time
+Scheduling Thread: thread_id: 1, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 886732, interval_given: 125
+ UTHREAD_DONE, elapsed time: 101, start_time: 886732, finish_time:886833 credits:25
+UTHREAD_DONE, thread_id: 1, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 886732, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 886833, interval_given: 125, current execution time: 101, current_credits: 25
+Scheduling Thread: thread_id: 5, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 886833, interval_given: 125
+ UTHREAD_DONE, elapsed time: 0, start_time: 886833, finish_time:886833 credits:25
+UTHREAD_DONE, thread_id: 5, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 886833, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 886833, interval_given: 125, current execution time: 0, current_credits: 25
+Scheduling Thread: thread_id: 9, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 886833, interval_given: 250
+ UTHREAD_DONE, elapsed time: 33, start_time: 886833, finish_time:886866 credits:50
+UTHREAD_DONE, thread_id: 9, initial_credits: 50, execution_start_time_sec: 1410786298, execution_start_time_usec: 886833, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 886866, interval_given: 250, current execution time: 33, current_credits: 50
+Scheduling Thread: thread_id: 13, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 886876, interval_given: 250
+ UTHREAD_DONE, elapsed time: 33, start_time: 886876, finish_time:886909 credits:50
+UTHREAD_DONE, thread_id: 13, initial_credits: 50, execution_start_time_sec: 1410786298, execution_start_time_usec: 886876, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 886909, interval_given: 250, current execution time: 33, current_credits: 50
+Scheduling Thread: thread_id: 17, current_credits: 75, initial_credits: 75, start_time_sec: 1410786298, start_time_usec: 886921, interval_given: 375
+ UTHREAD_DONE, elapsed time: 33, start_time: 886921, finish_time:886954 credits:75
+UTHREAD_DONE, thread_id: 17, initial_credits: 75, execution_start_time_sec: 1410786298, execution_start_time_usec: 886921, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 886954, interval_given: 375, current execution time: 33, current_credits: 75
+Scheduling Thread: thread_id: 21, current_credits: 75, initial_credits: 75, start_time_sec: 1410786298, start_time_usec: 886967, interval_given: 375
+ UTHREAD_DONE, elapsed time: 35, start_time: 886967, finish_time:887002 credits:75
+UTHREAD_DONE, thread_id: 21, initial_credits: 75, execution_start_time_sec: 1410786298, execution_start_time_usec: 886967, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 887002, interval_given: 375, current execution time: 35, current_credits: 75
+Scheduling Thread: thread_id: 25, current_credits: 100, initial_credits: 100, start_time_sec: 1410786298, start_time_usec: 887012, interval_given: 500
+ UTHREAD_DONE, elapsed time: 34, start_time: 887012, finish_time:887046 credits:100
+UTHREAD_DONE, thread_id: 25, initial_credits: 100, execution_start_time_sec: 1410786298, execution_start_time_usec: 887012, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 887046, interval_given: 500, current execution time: 34, current_credits: 100
+Scheduling Thread: thread_id: 29, current_credits: 100, initial_credits: 100, start_time_sec: 1410786298, start_time_usec: 887064, interval_given: 500
+ UTHREAD_DONE, elapsed time: 33, start_time: 887064, finish_time:887097 credits:100
+UTHREAD_DONE, thread_id: 29, initial_credits: 100, execution_start_time_sec: 1410786298, execution_start_time_usec: 887064, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 887097, interval_given: 500, current execution time: 33, current_credits: 100
+Scheduling Thread: thread_id: 33, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 887111, interval_given: 125
+ UTHREAD_DONE, elapsed time: 266, start_time: 887111, finish_time:887377 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 887111, finish_time: 1410786298, finish_time_usec: 887377
+UTHREAD_DONE, thread_id: 33, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 887111, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 887377, interval_given: 125, current execution time: 266, current_credits: 25
+Scheduling Thread: thread_id: 37, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 887390, interval_given: 125
+ UTHREAD_DONE, elapsed time: 286, start_time: 887390, finish_time:887676 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 887390, finish_time: 1410786298, finish_time_usec: 887676
+UTHREAD_DONE, thread_id: 37, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 887390, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 887676, interval_given: 125, current execution time: 286, current_credits: 25
+Scheduling Thread: thread_id: 41, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 887683, interval_given: 250
+ UTHREAD_DONE, elapsed time: 279, start_time: 887683, finish_time:887962 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 887683, finish_time: 1410786298, finish_time_usec: 887962
+UTHREAD_DONE, thread_id: 41, initial_credits: 50, execution_start_time_sec: 1410786298, execution_start_time_usec: 887683, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 887962, interval_given: 250, current execution time: 279, current_credits: 50
+Scheduling Thread: thread_id: 45, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 887967, interval_given: 250
+ UTHREAD_DONE, elapsed time: 245, start_time: 887967, finish_time:888212 credits:50
+UTHREAD_DONE, thread_id: 45, initial_credits: 50, execution_start_time_sec: 1410786298, execution_start_time_usec: 887967, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 888212, interval_given: 250, current execution time: 245, current_credits: 50
+Scheduling Thread: thread_id: 49, current_credits: 75, initial_credits: 75, start_time_sec: 1410786298, start_time_usec: 888227, interval_given: 375
+ UTHREAD_DONE, elapsed time: 267, start_time: 888227, finish_time:888494 credits:75
+UTHREAD_DONE, thread_id: 49, initial_credits: 75, execution_start_time_sec: 1410786298, execution_start_time_usec: 888227, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 888494, interval_given: 375, current execution time: 267, current_credits: 75
+Scheduling Thread: thread_id: 53, current_credits: 75, initial_credits: 75, start_time_sec: 1410786298, start_time_usec: 888505, interval_given: 375
+ UTHREAD_DONE, elapsed time: 328, start_time: 888505, finish_time:888833 credits:75
+UTHREAD_DONE, thread_id: 53, initial_credits: 75, execution_start_time_sec: 1410786298, execution_start_time_usec: 888505, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 888833, interval_given: 375, current execution time: 328, current_credits: 75
+Scheduling Thread: thread_id: 57, current_credits: 100, initial_credits: 100, start_time_sec: 1410786298, start_time_usec: 888833, interval_given: 500
+ UTHREAD_DONE, elapsed time: 217, start_time: 888833, finish_time:889050 credits:100
+UTHREAD_DONE, thread_id: 57, initial_credits: 100, execution_start_time_sec: 1410786298, execution_start_time_usec: 888833, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 889050, interval_given: 500, current execution time: 217, current_credits: 100
+Scheduling Thread: thread_id: 61, current_credits: 100, initial_credits: 100, start_time_sec: 1410786298, start_time_usec: 889074, interval_given: 500
+ UTHREAD_DONE, elapsed time: 256, start_time: 889074, finish_time:889330 credits:100
+UTHREAD_DONE, thread_id: 61, initial_credits: 100, execution_start_time_sec: 1410786298, execution_start_time_usec: 889074, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 889330, interval_given: 500, current execution time: 256, current_credits: 100
+Scheduling Thread: thread_id: 65, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 889340, interval_given: 125
+ Scheduling Thread: thread_id: 0, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 891614, interval_given: 125
+ UTHREAD_DONE, elapsed time: 38, start_time: 891614, finish_time:891652 credits:25
+UTHREAD_DONE, thread_id: 0, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 891614, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 891652, interval_given: 125, current execution time: 38, current_credits: 25
+Scheduling Thread: thread_id: 4, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 891665, interval_given: 125
+ UTHREAD_DONE, elapsed time: 34, start_time: 891665, finish_time:891699 credits:25
+UTHREAD_DONE, thread_id: 4, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 891665, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 891699, interval_given: 125, current execution time: 34, current_credits: 25
+Scheduling Thread: thread_id: 8, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 891715, interval_given: 250
+ UTHREAD_DONE, elapsed time: 35, start_time: 891715, finish_time:891750 credits:50
+UTHREAD_DONE, thread_id: 8, initial_credits: 50, execution_start_time_sec: 1410786298, execution_start_time_usec: 891715, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 891750, interval_given: 250, current execution time: 35, current_credits: 50
+Scheduling Thread: thread_id: 12, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 891761, interval_given: 250
+ Going to execute gt_yield()
+^^^^^^^^^^^^^^^Inside gt_yield^^^^^^^^^^^^^^
+IN GT_YIELD, thread_id: 12, initial_credits: 50, elapsed time: 35, start_time_sec: 1410786298, start_time_usec: 891761, finish_time_sec: 1410786298, finish_time_usec: 891796, credits left: 50, interval_given: 250, ratio: 0.140000, actual_credits_consumed: 7, credits left after gt_yield: 43
+Scheduling Thread: thread_id: 12, current_credits: 43, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 891835, interval_given: 215
+ UTHREAD_DONE, elapsed time: 35, start_time: 891835, finish_time:891835 credits:43
+UTHREAD_DONE, thread_id: 12, initial_credits: 50, execution_start_time_sec: 1410786298, execution_start_time_usec: 891835, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 891835, interval_given: 215, current execution time: 0, current_credits: 43
+Scheduling Thread: thread_id: 16, current_credits: 75, initial_credits: 75, start_time_sec: 1410786298, start_time_usec: 891835, interval_given: 375
+ UTHREAD_DONE, elapsed time: 34, start_time: 891835, finish_time:891869 credits:75
+UTHREAD_DONE, thread_id: 16, initial_credits: 75, execution_start_time_sec: 1410786298, execution_start_time_usec: 891835, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 891869, interval_given: 375, current execution time: 34, current_credits: 75
+Scheduling Thread: thread_id: 20, current_credits: 75, initial_credits: 75, start_time_sec: 1410786298, start_time_usec: 891885, interval_given: 375
+ UTHREAD_DONE, elapsed time: 36, start_time: 891885, finish_time:891921 credits:75
+UTHREAD_DONE, thread_id: 20, initial_credits: 75, execution_start_time_sec: 1410786298, execution_start_time_usec: 891885, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 891921, interval_given: 375, current execution time: 36, current_credits: 75
+Scheduling Thread: thread_id: 24, current_credits: 100, initial_credits: 100, start_time_sec: 1410786298, start_time_usec: 891944, interval_given: 500
+ UTHREAD_DONE, elapsed time: 36, start_time: 891944, finish_time:891980 credits:100
+UTHREAD_DONE, thread_id: 24, initial_credits: 100, execution_start_time_sec: 1410786298, execution_start_time_usec: 891944, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 891980, interval_given: 500, current execution time: 36, current_credits: 100
+Scheduling Thread: thread_id: 28, current_credits: 100, initial_credits: 100, start_time_sec: 1410786298, start_time_usec: 891998, interval_given: 500
+ UTHREAD_DONE, elapsed time: 33, start_time: 891998, finish_time:892031 credits:100
+UTHREAD_DONE, thread_id: 28, initial_credits: 100, execution_start_time_sec: 1410786298, execution_start_time_usec: 891998, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 892031, interval_given: 500, current execution time: 33, current_credits: 100
+Scheduling Thread: thread_id: 32, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 892043, interval_given: 125
+ UTHREAD_DONE, elapsed time: 261, start_time: 892043, finish_time:892304 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 892043, finish_time: 1410786298, finish_time_usec: 892304
+UTHREAD_DONE, thread_id: 32, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 892043, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 892304, interval_given: 125, current execution time: 261, current_credits: 25
+Scheduling Thread: thread_id: 36, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 892318, interval_given: 125
+ UTHREAD_DONE, elapsed time: 321, start_time: 892318, finish_time:892639 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 892318, finish_time: 1410786298, finish_time_usec: 892639
+UTHREAD_DONE, thread_id: 36, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 892318, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 892639, interval_given: 125, current execution time: 321, current_credits: 25
+Scheduling Thread: thread_id: 40, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 892659, interval_given: 250
+ UTHREAD_DONE, elapsed time: 265, start_time: 892659, finish_time:892924 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 892659, finish_time: 1410786298, finish_time_usec: 892924
+UTHREAD_DONE, thread_id: 40, initial_credits: 50, execution_start_time_sec: 1410786298, execution_start_time_usec: 892659, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 892924, interval_given: 250, current execution time: 265, current_credits: 50
+Scheduling Thread: thread_id: 44, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 892936, interval_given: 250
+ UTHREAD_DONE, elapsed time: 254, start_time: 892936, finish_time:893190 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 892936, finish_time: 1410786298, finish_time_usec: 893190
+UTHREAD_DONE, thread_id: 44, initial_credits: 50, execution_start_time_sec: 1410786298, execution_start_time_usec: 892936, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 893190, interval_given: 250, current execution time: 254, current_credits: 50
+Scheduling Thread: thread_id: 48, current_credits: 75, initial_credits: 75, start_time_sec: 1410786298, start_time_usec: 893205, interval_given: 375
+ UTHREAD_DONE, elapsed time: 272, start_time: 893205, finish_time:893477 credits:75
+UTHREAD_DONE, thread_id: 48, initial_credits: 75, execution_start_time_sec: 1410786298, execution_start_time_usec: 893205, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 893477, interval_given: 375, current execution time: 272, current_credits: 75
+Scheduling Thread: thread_id: 52, current_credits: 75, initial_credits: 75, start_time_sec: 1410786298, start_time_usec: 893505, interval_given: 375
+ UTHREAD_DONE, elapsed time: 271, start_time: 893505, finish_time:893776 credits:75
+UTHREAD_DONE, thread_id: 52, initial_credits: 75, execution_start_time_sec: 1410786298, execution_start_time_usec: 893505, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 893776, interval_given: 375, current execution time: 271, current_credits: 75
+Scheduling Thread: thread_id: 56, current_credits: 100, initial_credits: 100, start_time_sec: 1410786298, start_time_usec: 893789, interval_given: 500
+ UTHREAD_DONE, elapsed time: 262, start_time: 893789, finish_time:894051 credits:100
+UTHREAD_DONE, thread_id: 56, initial_credits: 100, execution_start_time_sec: 1410786298, execution_start_time_usec: 893789, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 894051, interval_given: 500, current execution time: 262, current_credits: 100
+Scheduling Thread: thread_id: 60, current_credits: 100, initial_credits: 100, start_time_sec: 1410786298, start_time_usec: 894068, interval_given: 500
+ UTHREAD_DONE, elapsed time: 260, start_time: 894068, finish_time:894328 credits:100
+UTHREAD_DONE, thread_id: 60, initial_credits: 100, execution_start_time_sec: 1410786298, execution_start_time_usec: 894068, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 894328, interval_given: 500, current execution time: 260, current_credits: 100
+Scheduling Thread: thread_id: 64, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 894339, interval_given: 125
+ Scheduling Thread: thread_id: 2, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 895854, interval_given: 125
+ UTHREAD_DONE, elapsed time: 35, start_time: 895854, finish_time:895889 credits:25
+UTHREAD_DONE, thread_id: 2, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 895854, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 895889, interval_given: 125, current execution time: 35, current_credits: 25
+Scheduling Thread: thread_id: 6, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 895906, interval_given: 125
+ UTHREAD_DONE, elapsed time: 33, start_time: 895906, finish_time:895939 credits:25
+UTHREAD_DONE, thread_id: 6, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 895906, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 895939, interval_given: 125, current execution time: 33, current_credits: 25
+Scheduling Thread: thread_id: 10, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 895954, interval_given: 250
+ UTHREAD_DONE, elapsed time: 35, start_time: 895954, finish_time:895989 credits:50
+UTHREAD_DONE, thread_id: 10, initial_credits: 50, execution_start_time_sec: 1410786298, execution_start_time_usec: 895954, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 895989, interval_given: 250, current execution time: 35, current_credits: 50
+Scheduling Thread: thread_id: 14, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 895999, interval_given: 250
+ UTHREAD_DONE, elapsed time: 34, start_time: 895999, finish_time:896033 credits:50
+UTHREAD_DONE, thread_id: 14, initial_credits: 50, execution_start_time_sec: 1410786298, execution_start_time_usec: 895999, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 896033, interval_given: 250, current execution time: 34, current_credits: 50
+Scheduling Thread: thread_id: 18, current_credits: 75, initial_credits: 75, start_time_sec: 1410786298, start_time_usec: 896048, interval_given: 375
+ UTHREAD_DONE, elapsed time: 35, start_time: 896048, finish_time:896083 credits:75
+UTHREAD_DONE, thread_id: 18, initial_credits: 75, execution_start_time_sec: 1410786298, execution_start_time_usec: 896048, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 896083, interval_given: 375, current execution time: 35, current_credits: 75
+Scheduling Thread: thread_id: 22, current_credits: 75, initial_credits: 75, start_time_sec: 1410786298, start_time_usec: 896105, interval_given: 375
+ UTHREAD_DONE, elapsed time: 36, start_time: 896105, finish_time:896141 credits:75
+UTHREAD_DONE, thread_id: 22, initial_credits: 75, execution_start_time_sec: 1410786298, execution_start_time_usec: 896105, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 896141, interval_given: 375, current execution time: 36, current_credits: 75
+Scheduling Thread: thread_id: 26, current_credits: 100, initial_credits: 100, start_time_sec: 1410786298, start_time_usec: 896155, interval_given: 500
+ UTHREAD_DONE, elapsed time: 33, start_time: 896155, finish_time:896188 credits:100
+UTHREAD_DONE, thread_id: 26, initial_credits: 100, execution_start_time_sec: 1410786298, execution_start_time_usec: 896155, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 896188, interval_given: 500, current execution time: 33, current_credits: 100
+Scheduling Thread: thread_id: 30, current_credits: 100, initial_credits: 100, start_time_sec: 1410786298, start_time_usec: 896205, interval_given: 500
+ UTHREAD_DONE, elapsed time: 33, start_time: 896205, finish_time:896238 credits:100
+UTHREAD_DONE, thread_id: 30, initial_credits: 100, execution_start_time_sec: 1410786298, execution_start_time_usec: 896205, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 896238, interval_given: 500, current execution time: 33, current_credits: 100
+Scheduling Thread: thread_id: 34, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 896249, interval_given: 125
+ UTHREAD_DONE, elapsed time: 264, start_time: 896249, finish_time:896513 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 896249, finish_time: 1410786298, finish_time_usec: 896513
+UTHREAD_DONE, thread_id: 34, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 896249, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 896513, interval_given: 125, current execution time: 264, current_credits: 25
+Scheduling Thread: thread_id: 38, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 896542, interval_given: 125
+ UTHREAD_DONE, elapsed time: 272, start_time: 896542, finish_time:896814 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 896542, finish_time: 1410786298, finish_time_usec: 896814
+UTHREAD_DONE, thread_id: 38, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 896542, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 896814, interval_given: 125, current execution time: 272, current_credits: 25
+Scheduling Thread: thread_id: 42, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 896840, interval_given: 250
+ UTHREAD_DONE, elapsed time: 256, start_time: 896840, finish_time:897096 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 896840, finish_time: 1410786298, finish_time_usec: 897096
+UTHREAD_DONE, thread_id: 42, initial_credits: 50, execution_start_time_sec: 1410786298, execution_start_time_usec: 896840, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 897096, interval_given: 250, current execution time: 256, current_credits: 50
+Scheduling Thread: thread_id: 46, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 897112, interval_given: 250
+ UTHREAD_DONE, elapsed time: 255, start_time: 897112, finish_time:897367 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 897112, finish_time: 1410786298, finish_time_usec: 897367
+UTHREAD_DONE, thread_id: 46, initial_credits: 50, execution_start_time_sec: 1410786298, execution_start_time_usec: 897112, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 897367, interval_given: 250, current execution time: 255, current_credits: 50
+Scheduling Thread: thread_id: 50, current_credits: 75, initial_credits: 75, start_time_sec: 1410786298, start_time_usec: 897398, interval_given: 375
+ UTHREAD_DONE, elapsed time: 269, start_time: 897398, finish_time:897667 credits:75
+UTHREAD_DONE, thread_id: 50, initial_credits: 75, execution_start_time_sec: 1410786298, execution_start_time_usec: 897398, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 897667, interval_given: 375, current execution time: 269, current_credits: 75
+Scheduling Thread: thread_id: 54, current_credits: 75, initial_credits: 75, start_time_sec: 1410786298, start_time_usec: 897679, interval_given: 375
+ UTHREAD_DONE, elapsed time: 264, start_time: 897679, finish_time:897943 credits:75
+UTHREAD_DONE, thread_id: 54, initial_credits: 75, execution_start_time_sec: 1410786298, execution_start_time_usec: 897679, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 897943, interval_given: 375, current execution time: 264, current_credits: 75
+Scheduling Thread: thread_id: 58, current_credits: 100, initial_credits: 100, start_time_sec: 1410786298, start_time_usec: 897959, interval_given: 500
+ UTHREAD_DONE, elapsed time: 256, start_time: 897959, finish_time:898215 credits:100
+UTHREAD_DONE, thread_id: 58, initial_credits: 100, execution_start_time_sec: 1410786298, execution_start_time_usec: 897959, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 898215, interval_given: 500, current execution time: 256, current_credits: 100
+Scheduling Thread: thread_id: 62, current_credits: 100, initial_credits: 100, start_time_sec: 1410786298, start_time_usec: 898230, interval_given: 500
+ UTHREAD_DONE, elapsed time: 259, start_time: 898230, finish_time:898489 credits:100
+UTHREAD_DONE, thread_id: 62, initial_credits: 100, execution_start_time_sec: 1410786298, execution_start_time_usec: 898230, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 898489, interval_given: 500, current execution time: 259, current_credits: 100
+Scheduling Thread: thread_id: 66, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 898505, interval_given: 125
+ Scheduling Thread: thread_id: 3, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 901498, interval_given: 125
+ UTHREAD_DONE, elapsed time: 37, start_time: 901498, finish_time:901535 credits:25
+UTHREAD_DONE, thread_id: 3, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 901498, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 901535, interval_given: 125, current execution time: 37, current_credits: 25
+Scheduling Thread: thread_id: 7, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 901581, interval_given: 125
+ UTHREAD_DONE, elapsed time: 11, start_time: 901581, finish_time:901592 credits:25
+UTHREAD_DONE, thread_id: 7, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 901581, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 901592, interval_given: 125, current execution time: 11, current_credits: 25
+Scheduling Thread: thread_id: 11, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 901606, interval_given: 250
+ UTHREAD_DONE, elapsed time: 35, start_time: 901606, finish_time:901641 credits:50
+UTHREAD_DONE, thread_id: 11, initial_credits: 50, execution_start_time_sec: 1410786298, execution_start_time_usec: 901606, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 901641, interval_given: 250, current execution time: 35, current_credits: 50
+Scheduling Thread: thread_id: 15, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 901652, interval_given: 250
+ UTHREAD_DONE, elapsed time: 82, start_time: 901652, finish_time:901734 credits:50
+UTHREAD_DONE, thread_id: 15, initial_credits: 50, execution_start_time_sec: 1410786298, execution_start_time_usec: 901652, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 901734, interval_given: 250, current execution time: 82, current_credits: 50
+Scheduling Thread: thread_id: 19, current_credits: 75, initial_credits: 75, start_time_sec: 1410786298, start_time_usec: 901752, interval_given: 375
+ UTHREAD_DONE, elapsed time: 81, start_time: 901752, finish_time:901833 credits:75
+UTHREAD_DONE, thread_id: 19, initial_credits: 75, execution_start_time_sec: 1410786298, execution_start_time_usec: 901752, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 901833, interval_given: 375, current execution time: 81, current_credits: 75
+Scheduling Thread: thread_id: 23, current_credits: 75, initial_credits: 75, start_time_sec: 1410786298, start_time_usec: 901833, interval_given: 375
+ UTHREAD_DONE, elapsed time: 0, start_time: 901833, finish_time:901833 credits:75
+UTHREAD_DONE, thread_id: 23, initial_credits: 75, execution_start_time_sec: 1410786298, execution_start_time_usec: 901833, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 901833, interval_given: 375, current execution time: 0, current_credits: 75
+Scheduling Thread: thread_id: 27, current_credits: 100, initial_credits: 100, start_time_sec: 1410786298, start_time_usec: 901846, interval_given: 500
+ UTHREAD_DONE, elapsed time: 35, start_time: 901846, finish_time:901881 credits:100
+UTHREAD_DONE, thread_id: 27, initial_credits: 100, execution_start_time_sec: 1410786298, execution_start_time_usec: 901846, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 901881, interval_given: 500, current execution time: 35, current_credits: 100
+Scheduling Thread: thread_id: 31, current_credits: 100, initial_credits: 100, start_time_sec: 1410786298, start_time_usec: 901893, interval_given: 500
+ UTHREAD_DONE, elapsed time: 34, start_time: 901893, finish_time:901927 credits:100
+UTHREAD_DONE, thread_id: 31, initial_credits: 100, execution_start_time_sec: 1410786298, execution_start_time_usec: 901893, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 901927, interval_given: 500, current execution time: 34, current_credits: 100
+Scheduling Thread: thread_id: 35, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 901938, interval_given: 125
+ UTHREAD_DONE, elapsed time: 264, start_time: 901938, finish_time:902202 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 901938, finish_time: 1410786298, finish_time_usec: 902202
+UTHREAD_DONE, thread_id: 35, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 901938, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 902202, interval_given: 125, current execution time: 264, current_credits: 25
+Scheduling Thread: thread_id: 39, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 902217, interval_given: 125
+ UTHREAD_DONE, elapsed time: 364, start_time: 902217, finish_time:902581 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 902217, finish_time: 1410786298, finish_time_usec: 902581
+UTHREAD_DONE, thread_id: 39, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 902217, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 902581, interval_given: 125, current execution time: 364, current_credits: 25
+Scheduling Thread: thread_id: 43, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 902581, interval_given: 250
+ UTHREAD_DONE, elapsed time: 259, start_time: 902581, finish_time:902840 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 902581, finish_time: 1410786298, finish_time_usec: 902840
+UTHREAD_DONE, thread_id: 43, initial_credits: 50, execution_start_time_sec: 1410786298, execution_start_time_usec: 902581, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 902840, interval_given: 250, current execution time: 259, current_credits: 50
+Scheduling Thread: thread_id: 47, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 902904, interval_given: 250
+ UTHREAD_DONE, elapsed time: 260, start_time: 902904, finish_time:903164 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 902904, finish_time: 1410786298, finish_time_usec: 903164
+UTHREAD_DONE, thread_id: 47, initial_credits: 50, execution_start_time_sec: 1410786298, execution_start_time_usec: 902904, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 903164, interval_given: 250, current execution time: 260, current_credits: 50
+Scheduling Thread: thread_id: 51, current_credits: 75, initial_credits: 75, start_time_sec: 1410786298, start_time_usec: 903177, interval_given: 375
+ UTHREAD_DONE, elapsed time: 262, start_time: 903177, finish_time:903439 credits:75
+UTHREAD_DONE, thread_id: 51, initial_credits: 75, execution_start_time_sec: 1410786298, execution_start_time_usec: 903177, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 903439, interval_given: 375, current execution time: 262, current_credits: 75
+Scheduling Thread: thread_id: 55, current_credits: 75, initial_credits: 75, start_time_sec: 1410786298, start_time_usec: 903450, interval_given: 375
+ UTHREAD_DONE, elapsed time: 275, start_time: 903450, finish_time:903725 credits:75
+UTHREAD_DONE, thread_id: 55, initial_credits: 75, execution_start_time_sec: 1410786298, execution_start_time_usec: 903450, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 903725, interval_given: 375, current execution time: 275, current_credits: 75
+Scheduling Thread: thread_id: 59, current_credits: 100, initial_credits: 100, start_time_sec: 1410786298, start_time_usec: 903742, interval_given: 500
+ UTHREAD_DONE, elapsed time: 257, start_time: 903742, finish_time:903999 credits:100
+UTHREAD_DONE, thread_id: 59, initial_credits: 100, execution_start_time_sec: 1410786298, execution_start_time_usec: 903742, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 903999, interval_given: 500, current execution time: 257, current_credits: 100
+Scheduling Thread: thread_id: 63, current_credits: 100, initial_credits: 100, start_time_sec: 1410786298, start_time_usec: 904010, interval_given: 500
+ UTHREAD_DONE, elapsed time: 255, start_time: 904010, finish_time:904265 credits:100
+UTHREAD_DONE, thread_id: 63, initial_credits: 100, execution_start_time_sec: 1410786298, execution_start_time_usec: 904010, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 904265, interval_given: 500, current execution time: 255, current_credits: 100
+Scheduling Thread: thread_id: 67, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 904280, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 71, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 905483, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 67, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 907473, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 69, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 934731, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 65, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 936717, interval_given: 125
+ UTHREAD_DONE, elapsed time: 864, start_time: 936717, finish_time:937581 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 936717, finish_time: 1410786298, finish_time_usec: 937581
+UTHREAD_DONE, thread_id: 65, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 936717, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 937581, interval_given: 125, current execution time: 864, current_credits: 25
+Scheduling Thread: thread_id: 69, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 937581, interval_given: 125
+ UTHREAD_DONE, elapsed time: 252, start_time: 937581, finish_time:937833 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 937581, finish_time: 1410786298, finish_time_usec: 937833
+UTHREAD_DONE, thread_id: 69, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 937581, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 937833, interval_given: 125, current execution time: 252, current_credits: 25
+Scheduling Thread: thread_id: 73, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 937833, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 68, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 943607, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 64, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 945592, interval_given: 125
+ UTHREAD_DONE, elapsed time: 39109, start_time: 907473, finish_time:946582 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 907473, finish_time: 1410786298, finish_time_usec: 946582
+UTHREAD_DONE, thread_id: 67, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 907473, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 946582, interval_given: 125, current execution time: 39109, current_credits: 25
+UTHREAD_DONE, elapsed time: 1018, start_time: 945592, finish_time:946610 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 945592, finish_time: 1410786298, finish_time_usec: 946610
+UTHREAD_DONE, thread_id: 64, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 945592, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 946610, interval_given: 125, current execution time: 1018, current_credits: 25
+Scheduling Thread: thread_id: 71, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 946610, interval_given: 125
+ Scheduling Thread: thread_id: 68, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 946618, interval_given: 125
+ UTHREAD_DONE, elapsed time: 159, start_time: 946610, finish_time:946769 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 946610, finish_time: 1410786298, finish_time_usec: 946769
+UTHREAD_DONE, thread_id: 71, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 946610, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 946769, interval_given: 125, current execution time: 159, current_credits: 25
+Scheduling Thread: thread_id: 75, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 946833, interval_given: 250
+ UTHREAD_DONE, elapsed time: 224, start_time: 946618, finish_time:946842 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 946618, finish_time: 1410786298, finish_time_usec: 946842
+UTHREAD_DONE, thread_id: 68, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 946618, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 946842, interval_given: 125, current execution time: 224, current_credits: 25
+Scheduling Thread: thread_id: 72, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 946861, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 79, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 948487, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 75, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 950474, interval_given: 250
+ UTHREAD_DONE, elapsed time: 519, start_time: 950474, finish_time:950993 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 950474, finish_time: 1410786298, finish_time_usec: 950993
+UTHREAD_DONE, thread_id: 75, initial_credits: 50, execution_start_time_sec: 1410786298, execution_start_time_usec: 950474, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 950993, interval_given: 250, current execution time: 519, current_credits: 50
+Scheduling Thread: thread_id: 79, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 950999, interval_given: 250
+ UTHREAD_DONE, elapsed time: 323, start_time: 950999, finish_time:951322 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 950999, finish_time: 1410786298, finish_time_usec: 951322
+UTHREAD_DONE, thread_id: 79, initial_credits: 50, execution_start_time_sec: 1410786298, execution_start_time_usec: 950999, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 951322, interval_given: 250, current execution time: 323, current_credits: 50
+Scheduling Thread: thread_id: 83, current_credits: 75, initial_credits: 75, start_time_sec: 1410786298, start_time_usec: 951335, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 87, current_credits: 75, initial_credits: 75, start_time_sec: 1410786298, start_time_usec: 952483, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 70, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 955858, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 66, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 957843, interval_given: 125
+ UTHREAD_DONE, elapsed time: 932, start_time: 957843, finish_time:958775 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 957843, finish_time: 1410786298, finish_time_usec: 958775
+UTHREAD_DONE, thread_id: 66, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 957843, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 958775, interval_given: 125, current execution time: 932, current_credits: 25
+Scheduling Thread: thread_id: 70, current_credits: 25, initial_credits: 25, start_time_sec: 1410786298, start_time_usec: 958782, interval_given: 125
+ UTHREAD_DONE, elapsed time: 224, start_time: 958782, finish_time:959006 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 958782, finish_time: 1410786298, finish_time_usec: 959006
+UTHREAD_DONE, thread_id: 70, initial_credits: 25, execution_start_time_sec: 1410786298, execution_start_time_usec: 958782, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 959006, interval_given: 125, current execution time: 224, current_credits: 25
+Scheduling Thread: thread_id: 74, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 959020, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 77, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 983729, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 73, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 985719, interval_given: 250
+ UTHREAD_DONE, elapsed time: 245, start_time: 985719, finish_time:985964 credits:50
+UTHREAD_DONE, thread_id: 73, initial_credits: 50, execution_start_time_sec: 1410786298, execution_start_time_usec: 985719, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 985964, interval_given: 250, current execution time: 245, current_credits: 50
+Scheduling Thread: thread_id: 77, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 985969, interval_given: 250
+ UTHREAD_DONE, elapsed time: 190, start_time: 985969, finish_time:986159 credits:50
+UTHREAD_DONE, thread_id: 77, initial_credits: 50, execution_start_time_sec: 1410786298, execution_start_time_usec: 985969, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 986159, interval_given: 250, current execution time: 190, current_credits: 50
+Scheduling Thread: thread_id: 81, current_credits: 75, initial_credits: 75, start_time_sec: 1410786298, start_time_usec: 986175, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 76, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 995603, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 72, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 997595, interval_given: 250
+ UTHREAD_DONE, elapsed time: 530, start_time: 997595, finish_time:998125 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786298, start_time_usec: 997595, finish_time: 1410786298, finish_time_usec: 998125
+UTHREAD_DONE, thread_id: 72, initial_credits: 50, execution_start_time_sec: 1410786298, execution_start_time_usec: 997595, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 998125, interval_given: 250, current execution time: 530, current_credits: 50
+Scheduling Thread: thread_id: 76, current_credits: 50, initial_credits: 50, start_time_sec: 1410786298, start_time_usec: 998131, interval_given: 250
+ UTHREAD_DONE, elapsed time: 198, start_time: 998131, finish_time:998329 credits:50
+UTHREAD_DONE, thread_id: 76, initial_credits: 50, execution_start_time_sec: 1410786298, execution_start_time_usec: 998131, execution_finish_time_sec: 1410786298, execution_finish_time_usec: 998329, interval_given: 250, current execution time: 198, current_credits: 50
+Scheduling Thread: thread_id: 80, current_credits: 75, initial_credits: 75, start_time_sec: 1410786298, start_time_usec: 998344, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 83, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 479, interval_given: 375
+ UTHREAD_DONE, elapsed time: 1063, start_time: 479, finish_time:1542 credits:75
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786299, start_time_usec: 479, finish_time: 1410786299, finish_time_usec: 1542
+UTHREAD_DONE, thread_id: 83, initial_credits: 75, execution_start_time_sec: 1410786299, execution_start_time_usec: 479, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 1542, interval_given: 375, current execution time: 1063, current_credits: 75
+Scheduling Thread: thread_id: 87, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 1581, interval_given: 375
+ UTHREAD_DONE, elapsed time: 169, start_time: 1581, finish_time:1750 credits:75
+UTHREAD_DONE, thread_id: 87, initial_credits: 75, execution_start_time_sec: 1410786299, execution_start_time_usec: 1581, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 1750, interval_given: 375, current execution time: 169, current_credits: 75
+Scheduling Thread: thread_id: 91, current_credits: 100, initial_credits: 100, start_time_sec: 1410786299, start_time_usec: 1765, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 78, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 16857, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 74, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 18846, interval_given: 250
+ UTHREAD_DONE, elapsed time: 368, start_time: 18846, finish_time:19214 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786299, start_time_usec: 18846, finish_time: 1410786299, finish_time_usec: 19214
+UTHREAD_DONE, thread_id: 74, initial_credits: 50, execution_start_time_sec: 1410786299, execution_start_time_usec: 18846, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 19214, interval_given: 250, current execution time: 368, current_credits: 50
+Scheduling Thread: thread_id: 78, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 19230, interval_given: 250
+ UTHREAD_DONE, elapsed time: 212, start_time: 19230, finish_time:19442 credits:50
+UTHREAD_DONE, thread_id: 78, initial_credits: 50, execution_start_time_sec: 1410786299, execution_start_time_usec: 19230, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 19442, interval_given: 250, current execution time: 212, current_credits: 50
+Scheduling Thread: thread_id: 82, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 19457, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 95, current_credits: 100, initial_credits: 100, start_time_sec: 1410786299, start_time_usec: 24486, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 91, current_credits: 100, initial_credits: 100, start_time_sec: 1410786299, start_time_usec: 26476, interval_given: 500
+ UTHREAD_DONE, elapsed time: 457, start_time: 26476, finish_time:26933 credits:100
+UTHREAD_DONE, thread_id: 91, initial_credits: 100, execution_start_time_sec: 1410786299, execution_start_time_usec: 26476, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 26933, interval_given: 500, current execution time: 457, current_credits: 100
+Scheduling Thread: thread_id: 95, current_credits: 100, initial_credits: 100, start_time_sec: 1410786299, start_time_usec: 26939, interval_given: 500
+ UTHREAD_DONE, elapsed time: 196, start_time: 26939, finish_time:27135 credits:100
+UTHREAD_DONE, thread_id: 95, initial_credits: 100, execution_start_time_sec: 1410786299, execution_start_time_usec: 26939, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 27135, interval_given: 500, current execution time: 196, current_credits: 100
+Scheduling Thread: thread_id: 99, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 27147, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 85, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 31730, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 81, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 33720, interval_given: 375
+ UTHREAD_DONE, elapsed time: 763, start_time: 33720, finish_time:34483 credits:75
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786299, start_time_usec: 33720, finish_time: 1410786299, finish_time_usec: 34483
+UTHREAD_DONE, thread_id: 81, initial_credits: 75, execution_start_time_sec: 1410786299, execution_start_time_usec: 33720, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 34483, interval_given: 375, current execution time: 763, current_credits: 75
+Scheduling Thread: thread_id: 85, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 34490, interval_given: 375
+ UTHREAD_DONE, elapsed time: 262, start_time: 34490, finish_time:34752 credits:75
+UTHREAD_DONE, thread_id: 85, initial_credits: 75, execution_start_time_sec: 1410786299, execution_start_time_usec: 34490, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 34752, interval_given: 375, current execution time: 262, current_credits: 75
+Inside ksched_credit
+Inside ksched_credit
+Inside ksched_credit
+Scheduling Thread: thread_id: 89, current_credits: 100, initial_credits: 100, start_time_sec: 1410786299, start_time_usec: 78719, interval_given: 500
+ Scheduling Thread: thread_id: 86, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 78808, interval_given: 375
+ Scheduling Thread: thread_id: 103, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 79481, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 93, current_credits: 100, initial_credits: 100, start_time_sec: 1410786299, start_time_usec: 80729, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 99, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 81583, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 103, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 83469, interval_given: 125
+ Scheduling Thread: thread_id: 84, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 98625, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 80, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 100598, interval_given: 375
+ UTHREAD_DONE, elapsed time: 1048, start_time: 100598, finish_time:101646 credits:75
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786299, start_time_usec: 100598, finish_time: 1410786299, finish_time_usec: 101646
+UTHREAD_DONE, thread_id: 80, initial_credits: 75, execution_start_time_sec: 1410786299, execution_start_time_usec: 100598, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 101646, interval_given: 375, current execution time: 1048, current_credits: 75
+Scheduling Thread: thread_id: 84, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 101653, interval_given: 375
+ UTHREAD_DONE, elapsed time: 365, start_time: 101653, finish_time:102018 credits:75
+UTHREAD_DONE, thread_id: 84, initial_credits: 75, execution_start_time_sec: 1410786299, execution_start_time_usec: 101653, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 102018, interval_given: 375, current execution time: 365, current_credits: 75
+Scheduling Thread: thread_id: 88, current_credits: 100, initial_credits: 100, start_time_sec: 1410786299, start_time_usec: 102032, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 99, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 124469, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 103, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 126469, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 89, current_credits: 100, initial_credits: 100, start_time_sec: 1410786299, start_time_usec: 127718, interval_given: 500
+ UTHREAD_DONE, elapsed time: 214, start_time: 127718, finish_time:127932 credits:100
+UTHREAD_DONE, thread_id: 89, initial_credits: 100, execution_start_time_sec: 1410786299, execution_start_time_usec: 127718, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 127932, interval_given: 500, current execution time: 214, current_credits: 100
+Scheduling Thread: thread_id: 93, current_credits: 100, initial_credits: 100, start_time_sec: 1410786299, start_time_usec: 127937, interval_given: 500
+ UTHREAD_DONE, elapsed time: 193, start_time: 127937, finish_time:128130 credits:100
+UTHREAD_DONE, thread_id: 93, initial_credits: 100, execution_start_time_sec: 1410786299, execution_start_time_usec: 127937, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 128130, interval_given: 500, current execution time: 193, current_credits: 100
+Scheduling Thread: thread_id: 97, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 128142, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 101, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 129731, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 82, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 135856, interval_given: 375
+ UTHREAD_DONE, elapsed time: 906, start_time: 135856, finish_time:136762 credits:75
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786299, start_time_usec: 135856, finish_time: 1410786299, finish_time_usec: 136762
+UTHREAD_DONE, thread_id: 82, initial_credits: 75, execution_start_time_sec: 1410786299, execution_start_time_usec: 135856, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 136762, interval_given: 375, current execution time: 906, current_credits: 75
+Scheduling Thread: thread_id: 86, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 136785, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 86, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 137843, interval_given: 375
+ UTHREAD_DONE, elapsed time: 186, start_time: 137843, finish_time:138029 credits:75
+UTHREAD_DONE, thread_id: 86, initial_credits: 75, execution_start_time_sec: 1410786299, execution_start_time_usec: 137843, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 138029, interval_given: 375, current execution time: 186, current_credits: 75
+Scheduling Thread: thread_id: 90, current_credits: 100, initial_credits: 100, start_time_sec: 1410786299, start_time_usec: 138048, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 99, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 150584, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 92, current_credits: 100, initial_credits: 100, start_time_sec: 1410786299, start_time_usec: 151620, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 103, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 152583, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 88, current_credits: 100, initial_credits: 100, start_time_sec: 1410786299, start_time_usec: 153592, interval_given: 500
+ UTHREAD_DONE, elapsed time: 767, start_time: 153592, finish_time:154359 credits:100
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786299, start_time_usec: 153592, finish_time: 1410786299, finish_time_usec: 154359
+UTHREAD_DONE, thread_id: 88, initial_credits: 100, execution_start_time_sec: 1410786299, execution_start_time_usec: 153592, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 154359, interval_given: 500, current execution time: 767, current_credits: 100
+Scheduling Thread: thread_id: 92, current_credits: 100, initial_credits: 100, start_time_sec: 1410786299, start_time_usec: 154365, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 99, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 175581, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 103, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 177581, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 97, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 178718, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 101, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 180719, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 94, current_credits: 100, initial_credits: 100, start_time_sec: 1410786299, start_time_usec: 194984, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 90, current_credits: 100, initial_credits: 100, start_time_sec: 1410786299, start_time_usec: 196848, interval_given: 500
+ UTHREAD_DONE, elapsed time: 446, start_time: 196848, finish_time:197294 credits:100
+UTHREAD_DONE, thread_id: 90, initial_credits: 100, execution_start_time_sec: 1410786299, execution_start_time_usec: 196848, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 197294, interval_given: 500, current execution time: 446, current_credits: 100
+Scheduling Thread: thread_id: 94, current_credits: 100, initial_credits: 100, start_time_sec: 1410786299, start_time_usec: 197298, interval_given: 500
+ UTHREAD_DONE, elapsed time: 351, start_time: 197298, finish_time:197649 credits:100
+UTHREAD_DONE, thread_id: 94, initial_credits: 100, execution_start_time_sec: 1410786299, execution_start_time_usec: 197298, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 197649, interval_given: 500, current execution time: 351, current_credits: 100
+Scheduling Thread: thread_id: 98, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 197673, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 99, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 202584, interval_given: 125
+ UTHREAD_DONE, elapsed time: 48342, start_time: 154365, finish_time:202707 credits:100
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786299, start_time_usec: 154365, finish_time: 1410786299, finish_time_usec: 202707
+UTHREAD_DONE, thread_id: 92, initial_credits: 100, execution_start_time_sec: 1410786299, execution_start_time_usec: 154365, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 202707, interval_given: 500, current execution time: 48342, current_credits: 100
+Scheduling Thread: thread_id: 96, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 202725, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 100, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 204617, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 103, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 226584, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 97, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 226718, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 99, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 228581, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 101, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 228720, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 103, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 250470, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 99, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 252581, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 96, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 254593, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 102, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 254871, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 100, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 256594, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 98, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 256848, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 103, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 271582, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 99, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 273581, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 97, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 274718, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 101, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 276719, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 103, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 299471, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 99, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 301469, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 96, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 306593, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 103, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 306593, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 100, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 308600, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 102, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 313850, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 98, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 315847, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 97, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 322718, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 101, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 324719, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 99, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 346584, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 103, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 348581, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 96, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 358593, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 100, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 360600, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 99, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 370584, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 97, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 370717, interval_given: 125
+ UTHREAD_DONE, elapsed time: 1722, start_time: 370584, finish_time:372306 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786299, start_time_usec: 370584, finish_time: 1410786299, finish_time_usec: 372306
+UTHREAD_DONE, thread_id: 99, initial_credits: 25, execution_start_time_sec: 1410786299, execution_start_time_usec: 370584, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 372306, interval_given: 125, current execution time: 1722, current_credits: 25
+Scheduling Thread: thread_id: 103, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 372314, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 101, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 372719, interval_given: 125
+ UTHREAD_DONE, elapsed time: 566, start_time: 372314, finish_time:372880 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786299, start_time_usec: 372314, finish_time: 1410786299, finish_time_usec: 372880
+UTHREAD_DONE, thread_id: 103, initial_credits: 25, execution_start_time_sec: 1410786299, execution_start_time_usec: 372314, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 372880, interval_given: 125, current execution time: 566, current_credits: 25
+Scheduling Thread: thread_id: 107, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 372897, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 102, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 373849, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 98, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 375847, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 111, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 398584, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 107, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 400581, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 96, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 410598, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 100, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 412599, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 97, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 418718, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 101, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 420719, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 111, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 430584, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 107, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 432581, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 102, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 433857, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 98, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 435851, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 111, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 458470, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 107, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 460582, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 96, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 462597, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 100, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 464598, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 97, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 466718, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 101, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 468719, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 111, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 475581, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 107, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 477581, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 102, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 493857, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 98, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 495847, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 111, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 503581, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 97, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 514718, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 96, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 516597, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 101, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 516719, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 100, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 518600, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 107, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 528584, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 111, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 530581, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 107, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 545581, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 97, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 546720, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 111, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 547581, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 101, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 548719, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 102, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 556971, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 98, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 558846, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 96, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 564597, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 100, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 566599, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 107, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 571582, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 111, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 596584, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 97, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 597720, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 107, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 598581, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 101, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 599718, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 102, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 612849, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 98, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 614846, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 96, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 616598, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 100, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 618599, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 111, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 622581, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 107, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 624584, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 97, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 645720, interval_given: 125
+ UTHREAD_DONE, elapsed time: 1610, start_time: 645720, finish_time:647330 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786299, start_time_usec: 645720, finish_time: 1410786299, finish_time_usec: 647330
+UTHREAD_DONE, thread_id: 97, initial_credits: 25, execution_start_time_sec: 1410786299, execution_start_time_usec: 645720, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 647330, interval_given: 125, current execution time: 1610, current_credits: 25
+Scheduling Thread: thread_id: 101, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 647330, interval_given: 125
+ UTHREAD_DONE, elapsed time: 762, start_time: 647330, finish_time:648092 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786299, start_time_usec: 647330, finish_time: 1410786299, finish_time_usec: 648092
+UTHREAD_DONE, thread_id: 101, initial_credits: 25, execution_start_time_sec: 1410786299, execution_start_time_usec: 647330, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 648092, interval_given: 125, current execution time: 762, current_credits: 25
+Scheduling Thread: thread_id: 105, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 648108, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 111, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 649581, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 107, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 651581, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 96, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 668596, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 100, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 670599, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 102, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 672844, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 98, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 674845, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 111, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 675584, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 109, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 693731, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 107, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 695584, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 105, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 695719, interval_given: 250
+ UTHREAD_DONE, elapsed time: 546, start_time: 695584, finish_time:696130 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786299, start_time_usec: 695584, finish_time: 1410786299, finish_time_usec: 696130
+UTHREAD_DONE, thread_id: 107, initial_credits: 50, execution_start_time_sec: 1410786299, execution_start_time_usec: 695584, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 696130, interval_given: 250, current execution time: 546, current_credits: 50
+Scheduling Thread: thread_id: 111, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 696138, interval_given: 250
+ UTHREAD_DONE, elapsed time: 443, start_time: 696138, finish_time:696581 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786299, start_time_usec: 696138, finish_time: 1410786299, finish_time_usec: 696581
+UTHREAD_DONE, thread_id: 111, initial_credits: 50, execution_start_time_sec: 1410786299, execution_start_time_usec: 696138, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 696581, interval_given: 250, current execution time: 443, current_credits: 50
+Scheduling Thread: thread_id: 115, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 696581, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 119, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 698581, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 96, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 712600, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 100, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 714598, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 115, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 731584, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 102, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 731856, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 119, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 733581, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 98, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 733849, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 109, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 740721, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 105, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 742719, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 115, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 759470, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 119, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 761581, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 96, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 768601, interval_given: 125
+ UTHREAD_DONE, elapsed time: 629, start_time: 768601, finish_time:769230 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786299, start_time_usec: 768601, finish_time: 1410786299, finish_time_usec: 769230
+UTHREAD_DONE, thread_id: 96, initial_credits: 25, execution_start_time_sec: 1410786299, execution_start_time_usec: 768601, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 769230, interval_given: 125, current execution time: 629, current_credits: 25
+Scheduling Thread: thread_id: 100, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 769236, interval_given: 125
+ UTHREAD_DONE, elapsed time: 415, start_time: 769236, finish_time:769651 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786299, start_time_usec: 769236, finish_time: 1410786299, finish_time_usec: 769651
+UTHREAD_DONE, thread_id: 100, initial_credits: 25, execution_start_time_sec: 1410786299, execution_start_time_usec: 769236, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 769651, interval_given: 125, current execution time: 415, current_credits: 25
+Scheduling Thread: thread_id: 104, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 769667, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 115, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 780581, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 102, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 791847, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 109, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 792834, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 98, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 793846, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 105, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 794834, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 108, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 803612, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 104, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 805602, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 119, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 805602, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 115, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 807581, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 119, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 830587, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 115, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 832581, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 109, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 836832, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 105, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 838832, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 102, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 851843, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 98, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 853845, interval_given: 125
+ Inside ksched_credit
+Scheduling Thread: thread_id: 108, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 854600, interval_given: 250
+ UTHREAD_DONE, elapsed time: 1088, start_time: 853845, finish_time:854933 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786299, start_time_usec: 853845, finish_time: 1410786299, finish_time_usec: 854933
+UTHREAD_DONE, thread_id: 98, initial_credits: 25, execution_start_time_sec: 1410786299, execution_start_time_usec: 853845, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 854933, interval_given: 125, current execution time: 1088, current_credits: 25
+Scheduling Thread: thread_id: 102, current_credits: 25, initial_credits: 25, start_time_sec: 1410786299, start_time_usec: 854941, interval_given: 125
+ UTHREAD_DONE, elapsed time: 863, start_time: 854941, finish_time:855804 credits:25
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786299, start_time_usec: 854941, finish_time: 1410786299, finish_time_usec: 855804
+UTHREAD_DONE, thread_id: 102, initial_credits: 25, execution_start_time_sec: 1410786299, execution_start_time_usec: 854941, execution_finish_time_sec: 1410786299, execution_finish_time_usec: 855804, interval_given: 125, current execution time: 863, current_credits: 25
+Scheduling Thread: thread_id: 106, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 855821, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 104, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 856599, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 119, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 856599, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 115, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 858587, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 109, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 881832, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 119, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 886585, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 115, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 888588, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 108, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 904601, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 104, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 906605, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 119, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 907595, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 115, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 909591, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 110, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 912862, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 106, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 914845, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 105, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 922718, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 109, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 924832, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 119, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 932586, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 115, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 934586, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 105, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 953831, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 108, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 955600, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 104, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 957599, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 119, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 962588, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 110, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 972846, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 106, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 974845, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 115, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 980585, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 119, current_credits: 75, initial_credits: 75, start_time_sec: 1410786299, start_time_usec: 982588, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 109, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 991834, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 105, current_credits: 50, initial_credits: 50, start_time_sec: 1410786299, start_time_usec: 993832, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 108, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 6599, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 115, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 6599, interval_given: 375
+ UTHREAD_DONE, elapsed time: 1610, start_time: 6599, finish_time:8209 credits:75
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786300, start_time_usec: 6599, finish_time: 1410786300, finish_time_usec: 8209
+UTHREAD_DONE, thread_id: 115, initial_credits: 75, execution_start_time_sec: 1410786300, execution_start_time_usec: 6599, execution_finish_time_sec: 1410786300, execution_finish_time_usec: 8209, interval_given: 375, current execution time: 1610, current_credits: 75
+Scheduling Thread: thread_id: 119, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 8219, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 104, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 8597, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 119, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 9591, interval_given: 375
+ UTHREAD_DONE, elapsed time: 395, start_time: 9591, finish_time:9986 credits:75
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786300, start_time_usec: 9591, finish_time: 1410786300, finish_time_usec: 9986
+UTHREAD_DONE, thread_id: 119, initial_credits: 75, execution_start_time_sec: 1410786300, execution_start_time_usec: 9591, execution_finish_time_sec: 1410786300, execution_finish_time_usec: 9986, interval_given: 375, current execution time: 395, current_credits: 75
+Scheduling Thread: thread_id: 123, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 10005, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 110, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 32847, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 109, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 33834, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 106, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 34845, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 105, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 35838, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 127, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 53586, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 123, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 55584, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 108, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 57598, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 104, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 59598, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 109, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 81831, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 127, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 82584, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 105, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 83834, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 123, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 84586, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 127, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 93584, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 123, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 95583, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 110, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 96846, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 106, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 98845, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 108, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 111597, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 104, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 113596, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 127, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 123582, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 109, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 123834, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 123, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 125582, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 105, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 125832, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 110, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 156846, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 106, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 158844, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 108, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 159597, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 127, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 159597, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 104, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 161594, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 123, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 168583, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 109, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 169832, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 127, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 170586, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 123, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 202585, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 127, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 204582, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 105, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 207834, interval_given: 250
+ UTHREAD_DONE, elapsed time: 998, start_time: 207834, finish_time:208832 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786300, start_time_usec: 207834, finish_time: 1410786300, finish_time_usec: 208832
+UTHREAD_DONE, thread_id: 105, initial_credits: 50, execution_start_time_sec: 1410786300, execution_start_time_usec: 207834, execution_finish_time_sec: 1410786300, execution_finish_time_usec: 208832, interval_given: 250, current execution time: 998, current_credits: 50
+Scheduling Thread: thread_id: 109, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 208832, interval_given: 250
+ UTHREAD_DONE, elapsed time: 452, start_time: 208832, finish_time:209284 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786300, start_time_usec: 208832, finish_time: 1410786300, finish_time_usec: 209284
+UTHREAD_DONE, thread_id: 109, initial_credits: 50, execution_start_time_sec: 1410786300, execution_start_time_usec: 208832, execution_finish_time_sec: 1410786300, execution_finish_time_usec: 209284, interval_given: 250, current execution time: 452, current_credits: 50
+Scheduling Thread: thread_id: 113, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 209331, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 117, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 210831, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 108, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 211595, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 104, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 213595, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 110, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 216846, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 106, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 218845, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 123, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 234469, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 127, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 236537, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 113, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 252831, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 117, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 254832, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 123, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 258584, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 127, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 260581, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 108, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 263595, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 104, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 265594, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 110, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 276846, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 106, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 278845, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 123, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 286468, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 127, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 288581, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 113, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 298720, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 123, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 303581, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 127, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 305581, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 108, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 315594, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 104, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 317593, interval_given: 250
+ UTHREAD_DONE, elapsed time: 182, start_time: 317593, finish_time:317775 credits:50
+UTHREAD_DONE, thread_id: 104, initial_credits: 50, execution_start_time_sec: 1410786300, execution_start_time_usec: 317593, execution_finish_time_sec: 1410786300, execution_finish_time_usec: 317775, interval_given: 250, current execution time: 182, current_credits: 50
+Scheduling Thread: thread_id: 108, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 317780, interval_given: 250
+ UTHREAD_DONE, elapsed time: 78, start_time: 317780, finish_time:317858 credits:50
+UTHREAD_DONE, thread_id: 108, initial_credits: 50, execution_start_time_sec: 1410786300, execution_start_time_usec: 317780, execution_finish_time_sec: 1410786300, execution_finish_time_usec: 317858, interval_given: 250, current execution time: 78, current_credits: 50
+Scheduling Thread: thread_id: 112, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 317874, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 123, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 335470, interval_given: 500
+ UTHREAD_DONE, elapsed time: 1016, start_time: 335470, finish_time:336486 credits:100
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786300, start_time_usec: 335470, finish_time: 1410786300, finish_time_usec: 336486
+UTHREAD_DONE, thread_id: 123, initial_credits: 100, execution_start_time_sec: 1410786300, execution_start_time_usec: 335470, execution_finish_time_sec: 1410786300, execution_finish_time_usec: 336486, interval_given: 500, current execution time: 1016, current_credits: 100
+Scheduling Thread: thread_id: 127, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 336494, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 110, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 336846, interval_given: 250
+ UTHREAD_DONE, elapsed time: 677, start_time: 336494, finish_time:337171 credits:100
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786300, start_time_usec: 336494, finish_time: 1410786300, finish_time_usec: 337171
+UTHREAD_DONE, thread_id: 127, initial_credits: 100, execution_start_time_sec: 1410786300, execution_start_time_usec: 336494, execution_finish_time_sec: 1410786300, execution_finish_time_usec: 337171, interval_given: 500, current execution time: 677, current_credits: 100
+Inside ksched_credit
+Scheduling Thread: thread_id: 106, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 338845, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 117, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 342831, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 113, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 344831, interval_given: 375
+ Inside ksched_credit
+Inside ksched_credit
+Scheduling Thread: thread_id: 116, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 367602, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 112, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 369596, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 117, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 372832, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 113, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 374831, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 110, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 396846, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 106, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 398845, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 117, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 416720, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 113, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 418718, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 116, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 419602, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 112, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 421592, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 110, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 456846, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 106, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 458844, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 117, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 469832, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 116, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 471594, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 112, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 473593, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 113, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 507834, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 117, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 509831, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 110, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 516845, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 106, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 518844, interval_given: 250
+ Inside ksched_credit
+Scheduling Thread: thread_id: 116, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 525594, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 112, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 527592, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 113, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 549832, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 117, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 551834, interval_given: 375
+ UTHREAD_DONE, elapsed time: 57431, start_time: 518844, finish_time:576275 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786300, start_time_usec: 518844, finish_time: 1410786300, finish_time_usec: 576275
+UTHREAD_DONE, thread_id: 106, initial_credits: 50, execution_start_time_sec: 1410786300, execution_start_time_usec: 518844, execution_finish_time_sec: 1410786300, execution_finish_time_usec: 576275, interval_given: 250, current execution time: 57431, current_credits: 50
+Scheduling Thread: thread_id: 110, current_credits: 50, initial_credits: 50, start_time_sec: 1410786300, start_time_usec: 576284, interval_given: 250
+ UTHREAD_DONE, elapsed time: 489, start_time: 576284, finish_time:576773 credits:50
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786300, start_time_usec: 576284, finish_time: 1410786300, finish_time_usec: 576773
+UTHREAD_DONE, thread_id: 110, initial_credits: 50, execution_start_time_sec: 1410786300, execution_start_time_usec: 576284, execution_finish_time_sec: 1410786300, execution_finish_time_usec: 576773, interval_given: 250, current execution time: 489, current_credits: 50
+Scheduling Thread: thread_id: 114, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 576798, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 116, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 577595, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 118, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 577856, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 112, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 579592, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 113, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 592832, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 117, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 594831, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 116, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 629681, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 112, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 631601, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 114, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 635848, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 118, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 637844, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 113, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 640833, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 117, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 642832, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 116, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 684612, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 112, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 686610, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 113, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 687725, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 117, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 689719, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 114, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 694843, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 118, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 696844, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 116, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 736611, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 112, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 738611, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 113, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 738720, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 117, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 740718, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 114, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 753844, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 118, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 755844, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 116, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 787610, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 112, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 789609, interval_given: 375
+ UTHREAD_DONE, elapsed time: 49469, start_time: 740718, finish_time:790187 credits:75
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786300, start_time_usec: 740718, finish_time: 1410786300, finish_time_usec: 790187
+UTHREAD_DONE, thread_id: 117, initial_credits: 75, execution_start_time_sec: 1410786300, execution_start_time_usec: 740718, execution_finish_time_sec: 1410786300, execution_finish_time_usec: 790187, interval_given: 375, current execution time: 49469, current_credits: 75
+Scheduling Thread: thread_id: 113, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 790196, interval_given: 375
+ UTHREAD_DONE, elapsed time: 552, start_time: 790196, finish_time:790748 credits:75
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786300, start_time_usec: 790196, finish_time: 1410786300, finish_time_usec: 790748
+UTHREAD_DONE, thread_id: 113, initial_credits: 75, execution_start_time_sec: 1410786300, execution_start_time_usec: 790196, execution_finish_time_sec: 1410786300, execution_finish_time_usec: 790748, interval_given: 375, current execution time: 552, current_credits: 75
+Scheduling Thread: thread_id: 121, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 790789, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 125, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 792727, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 114, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 813844, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 118, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 815844, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 121, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 838723, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 125, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 840719, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 116, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 842610, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 112, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 844596, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 114, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 873843, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 118, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 875844, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 121, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 886720, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 125, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 888719, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 116, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 896597, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 112, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 898595, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 114, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 933843, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 121, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 934720, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 118, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 935844, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 125, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 936719, interval_given: 500
+ UTHREAD_DONE, elapsed time: 49336, start_time: 898595, finish_time:947931 credits:75
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786300, start_time_usec: 898595, finish_time: 1410786300, finish_time_usec: 947931
+UTHREAD_DONE, thread_id: 112, initial_credits: 75, execution_start_time_sec: 1410786300, execution_start_time_usec: 898595, execution_finish_time_sec: 1410786300, execution_finish_time_usec: 947931, interval_given: 375, current execution time: 49336, current_credits: 75
+Scheduling Thread: thread_id: 116, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 947941, interval_given: 375
+ UTHREAD_DONE, elapsed time: 738, start_time: 947941, finish_time:948679 credits:75
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786300, start_time_usec: 947941, finish_time: 1410786300, finish_time_usec: 948679
+UTHREAD_DONE, thread_id: 116, initial_credits: 75, execution_start_time_sec: 1410786300, execution_start_time_usec: 947941, execution_finish_time_sec: 1410786300, execution_finish_time_usec: 948679, interval_given: 375, current execution time: 738, current_credits: 75
+Scheduling Thread: thread_id: 120, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 948698, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 124, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 950622, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 121, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 982720, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 125, current_credits: 100, initial_credits: 100, start_time_sec: 1410786300, start_time_usec: 984718, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 114, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 993844, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 118, current_credits: 75, initial_credits: 75, start_time_sec: 1410786300, start_time_usec: 995843, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 120, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 2612, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 124, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 4595, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 121, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 30720, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 125, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 32719, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 114, current_credits: 75, initial_credits: 75, start_time_sec: 1410786301, start_time_usec: 52844, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 118, current_credits: 75, initial_credits: 75, start_time_sec: 1410786301, start_time_usec: 54844, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 120, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 57596, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 124, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 59594, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 121, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 78719, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 125, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 80718, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 120, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 111609, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 114, current_credits: 75, initial_credits: 75, start_time_sec: 1410786301, start_time_usec: 118848, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 118, current_credits: 75, initial_credits: 75, start_time_sec: 1410786301, start_time_usec: 120844, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 121, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 128721, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 125, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 130719, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 124, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 144605, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 120, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 146605, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 114, current_credits: 75, initial_credits: 75, start_time_sec: 1410786301, start_time_usec: 170846, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 121, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 172720, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 118, current_credits: 75, initial_credits: 75, start_time_sec: 1410786301, start_time_usec: 172844, interval_given: 375
+ Inside ksched_credit
+Scheduling Thread: thread_id: 125, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 174719, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 124, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 195604, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 120, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 197604, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 121, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 219719, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 125, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 221718, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 114, current_credits: 75, initial_credits: 75, start_time_sec: 1410786301, start_time_usec: 230843, interval_given: 375
+ UTHREAD_DONE, elapsed time: 1963, start_time: 230843, finish_time:232806 credits:75
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786301, start_time_usec: 230843, finish_time: 1410786301, finish_time_usec: 232806
+UTHREAD_DONE, thread_id: 114, initial_credits: 75, execution_start_time_sec: 1410786301, execution_start_time_usec: 230843, execution_finish_time_sec: 1410786301, execution_finish_time_usec: 232806, interval_given: 375, current execution time: 1963, current_credits: 75
+Scheduling Thread: thread_id: 118, current_credits: 75, initial_credits: 75, start_time_sec: 1410786301, start_time_usec: 232813, interval_given: 375
+ UTHREAD_DONE, elapsed time: 982, start_time: 232813, finish_time:233795 credits:75
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786301, start_time_usec: 232813, finish_time: 1410786301, finish_time_usec: 233795
+UTHREAD_DONE, thread_id: 118, initial_credits: 75, execution_start_time_sec: 1410786301, execution_start_time_usec: 232813, execution_finish_time_sec: 1410786301, execution_finish_time_usec: 233795, interval_given: 375, current execution time: 982, current_credits: 75
+Scheduling Thread: thread_id: 122, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 233824, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 124, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 249604, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 120, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 251603, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 121, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 267720, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 125, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 269720, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 126, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 292873, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 122, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 294848, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 124, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 299605, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 120, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 301605, interval_given: 500
+ UTHREAD_DONE, elapsed time: 45749, start_time: 269720, finish_time:315469 credits:100
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786301, start_time_usec: 269720, finish_time: 1410786301, finish_time_usec: 315469
+UTHREAD_DONE, thread_id: 125, initial_credits: 100, execution_start_time_sec: 1410786301, execution_start_time_usec: 269720, execution_finish_time_sec: 1410786301, execution_finish_time_usec: 315469, interval_given: 500, current execution time: 45749, current_credits: 100
+Scheduling Thread: thread_id: 121, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 315478, interval_given: 500
+ UTHREAD_DONE, elapsed time: 260, start_time: 315478, finish_time:315738 credits:100
+UTHREAD_DONE, thread_id: 121, initial_credits: 100, execution_start_time_sec: 1410786301, execution_start_time_usec: 315478, execution_finish_time_sec: 1410786301, execution_finish_time_usec: 315738, interval_given: 500, current execution time: 260, current_credits: 100
+Inside ksched_credit
+Inside ksched_credit
+Scheduling Thread: thread_id: 124, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 350599, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 126, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 351844, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 120, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 352605, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 122, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 353844, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 124, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 401600, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 120, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 403593, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 126, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 414843, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 122, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 416844, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 124, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 441604, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 126, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 474843, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 120, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 475598, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 122, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 476844, interval_given: 500
+ UTHREAD_DONE, elapsed time: 1702, start_time: 475598, finish_time:477300 credits:100
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786301, start_time_usec: 475598, finish_time: 1410786301, finish_time_usec: 477300
+UTHREAD_DONE, thread_id: 120, initial_credits: 100, execution_start_time_sec: 1410786301, execution_start_time_usec: 475598, execution_finish_time_sec: 1410786301, execution_finish_time_usec: 477300, interval_given: 500, current execution time: 1702, current_credits: 100
+Scheduling Thread: thread_id: 124, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 477310, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 124, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 478593, interval_given: 500
+ UTHREAD_DONE, elapsed time: 133, start_time: 478593, finish_time:478726 credits:100
+UTHREAD_DONE, thread_id: 124, initial_credits: 100, execution_start_time_sec: 1410786301, execution_start_time_usec: 478593, execution_finish_time_sec: 1410786301, execution_finish_time_usec: 478726, interval_given: 500, current execution time: 133, current_credits: 100
+Inside ksched_credit
+Inside ksched_credit
+Scheduling Thread: thread_id: 126, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 534843, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 122, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 536844, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 126, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 594844, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 122, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 596847, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 126, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 653844, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 122, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 655844, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 126, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 713843, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 122, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 715844, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 126, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 773843, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 122, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 775844, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 126, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 833848, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 122, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 835846, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 126, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 893848, interval_given: 500
+ Inside ksched_credit
+Scheduling Thread: thread_id: 122, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 895846, interval_given: 500
+ UTHREAD_DONE, elapsed time: 821, start_time: 895846, finish_time:896667 credits:100
+************Error: elapsed_time_current > interval_given
+start_time_sec: 1410786301, start_time_usec: 895846, finish_time: 1410786301, finish_time_usec: 896667
+UTHREAD_DONE, thread_id: 122, initial_credits: 100, execution_start_time_sec: 1410786301, execution_start_time_usec: 895846, execution_finish_time_sec: 1410786301, execution_finish_time_usec: 896667, interval_given: 500, current execution time: 821, current_credits: 100
+Scheduling Thread: thread_id: 126, current_credits: 100, initial_credits: 100, start_time_sec: 1410786301, start_time_usec: 896675, interval_given: 500
+ UTHREAD_DONE, elapsed time: 32, start_time: 896675, finish_time:896707 credits:100
+UTHREAD_DONE, thread_id: 126, initial_credits: 100, execution_start_time_sec: 1410786301, execution_start_time_usec: 896675, execution_finish_time_sec: 1410786301, execution_finish_time_usec: 896707, interval_given: 500, current execution time: 32, current_credits: 100
+**************** Printing statistics ************
+Matrix multiplication is correct.

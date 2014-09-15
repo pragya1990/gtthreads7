@@ -37,7 +37,7 @@ extern void gt_yield();
 /* uthread creation */
 #define UTHREAD_DEFAULT_SSIZE (16 * 1024)
 
-extern int uthread_create(uthread_t *u_tid, int (*u_func)(void *), void *u_arg, uthread_group_t u_gid, int credit);
+extern int uthread_create(uthread_t *u_tid, int (*u_func)(void *), void *u_arg, uthread_group_t u_gid, int credit, int matrix_size);
 extern void uthread_info_init();
 /**********************************************************************/
 /** DEFNITIONS **/
@@ -216,8 +216,7 @@ extern void uthread_schedule(uthread_struct_t * (*kthread_best_sched_uthread)(kt
 		kthread_runq->cur_uthread = NULL;
 		
 		if(u_obj->uthread_state & (UTHREAD_DONE | UTHREAD_CANCELLED))
-		{	// TODO: For measuring uthread statistics. Do changes
-
+		{	
 			/* XXX: Inserting uthread into zombie queue is causing improper
 			 * cleanup/exit of uthread (core dump) */
 	//		uthread_head_t * kthread_zhead = &(kthread_runq->zombie_uthreads);
@@ -375,9 +374,9 @@ static void uthread_context_func(int signo)
 		usec = (1000000 - k_ctx->start_time->tv_usec) + finish_time.tv_usec;
 	}
 	int elapsed_time_current = sec*1000000 + usec;
-	//if(!elapsed_time_current)
-	//{	elapsed_time_current = 1;
-	//}
+	if(elapsed_time_current == 0)
+	{	elapsed_time_current = 1;
+	}
 	int credit1 = uthread_shared_info[cur_uthread->uthread_tid]->uthread_credit;
 	//printf("UTHREAD_initial_credit: %d\n", credit1);
 	int interval_given;
@@ -387,18 +386,18 @@ static void uthread_context_func(int signo)
 		interval_given = KTHREAD_VTALRM_USEC*credit1/100;
 	
 	cur_uthread->elapsed_time = cur_uthread->elapsed_time + elapsed_time_current;
-	printf("UTHREAD_DONE, elapsed time: %d, start_time: %d, finish_time:%d credits:%d\n", cur_uthread->elapsed_time,
-		(int)(k_ctx->start_time->tv_usec), (int)(finish_time.tv_usec), cur_uthread->uthread_credit);
+//	printf("UTHREAD_DONE, elapsed time: %d, start_time: %d, finish_time:%d credits:%d\n", cur_uthread->elapsed_time,
+//		(int)(k_ctx->start_time->tv_usec), (int)(finish_time.tv_usec), cur_uthread->uthread_credit);
 	cur_uthread->uthread_credit = 0;
 	update_uthread_shared_statistics(cur_uthread);
-
+/*
 	if(elapsed_time_current > interval_given) 
 	{		
 		printf("************Error: elapsed_time_current > interval_given\n");
 		printf("start_time_sec: %d, start_time_usec: %d, finish_time: %d, finish_time_usec: %d\n",
 			(int)(k_ctx->start_time->tv_sec), (int)(k_ctx->start_time->tv_usec), 
 			(int)(finish_time.tv_sec), (int)(finish_time.tv_usec));
-	}
+	}*/
 	//printf("Total execution time: %d, current execution time: %d, time_given: %d, initial_credits: %d, credits left: %d, thread_id: %d\n", 
 	//	cur_uthread->elapsed_time, elapsed_time_current, interval_given, credit1, cur_uthread->uthread_credit, 
 	//	cur_uthread->uthread_tid);
@@ -440,20 +439,18 @@ extern void gt_yield()
 	int credit1 = uthread_shared_info[cur_uthread->uthread_tid]->uthread_credit;
 	//printf("UTHREAD_initial_credit: %d\n", credit1);
 	int interval_given = KTHREAD_VTALRM_USEC*previous_uthread_credit/100;
-	if(elapsed_time_current > interval_given) 
+	/*if(elapsed_time_current > interval_given) 
 	{		
 		printf("************Error: elapsed_time_current > interval_given\n");
 		printf("start_time_sec: %d, start_time_usec: %d, finish_time: %d, finish_time_usec: %d\n",
 			(int)(k_ctx->start_time->tv_sec), (int)(k_ctx->start_time->tv_usec), 
 			(int)(finish_time.tv_sec), (int)(finish_time.tv_usec));
-	}
+	}*/
 	if(elapsed_time_current == 0)
 		elapsed_time_current = 1;
 	float ratio=0.0;
-	//if(interval_given == 0)
-	//	ratio = 0.5;
-	//else
-		ratio = (((float)elapsed_time_current)/interval_given);
+	
+	ratio = (((float)elapsed_time_current)/interval_given);
 	int actual_credits_consumed =(int)(previous_uthread_credit*ratio);
 	cur_uthread->uthread_credit = previous_uthread_credit - actual_credits_consumed;
 	cur_uthread->elapsed_time = cur_uthread->elapsed_time + elapsed_time_current;
@@ -485,6 +482,7 @@ void update_uthread_shared_statistics(uthread_struct_t *u_obj)
 	uthread_shared_info[thread_id]->finish_time_sec = u_obj->finish_time_sec;
 	uthread_shared_info[thread_id]->start_time_usec = u_obj->start_time_usec;
 	uthread_shared_info[thread_id]->finish_time_usec = u_obj->finish_time_usec;
+	uthread_shared_info[thread_id]->matrix_size = u_obj->matrix_size;
 	return;
 }
 
@@ -493,7 +491,7 @@ void update_uthread_shared_statistics(uthread_struct_t *u_obj)
 
 extern kthread_runqueue_t *ksched_find_target(uthread_struct_t *);
 
-extern int uthread_create(uthread_t *u_tid, int (*u_func)(void *), void *u_arg, uthread_group_t u_gid, int credit)
+extern int uthread_create(uthread_t *u_tid, int (*u_func)(void *), void *u_arg, uthread_group_t u_gid, int credit, int matrix_size)
 {
 //	printf("Inside uthread_create\n");
 	kthread_runqueue_t *kthread_runq;
@@ -517,6 +515,7 @@ extern int uthread_create(uthread_t *u_tid, int (*u_func)(void *), void *u_arg, 
 	u_new->uthread_func = u_func;
 	u_new->uthread_arg = u_arg;
 	u_new->elapsed_time = 0;
+	u_new->matrix_size = matrix_size;
 	//u_new->start_time = NULL;
 	// Calculating credits for uthread.Credits can have the following values {25,50,75,100}
 
@@ -544,10 +543,10 @@ extern int uthread_create(uthread_t *u_tid, int (*u_func)(void *), void *u_arg, 
 	u_new->uthread_initial_credit = credit;
 	struct timeval *start_time = (struct timeval *)MALLOC_SAFE(sizeof(struct timeval));
 	gettimeofday(start_time, NULL);
-	printf("Before alloting start time\n");
+	//printf("Before alloting start time\n");
 	u_new->start_time_sec = (int)(start_time->tv_sec);
 	u_new->start_time_usec = (int)(start_time->tv_usec);
-	printf("After alloting start time\n");
+//	printf("After alloting start time\n");
 	//printf("uthread inital credit value:%d\n", u_new->uthread_initial_credit);
 	uthread_shared_info[u_new->uthread_tid]->start_time_sec = (int)(start_time->tv_sec);
 	uthread_shared_info[u_new->uthread_tid]->start_time_usec = (int)(start_time->tv_usec);

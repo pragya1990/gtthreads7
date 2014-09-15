@@ -41,6 +41,7 @@ typedef struct uthread_struct
 	int reserved1;
 	int reserved2;
 	int reserved3;
+	int matrix_size;	
 	
 	sigjmp_buf uthread_env; /* 156 bytes : save user-level thread context*/
 	stack_t uthread_stack; /* 12 bytes : user-level thread stack */

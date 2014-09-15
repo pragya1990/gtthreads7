@@ -252,14 +252,14 @@ void verify_answer()
 	printf("Matrix multiplication is correct.\n");
 }
 
-//int main(int argc, char *argv[])
-int main()
+int main(int argc, char *argv[])
+//int main()
 {
-/*	isCreditScheduler = 0;
+	isCreditScheduler = 0;
 	if(argc > 1)
 		if(*argv[1] == '1')
 			isCreditScheduler = 1;	
-*/	
+	
 	isCreditScheduler = 1;
 	uthread_arg_t *uarg;
 	int inx,i;
@@ -307,7 +307,7 @@ int main()
 		//uarg->start_col = (uarg->gid * PER_GROUP_COLS);
 //#endif
 	//	printf("going to uthread_create\n");
-		uthread_create(&utids[inx], uthread_mulmat, uarg, uarg->gid, credit);
+		uthread_create(&utids[inx], uthread_mulmat, uarg, uarg->gid, credit, possible_groups[group_id].matrix_size);
 	//`	printf("exit from uthread_create\n");
 	}
 	
